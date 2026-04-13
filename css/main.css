@@ -1,0 +1,1111 @@
+/* =====================================================
+   History of Philosophy — Main CSS
+   ===================================================== */
+
+/* ---- Google Font fallback via system ---- */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* =====================================================
+   CSS CUSTOM PROPERTIES — THEME TOKENS
+   ===================================================== */
+:root {
+  /* Dark theme (default) */
+  --bg-page:        #0f1117;
+  --bg-canvas:      #0d1020;
+  --bg-card:        rgba(22, 26, 46, 0.92);
+  --bg-card-hover:  rgba(30, 36, 62, 0.98);
+  --bg-panel:       rgba(15, 17, 30, 0.97);
+  --bg-topbar:      rgba(10, 12, 22, 0.97);
+  --bg-header:      rgba(26, 30, 55, 0.85);
+  --bg-modal:       #131625;
+
+  --border-card:    rgba(80, 100, 160, 0.25);
+  --border-panel:   rgba(80, 100, 160, 0.18);
+  --border-topbar:  rgba(80, 100, 160, 0.2);
+
+  --text-primary:   #e8eaf0;
+  --text-secondary: #9ca3b8;
+  --text-muted:     #5a6282;
+  --text-accent:    #c5cbeb;
+
+  --color-agree:    #4ade80;
+  --color-disagree: #f87171;
+  --color-agree-glow:    rgba(74, 222, 128, 0.35);
+  --color-disagree-glow: rgba(248, 113, 113, 0.35);
+
+  --shadow-card:    0 4px 24px rgba(0,0,0,0.5), 0 1px 4px rgba(0,0,0,0.3);
+  --shadow-panel:   4px 0 32px rgba(0,0,0,0.4);
+
+  --topbar-h:       52px;
+  --panel-w:        272px;
+
+  --radius-card:    10px;
+  --radius-btn:     6px;
+
+  --transition-fast:   0.15s ease;
+  --transition-normal: 0.25s ease;
+  --transition-slow:   0.4s ease;
+
+  /* Tag colors */
+  --tag-metaphysics:    #a78bfa;
+  --tag-epistemology:   #60a5fa;
+  --tag-ethics:         #34d399;
+  --tag-logic:          #fbbf24;
+  --tag-political:      #f87171;
+  --tag-aesthetics:     #f472b6;
+  --tag-religion:       #e0c060;
+  --tag-mind:           #c084fc;
+  --tag-language:       #38bdf8;
+  --tag-science:        #4ade80;
+  --tag-metaphilosophy: #fb923c;
+  --tag-basics:         #94a3b8;
+
+  /* Chinese philosophy tags */
+  --tag-confucianism:    #f59e0b;
+  --tag-taoism:          #10b981;
+  --tag-mohism:          #6366f1;
+  --tag-legalism:        #ef4444;
+  --tag-neo-confucianism:#f97316;
+  --tag-cosmology:       #8b5cf6;
+}
+
+[data-theme="light"] {
+  --bg-page:        #f5f4ef;
+  --bg-canvas:      #ede9e0;
+  --bg-card:        rgba(255, 252, 244, 0.95);
+  --bg-card-hover:  rgba(255, 255, 255, 0.99);
+  --bg-panel:       rgba(248, 244, 236, 0.98);
+  --bg-topbar:      rgba(240, 236, 224, 0.97);
+  --bg-header:      rgba(230, 224, 210, 0.8);
+  --bg-modal:       #faf8f2;
+
+  --border-card:    rgba(160, 140, 100, 0.22);
+  --border-panel:   rgba(160, 140, 100, 0.18);
+  --border-topbar:  rgba(160, 140, 100, 0.2);
+
+  --text-primary:   #1a1810;
+  --text-secondary: #4a4535;
+  --text-muted:     #8a7d60;
+  --text-accent:    #2d2820;
+
+  --color-agree:    #16a34a;
+  --color-disagree: #dc2626;
+  --color-agree-glow:    rgba(22, 163, 74, 0.25);
+  --color-disagree-glow: rgba(220, 38, 38, 0.25);
+
+  --shadow-card:    0 2px 16px rgba(0,0,0,0.1), 0 1px 4px rgba(0,0,0,0.07);
+  --shadow-panel:   4px 0 24px rgba(0,0,0,0.12);
+}
+
+/* =====================================================
+   BASE & RESET
+   ===================================================== */
+html, body {
+  width: 100%; height: 100%;
+  overflow: hidden;
+  font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+  font-size: 13px;
+  line-height: 1.5;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--color-agree); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button { cursor: pointer; border: none; background: none; color: inherit; font-family: inherit; }
+
+/* =====================================================
+   TOP BAR
+   ===================================================== */
+.topbar {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--topbar-h);
+  background: var(--bg-topbar);
+  border-bottom: 1px solid var(--border-topbar);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px 0 12px;
+  z-index: 1000;
+  gap: 16px;
+}
+
+.topbar-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.menu-toggle {
+  width: 36px; height: 36px;
+  border-radius: var(--radius-btn);
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border-panel);
+  display: flex; align-items: center; justify-content: center;
+  transition: background var(--transition-fast);
+}
+.menu-toggle:hover { background: rgba(255,255,255,0.1); }
+.menu-icon { display: flex; flex-direction: column; gap: 4px; }
+.menu-icon span {
+  display: block; width: 18px; height: 2px;
+  background: var(--text-secondary);
+  border-radius: 2px;
+  transition: transform var(--transition-fast), opacity var(--transition-fast);
+}
+
+.site-title {
+  display: flex; flex-direction: column;
+  line-height: 1.2;
+}
+.title-main {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+  letter-spacing: 0.01em;
+}
+.title-sub {
+  font-size: 10px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.topbar-right {
+  display: flex; align-items: center; gap: 20px;
+}
+
+/* =====================================================
+   TRADITION SWITCHER
+   ===================================================== */
+.topbar-center {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.tradition-switcher {
+  position: relative;
+}
+
+.switcher-track {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-panel);
+  border-radius: 22px;
+  padding: 3px;
+  gap: 2px;
+}
+
+.switcher-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 16px;
+  border-radius: 18px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--text-muted);
+  z-index: 2;
+  position: relative;
+  transition: color 0.25s ease;
+  white-space: nowrap;
+}
+
+.switcher-btn.active {
+  color: var(--text-primary);
+}
+
+.switcher-btn:hover:not(.active) {
+  color: var(--text-secondary);
+}
+
+.switcher-icon {
+  font-size: 13px;
+  line-height: 1;
+}
+
+.switcher-label {
+  letter-spacing: 0.04em;
+}
+
+.switcher-indicator {
+  position: absolute;
+  top: 3px;
+  left: 3px;
+  height: calc(100% - 6px);
+  width: calc(50% - 4px);
+  background: rgba(100, 120, 220, 0.2);
+  border: 1px solid rgba(100, 120, 220, 0.3);
+  border-radius: 18px;
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1;
+}
+
+.switcher-indicator.chinese {
+  transform: translateX(calc(100% + 2px));
+}
+
+/* Canvas fade transition for view switch */
+.canvas-transform.switching {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.legend {
+  display: flex; align-items: center; gap: 16px;
+}
+.legend-item {
+  display: flex; align-items: center; gap: 6px;
+  font-size: 11px;
+  color: var(--text-muted);
+  letter-spacing: 0.03em;
+}
+.legend-dot {
+  width: 10px; height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.legend-item.agree .legend-dot { background: var(--color-agree); box-shadow: 0 0 6px var(--color-agree-glow); }
+.legend-item.disagree .legend-dot { background: var(--color-disagree); box-shadow: 0 0 6px var(--color-disagree-glow); }
+
+/* Language switcher */
+.lang-switcher {
+  display: flex;
+  border-radius: var(--radius-btn);
+  border: 1px solid var(--border-panel);
+  background: rgba(255,255,255,0.03);
+  overflow: hidden;
+  margin: 0 8px;
+}
+.lang-btn {
+  padding: 4px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+  line-height: 1.4;
+}
+.lang-btn:hover {
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.05);
+}
+.lang-btn.active {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.1);
+}
+
+/* Chinese font override */
+[data-lang="zh"] .title-main,
+body:has(.lang-btn[data-lang="zh"].active) .title-main {
+  font-family: 'Noto Serif SC', 'Playfair Display', serif;
+}
+
+.btn-about {
+  padding: 6px 14px;
+  border-radius: var(--radius-btn);
+  border: 1px solid var(--border-panel);
+  background: rgba(255,255,255,0.05);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all var(--transition-fast);
+}
+.btn-about:hover {
+  background: rgba(255,255,255,0.1);
+  color: var(--text-primary);
+  border-color: rgba(130, 150, 220, 0.4);
+}
+
+/* =====================================================
+   SIDE PANEL
+   ===================================================== */
+.side-panel {
+  position: fixed;
+  top: var(--topbar-h);
+  left: 0;
+  bottom: 0;
+  width: var(--panel-w);
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border-panel);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  z-index: 900;
+  transition: transform var(--transition-normal);
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-panel) transparent;
+}
+.side-panel.collapsed {
+  transform: translateX(calc(-1 * var(--panel-w)));
+}
+.side-panel::-webkit-scrollbar { width: 4px; }
+.side-panel::-webkit-scrollbar-thumb { background: var(--border-panel); border-radius: 4px; }
+
+.panel-inner { padding: 8px 0 32px; }
+
+/* Panel Sections */
+.panel-section { border-bottom: 1px solid var(--border-panel); }
+
+.panel-section-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  cursor: pointer;
+  user-select: none;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  transition: color var(--transition-fast), background var(--transition-fast);
+}
+.panel-section-header:hover {
+  color: var(--text-secondary);
+  background: rgba(255,255,255,0.03);
+}
+.panel-section-header .chevron {
+  width: 14px; height: 14px;
+  transition: transform var(--transition-fast);
+  flex-shrink: 0;
+}
+.panel-section.collapsed .panel-section-header .chevron {
+  transform: rotate(-90deg);
+}
+
+.panel-section-body {
+  overflow: hidden;
+  max-height: 600px;
+  transition: max-height var(--transition-normal), opacity var(--transition-fast);
+  opacity: 1;
+}
+.panel-section.collapsed .panel-section-body {
+  max-height: 0;
+  opacity: 0;
+}
+
+/* Filter List */
+.filter-list {
+  padding: 4px 16px 8px;
+  display: flex; flex-direction: column; gap: 2px;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 5px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.filter-item:hover { background: rgba(255,255,255,0.05); color: var(--text-primary); }
+.filter-item input[type="checkbox"] {
+  width: 14px; height: 14px;
+  accent-color: var(--tag-basics);
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.filter-dot {
+  width: 8px; height: 8px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+.filter-dot.basics         { background: var(--tag-basics); }
+.filter-dot.metaphysics    { background: var(--tag-metaphysics); }
+.filter-dot.epistemology   { background: var(--tag-epistemology); }
+.filter-dot.logic          { background: var(--tag-logic); }
+.filter-dot.ethics         { background: var(--tag-ethics); }
+.filter-dot.political      { background: var(--tag-political); }
+.filter-dot.aesthetics     { background: var(--tag-aesthetics); }
+.filter-dot.religion       { background: var(--tag-religion); }
+.filter-dot.mind           { background: var(--tag-mind); }
+.filter-dot.language       { background: var(--tag-language); }
+.filter-dot.science        { background: var(--tag-science); }
+.filter-dot.metaphilosophy { background: var(--tag-metaphilosophy); }
+
+.filter-actions {
+  display: flex; gap: 8px;
+  padding: 4px 16px 12px;
+}
+.btn-filter-action {
+  flex: 1;
+  padding: 5px 8px;
+  border-radius: 5px;
+  border: 1px solid var(--border-panel);
+  background: rgba(255,255,255,0.04);
+  color: var(--text-muted);
+  font-size: 11px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: all var(--transition-fast);
+}
+.btn-filter-action:hover {
+  background: rgba(255,255,255,0.09);
+  color: var(--text-primary);
+}
+
+/* Options */
+.option-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 16px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast);
+}
+.option-item:hover { background: rgba(255,255,255,0.04); }
+
+.toggle-switch {
+  position: relative;
+  width: 36px; height: 20px;
+  flex-shrink: 0;
+}
+.toggle-switch input { opacity: 0; width: 0; height: 0; }
+.toggle-slider {
+  position: absolute;
+  inset: 0;
+  background: var(--text-muted);
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background var(--transition-fast);
+}
+.toggle-slider::before {
+  content: '';
+  position: absolute;
+  left: 3px; top: 3px;
+  width: 14px; height: 14px;
+  background: #fff;
+  border-radius: 50%;
+  transition: transform var(--transition-fast);
+}
+.toggle-switch input:checked + .toggle-slider { background: var(--color-agree); }
+.toggle-switch input:checked + .toggle-slider::before { transform: translateX(16px); }
+
+/* Index List */
+.index-list {
+  padding: 4px 16px 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  max-height: calc(100vh - var(--topbar-h) - 280px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-panel) transparent;
+}
+.index-list::-webkit-scrollbar { width: 4px; }
+.index-list::-webkit-scrollbar-thumb { background: var(--border-panel); border-radius: 4px; }
+.index-item {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  padding: 5px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 12px;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast), color var(--transition-fast);
+}
+.index-item:hover { background: rgba(255,255,255,0.06); color: var(--text-primary); }
+.index-item .index-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 12px;
+}
+.index-item .index-years {
+  font-size: 10px;
+  color: var(--text-muted);
+  margin-left: auto;
+  flex-shrink: 0;
+}
+
+/* =====================================================
+   MAIN CANVAS AREA
+   ===================================================== */
+.canvas-wrapper {
+  position: fixed;
+  top: var(--topbar-h);
+  left: var(--panel-w);
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  background: var(--bg-canvas);
+  background-image:
+    radial-gradient(ellipse at 20% 30%, rgba(74, 78, 120, 0.07) 0%, transparent 60%),
+    radial-gradient(ellipse at 80% 70%, rgba(60, 90, 130, 0.05) 0%, transparent 60%);
+  cursor: grab;
+  transition: left var(--transition-normal);
+  user-select: none;
+}
+.canvas-wrapper.dragging { cursor: grabbing; }
+.canvas-wrapper.panel-collapsed { left: 0; }
+
+/* SVG Layer */
+.connections-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  z-index: 1;
+}
+
+/* Transform wrapper */
+.canvas-transform {
+  position: absolute;
+  top: 0; left: 0;
+  transform-origin: 0 0;
+}
+
+/* Philosophers container (horizontal layout) */
+.philosophers-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0;
+  padding: 80px 60px 80px 60px;
+  min-height: calc(100vh - var(--topbar-h));
+  position: relative;
+}
+
+/* Era group */
+.era-group {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 18px;
+  padding: 0 24px;
+  border-left: 1px solid var(--border-panel);
+  position: relative;
+  flex-shrink: 0;
+}
+.era-label {
+  position: absolute;
+  top: -50px;
+  left: 24px;
+  font-size: 9px;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  white-space: nowrap;
+  opacity: 0.7;
+}
+.era-label.hidden { display: none; }
+
+/* =====================================================
+   PHILOSOPHER CARDS
+   ===================================================== */
+.philosopher-card {
+  width: 210px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-card);
+  border-radius: var(--radius-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: var(--shadow-card);
+  padding: 14px;
+  flex-shrink: 0;
+  transition:
+    box-shadow var(--transition-fast),
+    border-color var(--transition-fast),
+    transform var(--transition-fast),
+    opacity var(--transition-normal);
+  position: relative;
+  z-index: 10;
+}
+.philosopher-card:hover {
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6), 0 2px 8px rgba(0,0,0,0.4);
+  border-color: rgba(120, 140, 200, 0.4);
+  transform: translateY(-2px);
+}
+.philosopher-card.selected {
+  border-color: rgba(120, 160, 255, 0.6);
+  box-shadow: 0 8px 40px rgba(0,0,0,0.6), 0 0 0 1px rgba(120, 160, 255, 0.3);
+}
+.philosopher-card.dimmed {
+  opacity: 0.25;
+}
+.philosopher-card.filtered-out {
+  display: none;
+}
+
+/* Card Header */
+.card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--border-card);
+}
+.card-portrait {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  flex-shrink: 0;
+  border: 2px solid var(--border-card);
+  background: var(--bg-header);
+  transition: opacity var(--transition-fast);
+}
+.card-portrait.hidden { display: none; }
+.card-portrait.portrait-error {
+  background: var(--bg-header);
+  display: flex; align-items: center; justify-content: center;
+}
+
+.card-meta {
+  flex: 1;
+  min-width: 0;
+}
+.card-name {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  cursor: pointer;
+  line-height: 1.25;
+  transition: color var(--transition-fast);
+  margin-bottom: 3px;
+}
+.card-name:hover { color: #c5cbff; }
+.card-years {
+  font-size: 10px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+}
+.card-era {
+  font-size: 9px;
+  color: var(--text-muted);
+  margin-top: 2px;
+  opacity: 0.75;
+}
+
+/* Tag badges on card */
+.card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-bottom: 8px;
+}
+.tag-badge {
+  font-size: 9px;
+  padding: 2px 6px;
+  border-radius: 10px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  opacity: 0.85;
+  border: 1px solid transparent;
+}
+
+/* Ideas List */
+.card-ideas {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.idea-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  padding: 5px 7px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 11.5px;
+  line-height: 1.45;
+  color: var(--text-secondary);
+  transition: background var(--transition-fast), color var(--transition-fast);
+  border: 1px solid transparent;
+}
+.idea-item:hover {
+  background: rgba(255,255,255,0.06);
+  color: var(--text-primary);
+}
+.idea-item.selected {
+  background: rgba(100, 120, 200, 0.12);
+  border-color: rgba(100, 120, 200, 0.25);
+  color: var(--text-primary);
+}
+.idea-item.has-agree:hover, .idea-item.has-agree.selected {
+  background: rgba(74, 222, 128, 0.07);
+  border-color: rgba(74, 222, 128, 0.2);
+}
+.idea-item.has-disagree:hover, .idea-item.has-disagree.selected {
+  background: rgba(248, 113, 113, 0.07);
+  border-color: rgba(248, 113, 113, 0.2);
+}
+.idea-dot {
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  margin-top: 5px;
+}
+.idea-text {
+  flex: 1;
+}
+
+/* =====================================================
+   SVG CONNECTIONS
+   ===================================================== */
+.connection-path {
+  fill: none;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  opacity: 0.25;
+  transition: opacity 0.2s ease, stroke-width 0.2s ease;
+  cursor: pointer;
+  pointer-events: stroke;
+}
+.connection-path.agree {
+  stroke: var(--color-agree);
+}
+.connection-path.disagree {
+  stroke: var(--color-disagree);
+}
+.connection-path.highlighted {
+  opacity: 1;
+  stroke-width: 2.5;
+}
+.connection-path.highlighted.agree {
+  filter: drop-shadow(0 0 4px var(--color-agree-glow));
+}
+.connection-path.highlighted.disagree {
+  filter: drop-shadow(0 0 4px var(--color-disagree-glow));
+}
+.connection-path.dimmed {
+  opacity: 0.06;
+}
+.connection-path.filtered-out,
+#connectionsGroup [data-conn-from].filtered-out {
+  display: none;
+}
+
+/* =====================================================
+   ZOOM CONTROLS
+   ===================================================== */
+.zoom-controls {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-panel);
+  border-radius: 10px;
+  padding: 6px 8px;
+  z-index: 800;
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+}
+.zoom-btn {
+  width: 28px; height: 28px;
+  border-radius: 6px;
+  background: rgba(255,255,255,0.06);
+  border: 1px solid var(--border-panel);
+  color: var(--text-secondary);
+  font-size: 16px;
+  font-weight: 300;
+  display: flex; align-items: center; justify-content: center;
+  transition: all var(--transition-fast);
+  line-height: 1;
+}
+.zoom-btn:hover { background: rgba(255,255,255,0.12); color: var(--text-primary); }
+.zoom-level {
+  font-size: 11px;
+  color: var(--text-muted);
+  padding: 0 6px;
+  min-width: 38px;
+  text-align: center;
+  letter-spacing: 0.04em;
+}
+.zoom-reset { font-size: 14px; }
+
+/* =====================================================
+   MODAL
+   ===================================================== */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity var(--transition-normal);
+}
+.modal-overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+.modal {
+  background: var(--bg-modal);
+  border: 1px solid var(--border-panel);
+  border-radius: 14px;
+  padding: 32px 36px;
+  max-width: 520px;
+  width: 90%;
+  position: relative;
+  box-shadow: 0 24px 80px rgba(0,0,0,0.5);
+}
+.modal h2 {
+  font-family: 'Playfair Display', Georgia, serif;
+  font-size: 24px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 2px;
+}
+.modal h3 {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--text-muted);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.modal p {
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.65;
+  margin-bottom: 12px;
+}
+.modal ul {
+  list-style: none;
+  padding: 0 0 12px 0;
+}
+.modal ul li {
+  color: var(--text-secondary);
+  font-size: 13px;
+  line-height: 1.65;
+  padding: 3px 0 3px 16px;
+  position: relative;
+}
+.modal ul li::before {
+  content: '→';
+  position: absolute; left: 0;
+  color: var(--text-muted);
+}
+.modal-close {
+  position: absolute;
+  top: 14px; right: 16px;
+  width: 28px; height: 28px;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.08);
+  color: var(--text-muted);
+  font-size: 18px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all var(--transition-fast);
+}
+.modal-close:hover { background: rgba(255,255,255,0.15); color: var(--text-primary); }
+.modal-credit {
+  font-size: 11px !important;
+  color: var(--text-muted) !important;
+  margin-top: 8px;
+}
+
+/* =====================================================
+   TOOLTIP
+   ===================================================== */
+.connection-tooltip {
+  position: fixed;
+  background: var(--bg-panel);
+  border: 1px solid var(--border-panel);
+  border-radius: 6px;
+  padding: 7px 11px;
+  font-size: 11.5px;
+  color: var(--text-secondary);
+  pointer-events: none;
+  z-index: 3000;
+  max-width: 260px;
+  line-height: 1.5;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  opacity: 0;
+  transition: opacity var(--transition-fast);
+  backdrop-filter: blur(12px);
+}
+.connection-tooltip.visible { opacity: 1; }
+
+/* =====================================================
+   TAG COLOR UTILITIES
+   ===================================================== */
+.tag-metaphysics    { background: rgba(167,139,250,0.15); color: var(--tag-metaphysics); border-color: rgba(167,139,250,0.3); }
+.tag-epistemology   { background: rgba(96,165,250,0.15);  color: var(--tag-epistemology); border-color: rgba(96,165,250,0.3); }
+.tag-ethics         { background: rgba(52,211,153,0.15);  color: var(--tag-ethics); border-color: rgba(52,211,153,0.3); }
+.tag-logic          { background: rgba(251,191,36,0.15);  color: var(--tag-logic); border-color: rgba(251,191,36,0.3); }
+.tag-political      { background: rgba(248,113,113,0.15); color: var(--tag-political); border-color: rgba(248,113,113,0.3); }
+.tag-aesthetics     { background: rgba(244,114,182,0.15); color: var(--tag-aesthetics); border-color: rgba(244,114,182,0.3); }
+.tag-religion       { background: rgba(224,192,96,0.15);  color: var(--tag-religion); border-color: rgba(224,192,96,0.3); }
+.tag-mind           { background: rgba(192,132,252,0.15); color: var(--tag-mind); border-color: rgba(192,132,252,0.3); }
+.tag-language       { background: rgba(56,189,248,0.15);  color: var(--tag-language); border-color: rgba(56,189,248,0.3); }
+.tag-science        { background: rgba(74,222,128,0.15);  color: var(--tag-science); border-color: rgba(74,222,128,0.3); }
+.tag-metaphilosophy { background: rgba(251,146,60,0.15);  color: var(--tag-metaphilosophy); border-color: rgba(251,146,60,0.3); }
+.tag-basics         { background: rgba(148,163,184,0.15); color: var(--tag-basics); border-color: rgba(148,163,184,0.3); }
+
+/* Chinese philosophy tags */
+.tag-confucianism    { background: rgba(245,158,11,0.15);  color: var(--tag-confucianism); border-color: rgba(245,158,11,0.3); }
+.tag-taoism          { background: rgba(16,185,129,0.15);  color: var(--tag-taoism); border-color: rgba(16,185,129,0.3); }
+.tag-mohism          { background: rgba(99,102,241,0.15);  color: var(--tag-mohism); border-color: rgba(99,102,241,0.3); }
+.tag-legalism        { background: rgba(239,68,68,0.15);   color: var(--tag-legalism); border-color: rgba(239,68,68,0.3); }
+.tag-neo-confucianism{ background: rgba(249,115,22,0.15);  color: var(--tag-neo-confucianism); border-color: rgba(249,115,22,0.3); }
+.tag-cosmology       { background: rgba(139,92,246,0.15);  color: var(--tag-cosmology); border-color: rgba(139,92,246,0.3); }
+
+/* Chinese philosophy filter dots */
+.filter-dot.confucianism     { background: var(--tag-confucianism); }
+.filter-dot.taoism           { background: var(--tag-taoism); }
+.filter-dot.mohism           { background: var(--tag-mohism); }
+.filter-dot.legalism         { background: var(--tag-legalism); }
+.filter-dot.neo-confucianism { background: var(--tag-neo-confucianism); }
+.filter-dot.cosmology        { background: var(--tag-cosmology); }
+
+/* Chinese philosophy idea dots */
+.idea-dot.Confucianism     { background: var(--tag-confucianism); }
+.idea-dot.Taoism           { background: var(--tag-taoism); }
+.idea-dot.Mohism           { background: var(--tag-mohism); }
+.idea-dot.Legalism         { background: var(--tag-legalism); }
+.idea-dot.Neo-Confucianism { background: var(--tag-neo-confucianism); }
+.idea-dot.Cosmology        { background: var(--tag-cosmology); }
+
+/* Responsive: hide switcher labels on small screens */
+@media (max-width: 768px) {
+  .switcher-label { display: none; }
+  .switcher-btn { padding: 6px 12px; }
+}
+
+/* =====================================================
+   IDEA DOT COLORS
+   ===================================================== */
+.idea-dot.Metaphysics    { background: var(--tag-metaphysics); }
+.idea-dot.Epistemology   { background: var(--tag-epistemology); }
+.idea-dot.Ethics         { background: var(--tag-ethics); }
+.idea-dot.Logic          { background: var(--tag-logic); }
+.idea-dot.Political      { background: var(--tag-political); }
+.idea-dot.Aesthetics     { background: var(--tag-aesthetics); }
+.idea-dot.Religion       { background: var(--tag-religion); }
+.idea-dot.Mind           { background: var(--tag-mind); }
+.idea-dot.Language       { background: var(--tag-language); }
+.idea-dot.Science        { background: var(--tag-science); }
+.idea-dot.Metaphilosophy { background: var(--tag-metaphilosophy); }
+.idea-dot.Basics         { background: var(--tag-basics); }
+
+/* =====================================================
+   LOADING SCREEN
+   ===================================================== */
+.loading-screen {
+  position: fixed;
+  inset: 0;
+  background: var(--bg-page);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.6s ease, visibility 0.6s ease;
+}
+.loading-screen.fade-out {
+  opacity: 0;
+  visibility: hidden;
+}
+.loading-inner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+}
+.loading-logo {
+  font-size: 64px;
+  font-family: 'Playfair Display', serif;
+  color: var(--text-primary);
+  opacity: 0.9;
+  animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.05); }
+}
+.loading-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.04em;
+}
+.loading-bar {
+  width: 220px;
+  height: 2px;
+  background: var(--border-panel);
+  border-radius: 2px;
+  overflow: hidden;
+}
+.loading-progress {
+  height: 100%;
+  background: linear-gradient(90deg, var(--color-agree), var(--color-disagree));
+  width: 0%;
+  border-radius: 2px;
+  transition: width 0.4s ease;
+  animation: shimmer 1.5s ease infinite;
+}
+@keyframes shimmer {
+  0% { width: 0%; }
+  50% { width: 70%; }
+  100% { width: 90%; }
+}
+.loading-screen.fade-out .loading-progress { width: 100%; }
+.loading-sub {
+  font-size: 12px;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+}
+
+/* =====================================================
+   SCROLLBAR
+   ===================================================== */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--border-panel) transparent;
+}
+*::-webkit-scrollbar { width: 4px; height: 4px; }
+*::-webkit-scrollbar-thumb { background: var(--border-panel); border-radius: 4px; }
+
+/* =====================================================
+   RESPONSIVE
+   ===================================================== */
+@media (max-width: 768px) {
+  :root { --panel-w: 0px; }
+  .side-panel {
+    width: 260px;
+    transform: translateX(-260px);
+  }
+  .side-panel.open {
+    transform: translateX(0);
+    width: 260px;
+  }
+  .canvas-wrapper { left: 0; }
+  .legend { display: none; }
+}

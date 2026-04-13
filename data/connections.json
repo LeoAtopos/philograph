@@ -1,0 +1,105 @@
+[
+  { "from": "pl1", "fromPhil": "plato", "to": "sc1", "toPhil": "socrates", "type": "P", "label": "Follows Socratic virtue ethics" },
+  { "from": "pl2", "fromPhil": "plato", "to": "sc4", "toPhil": "socrates", "type": "P", "label": "Extends theory of immortal soul" },
+  { "from": "pl3", "fromPhil": "plato", "to": "sc2", "toPhil": "socrates", "type": "P", "label": "Philosopher-kings embody examined life" },
+
+  { "from": "ar1", "fromPhil": "aristotle", "to": "pl1", "toPhil": "plato", "type": "N", "label": "Forms exist in particulars, not separately" },
+  { "from": "ar2", "fromPhil": "aristotle", "to": "pl2", "toPhil": "plato", "type": "N", "label": "Rejects innate recollection; experience is primary" },
+  { "from": "ar3", "fromPhil": "aristotle", "to": "sc1", "toPhil": "socrates", "type": "P", "label": "Virtue is essential but practice matters" },
+  { "from": "ar5", "fromPhil": "aristotle", "to": "pl3", "toPhil": "plato", "type": "N", "label": "Mixed government better than philosopher-kings" },
+
+  { "from": "ep1", "fromPhil": "epicurus", "to": "ar3", "toPhil": "aristotle", "type": "N", "label": "Pleasure, not virtuous activity, is the ultimate good" },
+  { "from": "ep3", "fromPhil": "epicurus", "to": "sc4", "toPhil": "socrates", "type": "N", "label": "Death as non-existence, not soul survival" },
+
+  { "from": "ag1", "fromPhil": "augustine", "to": "pl1", "toPhil": "plato", "type": "P", "label": "Forms exist as ideas in the mind of God" },
+  { "from": "ag4", "fromPhil": "augustine", "to": "ar1", "toPhil": "aristotle", "type": "N", "label": "Time is subjective, not objective structure" },
+
+  { "from": "aq1", "fromPhil": "aquinas", "to": "ag1", "toPhil": "augustine", "type": "P", "label": "Reason and faith are both paths to God" },
+  { "from": "aq3", "fromPhil": "aquinas", "to": "ar3", "toPhil": "aristotle", "type": "P", "label": "Natural law integrates Aristotelian ethics with theology" },
+  { "from": "aq4", "fromPhil": "aquinas", "to": "ar1", "toPhil": "aristotle", "type": "P", "label": "Essence-existence distinction extends Aristotle" },
+  { "from": "aq2", "fromPhil": "aquinas", "to": "ag2", "toPhil": "augustine", "type": "P", "label": "Five Ways ground theistic ethics" },
+
+  { "from": "dc1", "fromPhil": "descartes", "to": "aq1", "toPhil": "aquinas", "type": "P", "label": "Certainty sought through reason, not faith alone" },
+  { "from": "dc2", "fromPhil": "descartes", "to": "ar1", "toPhil": "aristotle", "type": "N", "label": "Mind and body are fundamentally separate substances" },
+  { "from": "dc3", "fromPhil": "descartes", "to": "sc3", "toPhil": "socrates", "type": "P", "label": "Clarity and distinctness as epistemic standard" },
+
+  { "from": "sp1", "fromPhil": "spinoza", "to": "dc2", "toPhil": "descartes", "type": "N", "label": "Mind and body are one substance, not two" },
+  { "from": "sp2", "fromPhil": "spinoza", "to": "dc2", "toPhil": "descartes", "type": "N", "label": "Parallel attributes, not interacting substances" },
+  { "from": "sp4", "fromPhil": "spinoza", "to": "dc3", "toPhil": "descartes", "type": "P", "label": "Adequate ideas lead to freedom" },
+
+  { "from": "lb1", "fromPhil": "leibniz", "to": "sp1", "toPhil": "spinoza", "type": "N", "label": "Many substances (monads), not one" },
+  { "from": "lb4", "fromPhil": "leibniz", "to": "dc3", "toPhil": "descartes", "type": "P", "label": "Innate ideas and rational foundations of knowledge" },
+  { "from": "lb3", "fromPhil": "leibniz", "to": "sp2", "toPhil": "spinoza", "type": "N", "label": "Pre-established harmony, not identity of substance" },
+
+  { "from": "lk1", "fromPhil": "locke", "to": "dc3", "toPhil": "descartes", "type": "N", "label": "Experience, not reason alone, is source of knowledge" },
+  { "from": "lk1", "fromPhil": "locke", "to": "lb4", "toPhil": "leibniz", "type": "N", "label": "No innate ideas; mind is blank slate" },
+  { "from": "lk2", "fromPhil": "locke", "to": "ar5", "toPhil": "aristotle", "type": "P", "label": "Natural rights ground political authority" },
+
+  { "from": "hm1", "fromPhil": "hume", "to": "lk1", "toPhil": "locke", "type": "P", "label": "Empiricism extended radically" },
+  { "from": "hm2", "fromPhil": "hume", "to": "ar6", "toPhil": "aristotle", "type": "N", "label": "Causality is habit, not rational necessity" },
+  { "from": "hm4", "fromPhil": "hume", "to": "ar3", "toPhil": "aristotle", "type": "N", "label": "Morality is sentiment-based, not reason-based" },
+  { "from": "hm5", "fromPhil": "hume", "to": "ml4", "toPhil": "mill", "type": "N", "label": "Induction is not rationally justified" },
+
+  { "from": "ro1", "fromPhil": "rousseau", "to": "lk2", "toPhil": "locke", "type": "P", "label": "Natural goodness aligns with natural rights" },
+  { "from": "ro2", "fromPhil": "rousseau", "to": "lk3", "toPhil": "locke", "type": "P", "label": "Social contract grounds political authority" },
+  { "from": "ro1", "fromPhil": "rousseau", "to": "hm4", "toPhil": "hume", "type": "N", "label": "Moral sentiment is natural, not mere habit" },
+
+  { "from": "kt1", "fromPhil": "kant", "to": "hm1", "toPhil": "hume", "type": "N", "label": "Hume awakened Kant but a priori structures shape experience" },
+  { "from": "kt1", "fromPhil": "kant", "to": "lk1", "toPhil": "locke", "type": "N", "label": "Mind is not passive; it structures experience" },
+  { "from": "kt3", "fromPhil": "kant", "to": "hm4", "toPhil": "hume", "type": "N", "label": "Morality is rational, not based on sentiment" },
+  { "from": "kt3", "fromPhil": "kant", "to": "ml1", "toPhil": "mill", "type": "N", "label": "Moral worth from duty, not consequences" },
+  { "from": "kt5", "fromPhil": "kant", "to": "lk2", "toPhil": "locke", "type": "P", "label": "Persons have inherent dignity and rights" },
+
+  { "from": "hg2", "fromPhil": "hegel", "to": "kt1", "toPhil": "kant", "type": "N", "label": "Dialectic overcomes static a priori categories" },
+  { "from": "hg1", "fromPhil": "hegel", "to": "sp1", "toPhil": "spinoza", "type": "P", "label": "Absolute Spirit is the true infinite substance" },
+  { "from": "hg3", "fromPhil": "hegel", "to": "kt3", "toPhil": "kant", "type": "N", "label": "Freedom realized in community, not abstract duty" },
+
+  { "from": "mx1", "fromPhil": "marx", "to": "hg2", "toPhil": "hegel", "type": "N", "label": "Dialectic is material, not spiritual" },
+  { "from": "mx3", "fromPhil": "marx", "to": "hg1", "toPhil": "hegel", "type": "N", "label": "Ideas are superstructure, base is economic" },
+  { "from": "mx2", "fromPhil": "marx", "to": "hg4", "toPhil": "hegel", "type": "N", "label": "Recognition denied by capitalist labor relations" },
+
+  { "from": "ml1", "fromPhil": "mill", "to": "ar3", "toPhil": "aristotle", "type": "P", "label": "Utility connects to eudaimonia as ultimate good" },
+  { "from": "ml3", "fromPhil": "mill", "to": "lk2", "toPhil": "locke", "type": "P", "label": "Harm principle extends natural rights framework" },
+  { "from": "ml2", "fromPhil": "mill", "to": "ep1", "toPhil": "epicurus", "type": "N", "label": "Not all pleasures are equal; quality matters" },
+
+  { "from": "ni1", "fromPhil": "nietzsche", "to": "kt3", "toPhil": "kant", "type": "N", "label": "Categorical imperative is slave morality disguised" },
+  { "from": "ni1", "fromPhil": "nietzsche", "to": "ml1", "toPhil": "mill", "type": "N", "label": "Utilitarianism is herd morality" },
+  { "from": "ni5", "fromPhil": "nietzsche", "to": "aq3", "toPhil": "aquinas", "type": "N", "label": "Christian-based morality is resentment ethics" },
+  { "from": "ni2", "fromPhil": "nietzsche", "to": "sp3", "toPhil": "spinoza", "type": "P", "label": "Will to Power echoes conatus as fundamental drive" },
+
+  { "from": "fr1", "fromPhil": "frege", "to": "ar6", "toPhil": "aristotle", "type": "N", "label": "Formal logic replaces syllogistic as foundation" },
+  { "from": "fr2", "fromPhil": "frege", "to": "lk4", "toPhil": "locke", "type": "N", "label": "Meaning is objective, not in the mind of perceivers" },
+
+  { "from": "ru4", "fromPhil": "russell", "to": "fr1", "toPhil": "frege", "type": "P", "label": "Extends logicism program" },
+  { "from": "ru1", "fromPhil": "russell", "to": "hm1", "toPhil": "hume", "type": "P", "label": "Logical atomism continues empiricist tradition" },
+  { "from": "ru3", "fromPhil": "russell", "to": "fr2", "toPhil": "frege", "type": "P", "label": "Theory of descriptions extends Frege's program" },
+
+  { "from": "wt1", "fromPhil": "wittgenstein", "to": "ru1", "toPhil": "russell", "type": "P", "label": "Picture theory of meaning aligns with logical atomism" },
+  { "from": "wt3", "fromPhil": "wittgenstein", "to": "wt1", "toPhil": "wittgenstein", "type": "N", "label": "Later Wittgenstein rejects picture theory" },
+  { "from": "wt5", "fromPhil": "wittgenstein", "to": "dc1", "toPhil": "descartes", "type": "N", "label": "No private certainty; language requires public criteria" },
+  { "from": "wt4", "fromPhil": "wittgenstein", "to": "hm2", "toPhil": "hume", "type": "P", "label": "Philosophical problems dissolved, not solved" },
+
+  { "from": "he1", "fromPhil": "heidegger", "to": "dc2", "toPhil": "descartes", "type": "N", "label": "Dasein is not a subject facing an objective world" },
+  { "from": "he3", "fromPhil": "heidegger", "to": "hg1", "toPhil": "hegel", "type": "N", "label": "Even Hegel forgot the question of Being" },
+  { "from": "he2", "fromPhil": "heidegger", "to": "sa2", "toPhil": "sartre", "type": "P", "label": "Authenticity requires confronting finitude" },
+
+  { "from": "sa1", "fromPhil": "sartre", "to": "he1", "toPhil": "heidegger", "type": "P", "label": "Existence precedes essence extends Heideggerian Dasein" },
+  { "from": "sa2", "fromPhil": "sartre", "to": "kt5", "toPhil": "kant", "type": "N", "label": "Freedom is absolute, not constrained by rational law" },
+  { "from": "sa3", "fromPhil": "sartre", "to": "ar4", "toPhil": "aristotle", "type": "N", "label": "No fixed virtuous mean; we must create ourselves" },
+
+  { "from": "pp1", "fromPhil": "popper", "to": "hm5", "toPhil": "hume", "type": "P", "label": "Induction is invalid; falsification replaces it" },
+  { "from": "pp2", "fromPhil": "popper", "to": "ml4", "toPhil": "mill", "type": "N", "label": "Induction cannot justify scientific laws" },
+  { "from": "pp3", "fromPhil": "popper", "to": "mx3", "toPhil": "marx", "type": "N", "label": "Marxism is unfalsifiable ideology, not science" },
+  { "from": "pp4", "fromPhil": "popper", "to": "hg2", "toPhil": "hegel", "type": "N", "label": "Dialectical logic leads to totalitarian historicism" },
+
+  { "from": "ku1", "fromPhil": "kuhn", "to": "pp1", "toPhil": "popper", "type": "N", "label": "Scientists rarely falsify; they work within paradigms" },
+  { "from": "ku3", "fromPhil": "kuhn", "to": "pp4", "toPhil": "popper", "type": "N", "label": "Incommensurability challenges falsificationism's rationality" },
+
+  { "from": "rw1", "fromPhil": "rawls", "to": "ml1", "toPhil": "mill", "type": "N", "label": "Justice cannot be founded on maximizing aggregate utility" },
+  { "from": "rw1", "fromPhil": "rawls", "to": "kt5", "toPhil": "kant", "type": "P", "label": "Persons as ends in themselves ground justice as fairness" },
+  { "from": "rw2", "fromPhil": "rawls", "to": "mx4", "toPhil": "marx", "type": "P", "label": "Inequality must benefit least advantaged (not exploit them)" },
+
+  { "from": "au1", "fromPhil": "aurelius", "to": "ar3", "toPhil": "aristotle", "type": "P", "label": "Virtue and reason as the highest good" },
+  { "from": "au1", "fromPhil": "aurelius", "to": "ep1", "toPhil": "epicurus", "type": "N", "label": "Virtue, not pleasure, is the only good" },
+  { "from": "au2", "fromPhil": "aurelius", "to": "ro2", "toPhil": "rousseau", "type": "P", "label": "Universal community anticipates social contract thinking" }
+]

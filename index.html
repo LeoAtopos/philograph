@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>History of Philosophy — Summarized &amp; Visualized</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600&family=Noto+Serif+SC:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Loading screen -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loading-inner">
+      <div class="loading-logo">φ</div>
+      <div class="loading-title" data-i18n="ui.loadingTitle">History of Philosophy</div>
+      <div class="loading-bar"><div class="loading-progress" id="loadingProgress"></div></div>
+      <div class="loading-sub" data-i18n="ui.loadingSub">Loading philosophers…</div>
+    </div>
+  </div>
+
+  <!-- ===== Top Navigation Bar ===== -->
+  <header class="topbar">
+    <div class="topbar-left">
+      <button class="menu-toggle" id="menuToggle" title="Toggle panel">
+        <span class="menu-icon">
+          <span></span><span></span><span></span>
+        </span>
+      </button>
+      <div class="site-title">
+        <span class="title-main" data-i18n="ui.siteTitleMain">History of Philosophy</span>
+        <span class="title-sub" data-i18n="ui.siteTitleSub">Summarized &amp; Visualized</span>
+      </div>
+    </div>
+    <div class="topbar-center">
+      <!-- Tradition switcher -->
+      <div class="tradition-switcher" id="traditionSwitcher">
+        <div class="switcher-track">
+          <button class="switcher-btn active" data-tradition="western">
+            <span class="switcher-icon">&#x1F30D;</span>
+            <span class="switcher-label" data-i18n="ui.western">Western</span>
+          </button>
+          <button class="switcher-btn" data-tradition="chinese">
+            <span class="switcher-icon">&#x1F30F;</span>
+            <span class="switcher-label" data-i18n="ui.eastern">Eastern</span>
+          </button>
+          <div class="switcher-indicator"></div>
+        </div>
+      </div>
+    </div>
+    <div class="topbar-right">
+      <div class="legend">
+        <span class="legend-item agree"><span class="legend-dot"></span><span data-i18n="ui.legendAgree">Agrees / Influenced by</span></span>
+        <span class="legend-item disagree"><span class="legend-dot"></span><span data-i18n="ui.legendDisagree">Disagrees / Criticizes</span></span>
+      </div>
+      <!-- Language switcher -->
+      <div class="lang-switcher" id="langSwitcher">
+        <button class="lang-btn active" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="zh">中</button>
+      </div>
+      <button class="btn-about" id="btnAbout" data-i18n="ui.about">About</button>
+    </div>
+  </header>
+
+  <!-- ===== Left Control Panel ===== -->
+  <aside class="side-panel" id="sidePanel">
+    <div class="panel-inner">
+
+      <!-- FILTERS Section -->
+      <div class="panel-section" id="filterSection">
+        <div class="panel-section-header" data-toggle="filterSection">
+          <span data-i18n="ui.filters">FILTERS</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+        <div class="panel-section-body">
+          <div class="filter-list" id="filterList">
+            <!-- Populated dynamically by JS -->
+          </div>
+          <div class="filter-actions">
+            <button class="btn-filter-action" id="btnSelectAll" data-i18n="ui.selectAll">All</button>
+            <button class="btn-filter-action" id="btnClearAll" data-i18n="ui.clearAll">None</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- OPTIONS Section -->
+      <div class="panel-section" id="optionsSection">
+        <div class="panel-section-header" data-toggle="optionsSection">
+          <span data-i18n="ui.options">OPTIONS</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+        <div class="panel-section-body">
+          <label class="option-item">
+            <span data-i18n="ui.darkMode">Dark Mode</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="toggleDark" checked>
+              <span class="toggle-slider"></span>
+            </div>
+          </label>
+          <label class="option-item">
+            <span data-i18n="ui.portraits">Portraits</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="togglePortraits" checked>
+              <span class="toggle-slider"></span>
+            </div>
+          </label>
+          <label class="option-item">
+            <span data-i18n="ui.connectionLabels">Connection Labels</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="toggleLabels">
+              <span class="toggle-slider"></span>
+            </div>
+          </label>
+          <label class="option-item">
+            <span data-i18n="ui.eraLabels">Era Labels</span>
+            <div class="toggle-switch">
+              <input type="checkbox" id="toggleEras" checked>
+              <span class="toggle-slider"></span>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <!-- INDEX Section -->
+      <div class="panel-section expanded" id="indexSection">
+        <div class="panel-section-header" data-toggle="indexSection">
+          <span data-i18n="ui.index">INDEX</span>
+          <svg class="chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="6 9 12 15 18 9"></polyline>
+          </svg>
+        </div>
+        <div class="panel-section-body">
+          <div class="index-list" id="indexList">
+            <!-- Populated by JS -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- ===== Main Canvas Area ===== -->
+  <main class="canvas-wrapper" id="canvasWrapper">
+    <!-- SVG connections layer (behind cards) -->
+    <svg class="connections-svg" id="connectionsSvg" xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <!-- Glow filters -->
+        <filter id="glowAgree">
+          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+          <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="glowDisagree">
+          <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+          <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+      <g id="connectionsGroup"></g>
+    </svg>
+
+    <!-- Philosopher cards container -->
+    <div class="canvas-transform" id="canvasTransform">
+      <div class="philosophers-container" id="philosophersContainer">
+        <!-- Era labels inserted by JS -->
+        <!-- Philosopher cards inserted by JS -->
+      </div>
+    </div>
+  </main>
+
+  <!-- ===== Zoom Controls ===== -->
+  <div class="zoom-controls" id="zoomControls">
+    <button class="zoom-btn" id="zoomIn" title="Zoom in">+</button>
+    <span class="zoom-level" id="zoomLevel">100%</span>
+    <button class="zoom-btn" id="zoomOut" title="Zoom out">−</button>
+    <button class="zoom-btn zoom-reset" id="zoomReset" title="Reset view">⊙</button>
+  </div>
+
+  <!-- ===== About Modal ===== -->
+  <div class="modal-overlay" id="aboutModal">
+    <div class="modal">
+      <button class="modal-close" id="modalClose">×</button>
+      <h2 data-i18n="ui.aboutTitle">History of Philosophy</h2>
+      <h3 data-i18n="ui.aboutSub">Summarized &amp; Visualized</h3>
+      <p data-i18n="ui.aboutDesc">This is an interactive visualization of the history of philosophy, showing the relationships — agreements and disagreements — between the ideas of major philosophers. Switch between Western and Eastern traditions to explore both intellectual lineages.</p>
+      <p><strong data-i18n="ui.aboutHowToUse">How to use:</strong></p>
+      <ul>
+        <li data-i18n-html="ui.aboutUse1"><strong>Drag</strong> the canvas to navigate</li>
+        <li data-i18n-html="ui.aboutUse2"><strong>Scroll</strong> to zoom in/out</li>
+        <li data-i18n-html="ui.aboutUse3"><strong>Click</strong> a philosopher's name or idea to highlight related connections</li>
+        <li data-i18n-html="ui.aboutUse4">Use the <strong>Filters</strong> panel to show only ideas in certain philosophical branches</li>
+        <li data-i18n-html="ui.aboutUse5">Use the <strong>Index</strong> to jump to a philosopher</li>
+      </ul>
+      <p class="modal-credit" data-i18n-html="ui.aboutCredit">Inspired by <a href="https://www.denizcemonduygu.com/philo/browse/" target="_blank">Deniz Cem Önduygu's original work</a></p>
+    </div>
+  </div>
+
+  <!-- Tooltip -->
+  <div class="connection-tooltip" id="connectionTooltip"></div>
+
+  <!-- ===== Scripts ===== -->
+  <script src="js/state.js"></script>
+  <script src="js/i18n-data.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/canvas-manager.js"></script>
+  <script src="js/card-renderer.js"></script>
+  <script src="js/connection-renderer.js"></script>
+  <script src="js/panel-controller.js"></script>
+  <script src="js/theme.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

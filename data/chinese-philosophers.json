@@ -1,0 +1,210 @@
+[
+  {
+    "id": "kongzi", "name": "Confucius 孔子", "born": -551, "died": -479, "era": "Pre-Qin",
+    "portrait": "data/portraits/kongzi.jpg",
+    "tags": ["Confucianism", "Ethics", "Political"],
+    "ideas": [
+      { "id": "kz1", "text": "Ren (仁) — Benevolence is the supreme virtue", "tags": ["Confucianism", "Ethics"] },
+      { "id": "kz2", "text": "Li (礼) — Ritual propriety maintains social harmony", "tags": ["Confucianism", "Political"] },
+      { "id": "kz3", "text": "Junzi (君子) — The superior person cultivates moral excellence", "tags": ["Confucianism", "Ethics"] },
+      { "id": "kz4", "text": "Zhengming (正名) — Rectification of names ensures proper governance", "tags": ["Confucianism", "Political"] }
+    ]
+  },
+  {
+    "id": "laozi", "name": "Laozi 老子", "born": -571, "died": -471, "era": "Pre-Qin",
+    "portrait": "data/portraits/laozi.png",
+    "tags": ["Taoism", "Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "lz1", "text": "Dao (道) — The ineffable source and ground of all existence", "tags": ["Taoism", "Metaphysics"] },
+      { "id": "lz2", "text": "Wu wei (无为) — Non-action in harmony with the natural flow", "tags": ["Taoism", "Ethics"] },
+      { "id": "lz3", "text": "Ziran (自然) — Spontaneity as the way of nature", "tags": ["Taoism", "Metaphysics"] },
+      { "id": "lz4", "text": "Fan (反) — Reversal is the movement of the Dao", "tags": ["Taoism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "mozi", "name": "Mozi 墨子", "born": -470, "died": -391, "era": "Pre-Qin",
+    "portrait": "data/portraits/mozi.jpg",
+    "tags": ["Mohism", "Ethics", "Political", "Epistemology"],
+    "ideas": [
+      { "id": "mo1", "text": "Jian ai (兼爱) — Universal love without distinction", "tags": ["Mohism", "Ethics"] },
+      { "id": "mo2", "text": "Fei gong (非攻) — Condemnation of offensive warfare", "tags": ["Mohism", "Political"] },
+      { "id": "mo3", "text": "Ming gui (明鬼) — Spirits exist to enforce moral justice", "tags": ["Mohism", "Metaphysics"] },
+      { "id": "mo4", "text": "San biao (三表) — Three tests for judging truth claims", "tags": ["Mohism", "Epistemology"] }
+    ]
+  },
+  {
+    "id": "mengzi", "name": "Mencius 孟子", "born": -372, "died": -289, "era": "Pre-Qin",
+    "portrait": "data/portraits/mengzi.jpg",
+    "tags": ["Confucianism", "Ethics", "Political", "Metaphysics"],
+    "ideas": [
+      { "id": "mz1", "text": "Xing shan (性善) — Human nature is inherently good", "tags": ["Confucianism", "Ethics", "Metaphysics"] },
+      { "id": "mz2", "text": "Si duan (四端) — Four sprouts: compassion, shame, courtesy, discernment", "tags": ["Confucianism", "Ethics"] },
+      { "id": "mz3", "text": "Min ben (民本) — The people are most important, the ruler least", "tags": ["Confucianism", "Political"] },
+      { "id": "mz4", "text": "Yi yu qi (以意逆志) — Understanding authorial intent through empathy", "tags": ["Confucianism", "Epistemology"] }
+    ]
+  },
+  {
+    "id": "zhuangzi", "name": "Zhuangzi 庄子", "born": -369, "died": -286, "era": "Pre-Qin",
+    "portrait": "data/portraits/zhuangzi.jpg",
+    "tags": ["Taoism", "Metaphysics", "Epistemology"],
+    "ideas": [
+      { "id": "zz1", "text": "Xiao yao you (逍遥游) — Free wandering beyond all constraints", "tags": ["Taoism", "Metaphysics"] },
+      { "id": "zz2", "text": "Qi wu (齐物) — Equalizing all things dissolves false distinctions", "tags": ["Taoism", "Epistemology"] },
+      { "id": "zz3", "text": "Zhuangzi dreamt he was a butterfly — dream and reality are indistinguishable", "tags": ["Taoism", "Epistemology"] },
+      { "id": "zz4", "text": "Wu yong (无用) — Uselessness is the highest usefulness", "tags": ["Taoism", "Ethics"] }
+    ]
+  },
+  {
+    "id": "xunzi", "name": "Xunzi 荀子", "born": -310, "died": -235, "era": "Pre-Qin",
+    "portrait": "data/portraits/xunzi.jpg",
+    "tags": ["Confucianism", "Ethics", "Political", "Epistemology"],
+    "ideas": [
+      { "id": "xz1", "text": "Xing e (性恶) — Human nature is selfish; goodness requires education", "tags": ["Confucianism", "Ethics"] },
+      { "id": "xz2", "text": "Hua xing qi wei (化性起伪) — Transform nature through deliberate effort", "tags": ["Confucianism", "Ethics"] },
+      { "id": "xz3", "text": "Tian xing you chang (天行有常) — Heaven operates with constant regularity", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "xz4", "text": "Zhong ming qi yong (正名) — Rectify names to clarify thought and society", "tags": ["Confucianism", "Epistemology", "Political"] }
+    ]
+  },
+  {
+    "id": "hanfei", "name": "Han Fei 韩非", "born": -280, "died": -233, "era": "Pre-Qin",
+    "portrait": "data/portraits/hanfei.png",
+    "tags": ["Legalism", "Political"],
+    "ideas": [
+      { "id": "hf1", "text": "Fa (法) — Law as the supreme instrument of governance", "tags": ["Legalism", "Political"] },
+      { "id": "hf2", "text": "Shu (术) — Administrative tactics to control ministers", "tags": ["Legalism", "Political"] },
+      { "id": "hf3", "text": "Shi (势) — Power and position over personal virtue of ruler", "tags": ["Legalism", "Political"] },
+      { "id": "hf4", "text": "Ren min wei er (人性利己) — Human nature is driven by self-interest", "tags": ["Legalism", "Ethics"] }
+    ]
+  },
+  {
+    "id": "dongzhongshu", "name": "Dong Zhongshu 董仲舒", "born": -179, "died": -104, "era": "Han",
+    "portrait": "data/portraits/dongzhongshu.png",
+    "tags": ["Confucianism", "Metaphysics", "Political"],
+    "ideas": [
+      { "id": "ds1", "text": "San gang (三纲) — Three bonds structure all social relations", "tags": ["Confucianism", "Political"] },
+      { "id": "ds2", "text": "Tian ren gan ying (天人感应) — Heaven and humanity resonate together", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "ds3", "text": "Yang zun yin bei (阳尊阴卑) — Yang is noble, yin is base", "tags": ["Confucianism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "wangchong", "name": "Wang Chong 王充", "born": 27, "died": 97, "era": "Han",
+    "portrait": "data/portraits/wangchong.jpg",
+    "tags": ["Confucianism", "Epistemology", "Metaphysics"],
+    "ideas": [
+      { "id": "wc1", "text": "Tian ran (自然) — Nature is spontaneous, not purposive", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "wc2", "text": "Qi su (气俗) — Material qi constitutes all living beings", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "wc3", "text": "Shi zhi (实知) — Knowledge must be verified by observation and evidence", "tags": ["Confucianism", "Epistemology"] }
+    ]
+  },
+  {
+    "id": "han_yu", "name": "Han Yu 韩愈", "born": 768, "died": 824, "era": "Tang-Song",
+    "portrait": "data/portraits/han_yu.jpg",
+    "tags": ["Confucianism", "Metaphysics"],
+    "ideas": [
+      { "id": "hy1", "text": "Yuan dao (原道) — Restore the authentic Confucian Way", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "hy2", "text": "Dao tong (道统) — The legitimate transmission of the Way", "tags": ["Confucianism", "Metaphysics"] },
+      { "id": "hy3", "text": "Pai fo (排佛) — Reject Buddhism as foreign to Chinese culture", "tags": ["Confucianism", "Political"] }
+    ]
+  },
+  {
+    "id": "chengyi", "name": "Cheng Yi 程颐", "born": 1033, "died": 1107, "era": "Tang-Song",
+    "portrait": "data/portraits/chengyi.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "cy1", "text": "Li (理) — Principle is the ground of all things", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "cy2", "text": "Han yi qi (涵养须用敬) — Reverence preserves moral nature", "tags": ["Neo-Confucianism", "Ethics"] },
+      { "id": "cy3", "text": "Ge wu (格物) — Investigate things to extend knowledge", "tags": ["Neo-Confucianism", "Epistemology"] }
+    ]
+  },
+  {
+    "id": "zhuxi", "name": "Zhu Xi 朱熹", "born": 1130, "died": 1200, "era": "Tang-Song",
+    "portrait": "data/portraits/zhuxi.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics", "Ethics", "Epistemology"],
+    "ideas": [
+      { "id": "zx1", "text": "Li xiang er qi qi (理在气先) — Principle precedes material force", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "zx2", "text": "Ge wu zhi zhi (格物致知) — Investigate things to fully extend knowledge", "tags": ["Neo-Confucianism", "Epistemology"] },
+      { "id": "zx3", "text": "Cun tian li, mie ren yu (存天理灭人欲) — Preserve heavenly principle, eliminate desire", "tags": ["Neo-Confucianism", "Ethics"] },
+      { "id": "zx4", "text": "Da xue (大学) — The Great Learning as the path of self-cultivation", "tags": ["Neo-Confucianism", "Ethics"] }
+    ]
+  },
+  {
+    "id": "wangyangming", "name": "Wang Yangming 王阳明", "born": 1472, "died": 1529, "era": "Ming-Qing",
+    "portrait": "data/portraits/wangyangming.jpg",
+    "tags": ["Neo-Confucianism", "Ethics", "Metaphysics", "Epistemology"],
+    "ideas": [
+      { "id": "wy1", "text": "Zhi liang zhi (致良知) — Extend innate moral knowledge to action", "tags": ["Neo-Confucianism", "Ethics", "Epistemology"] },
+      { "id": "wy2", "text": "Zhi xing he yi (知行合一) — Knowledge and action are one", "tags": ["Neo-Confucianism", "Ethics"] },
+      { "id": "wy3", "text": "Xin ji li (心即理) — The mind itself is principle", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "wy4", "text": "Chi liang zhi (致良知) — Innate knowing guides moral action directly", "tags": ["Neo-Confucianism", "Ethics"] }
+    ]
+  },
+  {
+    "id": "luojiushun", "name": "Luo Qinshun 罗钦顺", "born": 1465, "died": 1547, "era": "Ming-Qing",
+    "portrait": "data/portraits/luojiushun.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics"],
+    "ideas": [
+      { "id": "lq1", "text": "Qi ben (气本) — Material force is the fundamental substance", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "lq2", "text": "Li zai qi zhong (理在气中) — Principle exists within material force", "tags": ["Neo-Confucianism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "huangzongxi", "name": "Huang Zongxi 黄宗羲", "born": 1610, "died": 1695, "era": "Ming-Qing",
+    "portrait": "data/portraits/huangzongxi.jpg",
+    "tags": ["Confucianism", "Political"],
+    "ideas": [
+      { "id": "hzz1", "text": "Tian xia wei gong (天下为公) — The world belongs to all, not one ruler", "tags": ["Confucianism", "Political"] },
+      { "id": "hzz2", "text": "Fei jun (非君) — Critique of autocratic monarchy", "tags": ["Confucianism", "Political"] },
+      { "id": "hzz3", "text": "Xue an (学案) — Intellectual history as philosophical method", "tags": ["Confucianism", "Epistemology"] }
+    ]
+  },
+  {
+    "id": "guyanwu", "name": "Gu Yanwu 顾炎武", "born": 1613, "died": 1682, "era": "Ming-Qing",
+    "portrait": "data/portraits/guyanwu.jpg",
+    "tags": ["Confucianism", "Epistemology", "Political"],
+    "ideas": [
+      { "id": "gyw1", "text": "Jing shi zhi yong (经世致用) — Scholarship must serve practical governance", "tags": ["Confucianism", "Political"] },
+      { "id": "gyw2", "text": "Kao ju (考据) — Evidential research as the path to truth", "tags": ["Confucianism", "Epistemology"] },
+      { "id": "gyw3", "text": "Tian xia xing wang (天下兴亡) — Every person shares responsibility for society", "tags": ["Confucianism", "Political"] }
+    ]
+  },
+  {
+    "id": "wangfuzhi", "name": "Wang Fuzhi 王夫之", "born": 1619, "died": 1692, "era": "Ming-Qing",
+    "portrait": "data/portraits/wangfuzhi.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics", "Epistemology"],
+    "ideas": [
+      { "id": "wfz1", "text": "Qi wei ben (气为本) — Material force is the fundamental reality", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "wfz2", "text": "Xing zhe shen, qing zhe zhen (性者生理) — Nature is living principle, emotion is its realization", "tags": ["Neo-Confucianism", "Ethics"] },
+      { "id": "wfz3", "text": "Ri xin (日新) — Daily renewal: the cosmos is in constant transformation", "tags": ["Neo-Confucianism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "tan_sitong", "name": "Tan Sitong 谭嗣同", "born": 1865, "died": 1898, "era": "Modern",
+    "portrait": "data/portraits/tan_sitong.jpg",
+    "tags": ["Confucianism", "Political", "Metaphysics"],
+    "ideas": [
+      { "id": "ts1", "text": "Ren xue (仁学) — A philosophy of benevolence bridging Confucianism and modernity", "tags": ["Confucianism", "Political"] },
+      { "id": "ts2", "text": "Po san gang (破三纲) — Dismantle the three bonds for individual freedom", "tags": ["Confucianism", "Political"] },
+      { "id": "ts3", "text": "Tong (通) — Interconnectedness of all things demands social reform", "tags": ["Confucianism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "fengyoulan", "name": "Feng Youlan 冯友兰", "born": 1895, "died": 1990, "era": "Modern",
+    "portrait": "data/portraits/fengyoulan.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics", "Epistemology"],
+    "ideas": [
+      { "id": "fyl1", "text": "Zheng ming fa (正负方法) — Positive and negative methods in philosophy", "tags": ["Neo-Confucianism", "Epistemology"] },
+      { "id": "fyl2", "text": "Si jing (四境界) — Four realms: natural, utilitarian, moral, transcendent", "tags": ["Neo-Confucianism", "Metaphysics", "Ethics"] },
+      { "id": "fyl3", "text": "Li (理) — New Li Xue: principle as the object of philosophical inquiry", "tags": ["Neo-Confucianism", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "mouzongsan", "name": "Mou Zongsan 牟宗三", "born": 1909, "died": 1995, "era": "Modern",
+    "portrait": "data/portraits/mouzongsan.jpg",
+    "tags": ["Neo-Confucianism", "Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "mzs1", "text": "Zhi de zhi jue (智的直觉) — Intellectual intuition enables moral metaphysics", "tags": ["Neo-Confucianism", "Metaphysics"] },
+      { "id": "mzs2", "text": "Liang pan kai (良坎开出) — Moral mind opens out into cognitive understanding", "tags": ["Neo-Confucianism", "Epistemology"] },
+      { "id": "mzs3", "text": "Xin ti xing ti (心体性体) — Mind-body and nature-body as ultimate reality", "tags": ["Neo-Confucianism", "Ethics", "Metaphysics"] }
+    ]
+  }
+]

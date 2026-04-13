@@ -1,0 +1,394 @@
+[
+  {
+    "id": "socrates",
+    "name": "Socrates",
+    "born": -470,
+    "died": -399,
+    "era": "Ancient",
+    "portrait": "data/portraits/socrates.jpg",
+    "tags": ["Ethics", "Epistemology", "Metaphilosophy"],
+    "ideas": [
+      { "id": "sc1", "text": "Knowledge is virtue; ignorance is the source of evil", "tags": ["Ethics", "Epistemology"] },
+      { "id": "sc2", "text": "The unexamined life is not worth living", "tags": ["Metaphilosophy", "Ethics"] },
+      { "id": "sc3", "text": "True knowledge comes from recognizing one's own ignorance", "tags": ["Epistemology"] },
+      { "id": "sc4", "text": "The soul is immortal and distinct from the body", "tags": ["Metaphysics"] }
+    ]
+  },
+  {
+    "id": "plato",
+    "name": "Plato",
+    "born": -428,
+    "died": -348,
+    "era": "Ancient",
+    "portrait": "data/portraits/plato.png",
+    "tags": ["Metaphysics", "Epistemology", "Ethics", "Political"],
+    "ideas": [
+      { "id": "pl1", "text": "The Theory of Forms: true reality consists of eternal, abstract Forms", "tags": ["Metaphysics", "Epistemology"] },
+      { "id": "pl2", "text": "Knowledge is recollection of what the soul knew before birth", "tags": ["Epistemology", "Metaphysics"] },
+      { "id": "pl3", "text": "The ideal state is ruled by philosopher-kings", "tags": ["Political"] },
+      { "id": "pl4", "text": "The soul has three parts: reason, spirit, and appetite", "tags": ["Metaphysics", "Ethics"] },
+      { "id": "pl5", "text": "Justice is harmony between the parts of the soul and state", "tags": ["Ethics", "Political"] }
+    ]
+  },
+  {
+    "id": "aristotle",
+    "name": "Aristotle",
+    "born": -384,
+    "died": -322,
+    "era": "Ancient",
+    "portrait": "data/portraits/aristotle.jpg",
+    "tags": ["Metaphysics", "Logic", "Ethics", "Politics", "Science"],
+    "ideas": [
+      { "id": "ar1", "text": "Form and matter are inseparable; universals exist in particular things", "tags": ["Metaphysics"] },
+      { "id": "ar2", "text": "Knowledge comes through sensory experience and induction", "tags": ["Epistemology"] },
+      { "id": "ar3", "text": "Eudaimonia (flourishing) is the highest good, achieved through virtue", "tags": ["Ethics"] },
+      { "id": "ar4", "text": "Virtue is a mean between excess and deficiency", "tags": ["Ethics"] },
+      { "id": "ar5", "text": "Man is by nature a political animal", "tags": ["Political"] },
+      { "id": "ar6", "text": "Logic is the tool of all sciences; syllogistic reasoning", "tags": ["Logic"] }
+    ]
+  },
+  {
+    "id": "epicurus",
+    "name": "Epicurus",
+    "born": -341,
+    "died": -270,
+    "era": "Ancient",
+    "portrait": "data/portraits/epicurus.jpg",
+    "tags": ["Ethics", "Metaphysics"],
+    "ideas": [
+      { "id": "ep1", "text": "Pleasure (ataraxia) is the highest good and goal of life", "tags": ["Ethics"] },
+      { "id": "ep2", "text": "The gods do not intervene in human affairs", "tags": ["Religion"] },
+      { "id": "ep3", "text": "Death is nothing to us; when we exist, death is absent", "tags": ["Ethics", "Metaphysics"] },
+      { "id": "ep4", "text": "Reality consists of atoms and void", "tags": ["Metaphysics"] }
+    ]
+  },
+  {
+    "id": "aurelius",
+    "name": "Marcus Aurelius",
+    "born": 121,
+    "died": 180,
+    "era": "Ancient",
+    "portrait": "data/portraits/aurelius.jpg",
+    "tags": ["Ethics", "Metaphysics"],
+    "ideas": [
+      { "id": "au1", "text": "Live according to nature and reason; virtue is the only good", "tags": ["Ethics"] },
+      { "id": "au2", "text": "We are all citizens of a universal community bound by reason", "tags": ["Political", "Ethics"] },
+      { "id": "au3", "text": "External things cannot harm the inner self; only our judgments do", "tags": ["Ethics"] }
+    ]
+  },
+  {
+    "id": "augustine",
+    "name": "Augustine",
+    "born": 354,
+    "died": 430,
+    "era": "Medieval",
+    "portrait": "data/portraits/augustine.jpg",
+    "tags": ["Religion", "Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "ag1", "text": "God is the source of all truth; illumination of the mind by God", "tags": ["Religion", "Epistemology"] },
+      { "id": "ag2", "text": "Evil is the privation of good, not a substance in itself", "tags": ["Ethics", "Religion"] },
+      { "id": "ag3", "text": "Free will exists but is corrupted by original sin", "tags": ["Ethics", "Religion"] },
+      { "id": "ag4", "text": "Time exists only in the mind, not objectively", "tags": ["Metaphysics"] }
+    ]
+  },
+  {
+    "id": "aquinas",
+    "name": "Thomas Aquinas",
+    "born": 1225,
+    "died": 1274,
+    "era": "Medieval",
+    "portrait": "data/portraits/aquinas.jpg",
+    "tags": ["Religion", "Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "aq1", "text": "Faith and reason are complementary paths to truth", "tags": ["Religion", "Epistemology"] },
+      { "id": "aq2", "text": "Five Ways: cosmological arguments for God's existence", "tags": ["Religion", "Metaphysics"] },
+      { "id": "aq3", "text": "Natural law is grounded in divine reason and accessible to all", "tags": ["Ethics", "Political"] },
+      { "id": "aq4", "text": "Being is the fundamental concept; essence and existence are distinct", "tags": ["Metaphysics"] }
+    ]
+  },
+  {
+    "id": "descartes",
+    "name": "René Descartes",
+    "born": 1596,
+    "died": 1650,
+    "era": "Early Modern",
+    "portrait": "data/portraits/descartes.jpg",
+    "tags": ["Epistemology", "Metaphysics"],
+    "ideas": [
+      { "id": "dc1", "text": "Cogito ergo sum: 'I think, therefore I am' — the foundation of certainty", "tags": ["Epistemology", "Metaphysics"] },
+      { "id": "dc2", "text": "Mind-body dualism: mind and body are distinct substances", "tags": ["Metaphysics", "Mind"] },
+      { "id": "dc3", "text": "Clear and distinct ideas perceived by reason are true", "tags": ["Epistemology"] },
+      { "id": "dc4", "text": "The ontological argument: God's essence entails existence", "tags": ["Religion", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "spinoza",
+    "name": "Baruch Spinoza",
+    "born": 1632,
+    "died": 1677,
+    "era": "Early Modern",
+    "portrait": "data/portraits/spinoza.jpg",
+    "tags": ["Metaphysics", "Ethics", "Political"],
+    "ideas": [
+      { "id": "sp1", "text": "God and Nature are identical; there is only one substance (pantheism)", "tags": ["Metaphysics", "Religion"] },
+      { "id": "sp2", "text": "Mind and body are two aspects of the same substance", "tags": ["Metaphysics", "Mind"] },
+      { "id": "sp3", "text": "Freedom is acting in accordance with one's own nature and reason", "tags": ["Ethics", "Political"] },
+      { "id": "sp4", "text": "Adequate ideas (rational knowledge) lead to freedom and blessedness", "tags": ["Epistemology", "Ethics"] }
+    ]
+  },
+  {
+    "id": "locke",
+    "name": "John Locke",
+    "born": 1632,
+    "died": 1704,
+    "era": "Early Modern",
+    "portrait": "data/portraits/locke.jpg",
+    "tags": ["Epistemology", "Political"],
+    "ideas": [
+      { "id": "lk1", "text": "The mind is a tabula rasa; all knowledge comes from experience", "tags": ["Epistemology"] },
+      { "id": "lk2", "text": "People have natural rights: life, liberty, and property", "tags": ["Political", "Ethics"] },
+      { "id": "lk3", "text": "Government authority is derived from the consent of the governed", "tags": ["Political"] },
+      { "id": "lk4", "text": "Primary qualities (shape, motion) are in objects; secondary qualities (color, taste) are in perceivers", "tags": ["Epistemology", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "leibniz",
+    "name": "G.W. Leibniz",
+    "born": 1646,
+    "died": 1716,
+    "era": "Early Modern",
+    "portrait": "data/portraits/leibniz.jpg",
+    "tags": ["Metaphysics", "Logic", "Epistemology"],
+    "ideas": [
+      { "id": "lb1", "text": "Reality consists of monads: simple, indivisible, spiritual substances", "tags": ["Metaphysics"] },
+      { "id": "lb2", "text": "This is the best of all possible worlds; God chose the world with maximum perfection", "tags": ["Metaphysics", "Religion"] },
+      { "id": "lb3", "text": "Pre-established harmony: mind and body do not interact but are synchronized by God", "tags": ["Metaphysics", "Mind"] },
+      { "id": "lb4", "text": "Innate ideas: the mind is not blank but contains truths from reason", "tags": ["Epistemology"] }
+    ]
+  },
+  {
+    "id": "hume",
+    "name": "David Hume",
+    "born": 1711,
+    "died": 1776,
+    "era": "Enlightenment",
+    "portrait": "data/portraits/hume.jpg",
+    "tags": ["Epistemology", "Ethics", "Metaphysics"],
+    "ideas": [
+      { "id": "hm1", "text": "All knowledge derives from impressions and ideas; nothing comes from pure reason", "tags": ["Epistemology"] },
+      { "id": "hm2", "text": "Causation is a habit of the mind, not a necessary connection in nature", "tags": ["Epistemology", "Metaphysics"] },
+      { "id": "hm3", "text": "The self is a bundle of perceptions, not a unified substance", "tags": ["Metaphysics", "Mind"] },
+      { "id": "hm4", "text": "Moral judgments are based on sentiment, not reason", "tags": ["Ethics"] },
+      { "id": "hm5", "text": "Induction cannot be rationally justified (the problem of induction)", "tags": ["Epistemology", "Science"] }
+    ]
+  },
+  {
+    "id": "rousseau",
+    "name": "Jean-Jacques Rousseau",
+    "born": 1712,
+    "died": 1778,
+    "era": "Enlightenment",
+    "portrait": "data/portraits/rousseau.jpg",
+    "tags": ["Political", "Ethics"],
+    "ideas": [
+      { "id": "ro1", "text": "Man is naturally good; society and civilization corrupt him", "tags": ["Ethics", "Political"] },
+      { "id": "ro2", "text": "The Social Contract: legitimate authority requires the general will", "tags": ["Political"] },
+      { "id": "ro3", "text": "Natural inequality is acceptable; social inequality of power is not", "tags": ["Political", "Ethics"] }
+    ]
+  },
+  {
+    "id": "kant",
+    "name": "Immanuel Kant",
+    "born": 1724,
+    "died": 1804,
+    "era": "Enlightenment",
+    "portrait": "data/portraits/kant.jpg",
+    "tags": ["Epistemology", "Ethics", "Metaphysics"],
+    "ideas": [
+      { "id": "kt1", "text": "The mind actively structures experience; space, time, and categories are a priori", "tags": ["Epistemology", "Metaphysics"] },
+      { "id": "kt2", "text": "Things-in-themselves (noumena) are unknowable; we only know phenomena", "tags": ["Epistemology", "Metaphysics"] },
+      { "id": "kt3", "text": "The Categorical Imperative: act only according to maxims you could will to be universal laws", "tags": ["Ethics"] },
+      { "id": "kt4", "text": "Moral worth comes from acting from duty, not inclination or consequences", "tags": ["Ethics"] },
+      { "id": "kt5", "text": "Humans are ends in themselves, never merely means", "tags": ["Ethics"] }
+    ]
+  },
+  {
+    "id": "hegel",
+    "name": "G.W.F. Hegel",
+    "born": 1770,
+    "died": 1831,
+    "era": "German Idealism",
+    "portrait": "data/portraits/hegel.jpg",
+    "tags": ["Metaphysics", "Political", "Epistemology"],
+    "ideas": [
+      { "id": "hg1", "text": "Reality is the unfolding of Absolute Spirit (Geist) through dialectical process", "tags": ["Metaphysics"] },
+      { "id": "hg2", "text": "Dialectic: thesis → antithesis → synthesis is the logic of reality and history", "tags": ["Metaphysics", "Epistemology"] },
+      { "id": "hg3", "text": "Freedom is realized through ethical life (family, civil society, state)", "tags": ["Political", "Ethics"] },
+      { "id": "hg4", "text": "Self-consciousness requires recognition by another consciousness", "tags": ["Mind", "Metaphysics"] }
+    ]
+  },
+  {
+    "id": "marx",
+    "name": "Karl Marx",
+    "born": 1818,
+    "died": 1883,
+    "era": "19th Century",
+    "portrait": "data/portraits/marx.png",
+    "tags": ["Political", "Ethics"],
+    "ideas": [
+      { "id": "mx1", "text": "History is driven by class struggle and material (economic) forces", "tags": ["Political"] },
+      { "id": "mx2", "text": "Capitalism alienates workers from their labor and their humanity", "tags": ["Political", "Ethics"] },
+      { "id": "mx3", "text": "Ideology is the superstructure that legitimizes the economic base", "tags": ["Political"] },
+      { "id": "mx4", "text": "The goal is a classless communist society where each contributes and receives freely", "tags": ["Political", "Ethics"] }
+    ]
+  },
+  {
+    "id": "mill",
+    "name": "John Stuart Mill",
+    "born": 1806,
+    "died": 1873,
+    "era": "19th Century",
+    "portrait": "data/portraits/mill.jpg",
+    "tags": ["Ethics", "Political", "Epistemology"],
+    "ideas": [
+      { "id": "ml1", "text": "Utilitarianism: the right act maximizes overall happiness (utility)", "tags": ["Ethics"] },
+      { "id": "ml2", "text": "Higher pleasures (intellectual) are qualitatively superior to lower pleasures", "tags": ["Ethics"] },
+      { "id": "ml3", "text": "The Harm Principle: liberty should only be restricted to prevent harm to others", "tags": ["Political", "Ethics"] },
+      { "id": "ml4", "text": "Inductive reasoning is the basis of scientific knowledge", "tags": ["Epistemology", "Science"] }
+    ]
+  },
+  {
+    "id": "nietzsche",
+    "name": "Friedrich Nietzsche",
+    "born": 1844,
+    "died": 1900,
+    "era": "19th Century",
+    "portrait": "data/portraits/nietzsche.jpg",
+    "tags": ["Ethics", "Metaphysics", "Metaphilosophy"],
+    "ideas": [
+      { "id": "ni1", "text": "'God is dead': the collapse of absolute moral values in modernity", "tags": ["Religion", "Ethics"] },
+      { "id": "ni2", "text": "Will to Power: the fundamental drive of all living beings", "tags": ["Metaphysics", "Ethics"] },
+      { "id": "ni3", "text": "Eternal Recurrence: the supreme test — would you will to live this life again?", "tags": ["Ethics", "Metaphysics"] },
+      { "id": "ni4", "text": "The Übermensch creates new values beyond slave morality", "tags": ["Ethics"] },
+      { "id": "ni5", "text": "Slave morality (good/evil) arose from resentment against the noble morality", "tags": ["Ethics"] }
+    ]
+  },
+  {
+    "id": "frege",
+    "name": "Gottlob Frege",
+    "born": 1848,
+    "died": 1925,
+    "era": "Analytic Origins",
+    "portrait": "data/portraits/frege.jpg",
+    "tags": ["Logic", "Language", "Epistemology"],
+    "ideas": [
+      { "id": "fr1", "text": "Logic is the foundation of mathematics; arithmetic is reducible to logic (logicism)", "tags": ["Logic"] },
+      { "id": "fr2", "text": "Sense and reference: two words can have the same referent but different senses", "tags": ["Language"] },
+      { "id": "fr3", "text": "Thoughts (propositions) are objective, abstract entities, not mental states", "tags": ["Logic", "Mind"] }
+    ]
+  },
+  {
+    "id": "russell",
+    "name": "Bertrand Russell",
+    "born": 1872,
+    "died": 1970,
+    "era": "Analytic",
+    "portrait": "data/portraits/russell.jpg",
+    "tags": ["Logic", "Epistemology", "Language"],
+    "ideas": [
+      { "id": "ru1", "text": "Logical atomism: the world consists of atomic facts mirrored by propositions", "tags": ["Metaphysics", "Language"] },
+      { "id": "ru2", "text": "Knowledge by acquaintance vs. knowledge by description", "tags": ["Epistemology"] },
+      { "id": "ru3", "text": "The theory of definite descriptions: 'The F is G' analyzed as a quantified formula", "tags": ["Language", "Logic"] },
+      { "id": "ru4", "text": "Mathematics is reducible to logic (logicism)", "tags": ["Logic"] }
+    ]
+  },
+  {
+    "id": "wittgenstein",
+    "name": "Ludwig Wittgenstein",
+    "born": 1889,
+    "died": 1951,
+    "era": "Analytic",
+    "portrait": "data/portraits/wittgenstein.jpg",
+    "tags": ["Language", "Metaphilosophy", "Logic"],
+    "ideas": [
+      { "id": "wt1", "text": "Early: The world is the totality of facts; language pictures the world", "tags": ["Language", "Metaphysics"] },
+      { "id": "wt2", "text": "Early: Whereof one cannot speak, thereof one must be silent", "tags": ["Language", "Metaphilosophy"] },
+      { "id": "wt3", "text": "Later: Meaning is use in a language-game embedded in a form of life", "tags": ["Language"] },
+      { "id": "wt4", "text": "Later: Philosophy therapy — dissolve rather than solve philosophical problems", "tags": ["Metaphilosophy"] },
+      { "id": "wt5", "text": "Private language is impossible; language requires public criteria", "tags": ["Language", "Mind"] }
+    ]
+  },
+  {
+    "id": "heidegger",
+    "name": "Martin Heidegger",
+    "born": 1889,
+    "died": 1976,
+    "era": "Continental",
+    "portrait": "data/portraits/heidegger.jpeg",
+    "tags": ["Metaphysics", "Metaphilosophy"],
+    "ideas": [
+      { "id": "he1", "text": "Being-in-the-world: Dasein is always already embedded in a world of meaning", "tags": ["Metaphysics"] },
+      { "id": "he2", "text": "Being-toward-death: authentic existence requires confronting one's mortality", "tags": ["Metaphysics", "Ethics"] },
+      { "id": "he3", "text": "The question of Being has been forgotten by Western metaphysics", "tags": ["Metaphilosophy", "Metaphysics"] },
+      { "id": "he4", "text": "Technology discloses the world as a resource to be ordered and stored", "tags": ["Metaphysics"] }
+    ]
+  },
+  {
+    "id": "sartre",
+    "name": "Jean-Paul Sartre",
+    "born": 1905,
+    "died": 1980,
+    "era": "Continental",
+    "portrait": "data/portraits/sartre.jpg",
+    "tags": ["Metaphysics", "Ethics"],
+    "ideas": [
+      { "id": "sa1", "text": "Existence precedes essence: we have no predetermined nature or purpose", "tags": ["Metaphysics", "Ethics"] },
+      { "id": "sa2", "text": "Radical freedom: we are 'condemned to be free'; our choices define us", "tags": ["Ethics", "Metaphysics"] },
+      { "id": "sa3", "text": "Bad faith: self-deception about one's freedom and responsibility", "tags": ["Ethics"] },
+      { "id": "sa4", "text": "Hell is other people: conflict is constitutive of human relations", "tags": ["Ethics"] }
+    ]
+  },
+  {
+    "id": "popper",
+    "name": "Karl Popper",
+    "born": 1902,
+    "died": 1994,
+    "era": "Analytic",
+    "portrait": "data/portraits/popper.jpg",
+    "tags": ["Epistemology", "Science", "Political"],
+    "ideas": [
+      { "id": "pp1", "text": "Falsifiability is the criterion of scientific theories; science progresses through conjectures and refutations", "tags": ["Epistemology", "Science"] },
+      { "id": "pp2", "text": "Induction is invalid; we cannot verify scientific laws, only falsify them", "tags": ["Epistemology", "Science"] },
+      { "id": "pp3", "text": "The Open Society opposes totalitarianism and historicist grand theories", "tags": ["Political"] },
+      { "id": "pp4", "text": "Critical rationalism: hold beliefs provisionally and remain open to revision", "tags": ["Epistemology"] }
+    ]
+  },
+  {
+    "id": "kuhn",
+    "name": "Thomas Kuhn",
+    "born": 1922,
+    "died": 1996,
+    "era": "20th Century",
+    "portrait": "https://placehold.co/60x60/0a1a2a/E0E0E0?text=TK",
+    "tags": ["Epistemology", "Science"],
+    "ideas": [
+      { "id": "ku1", "text": "Science progresses through paradigm shifts, not continuous accumulation", "tags": ["Epistemology", "Science"] },
+      { "id": "ku2", "text": "Normal science works within a paradigm; crises lead to scientific revolutions", "tags": ["Science"] },
+      { "id": "ku3", "text": "Paradigms are incommensurable: scientists in different paradigms inhabit different worlds", "tags": ["Epistemology", "Science"] }
+    ]
+  },
+  {
+    "id": "rawls",
+    "name": "John Rawls",
+    "born": 1921,
+    "died": 2002,
+    "era": "20th Century",
+    "portrait": "data/portraits/rawls.jpg",
+    "tags": ["Political", "Ethics"],
+    "ideas": [
+      { "id": "rw1", "text": "Justice as fairness: principles of justice chosen from behind a veil of ignorance", "tags": ["Political", "Ethics"] },
+      { "id": "rw2", "text": "The Difference Principle: inequalities are just only if they benefit the least advantaged", "tags": ["Political", "Ethics"] },
+      { "id": "rw3", "text": "Reflective equilibrium: balance moral intuitions with theoretical principles", "tags": ["Ethics", "Metaphilosophy"] }
+    ]
+  }
+]
