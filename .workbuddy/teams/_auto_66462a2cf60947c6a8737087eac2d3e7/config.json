@@ -1,0 +1,18 @@
+{
+  "name": "_auto_66462a2cf60947c6a8737087eac2d3e7",
+  "leadAgentId": "66462a2cf60947c6a8737087eac2d3e7",
+  "workspacePath": "c:\\Users\\leoni\\Documents\\GitHub\\philograph",
+  "createdAt": "2026-04-13T07:09:40.888Z",
+  "options": {
+    "workspacePath": "c:\\Users\\leoni\\Documents\\GitHub\\philograph",
+    "isAutoTeam": true
+  },
+  "members": [
+    {
+      "memberId": "team-lead@_auto_66462a2cf60947c6a8737087eac2d3e7",
+      "name": "team-lead",
+      "role": "Team Lead - coordinates the team and interacts with the user"
+    }
+  ],
+  "isAutoTeam": true
+}

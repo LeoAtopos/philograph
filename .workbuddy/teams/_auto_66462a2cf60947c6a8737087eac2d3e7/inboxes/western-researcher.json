@@ -1,0 +1,47 @@
+[
+  {
+    "id": "msg-1776064235501-rgk89z",
+    "from": "team-lead",
+    "to": "western-researcher",
+    "type": "message",
+    "content": "你进展到哪一步了？请汇报当前状态。",
+    "timestamp": "2026-04-13T07:10:35.501Z",
+    "read": true
+  },
+  {
+    "id": "msg-1776064251600-5oy1tc",
+    "from": "team-lead",
+    "to": "western-researcher",
+    "type": "message",
+    "content": "汇报进度，你现在在做什么？",
+    "timestamp": "2026-04-13T07:10:51.600Z",
+    "read": true
+  },
+  {
+    "id": "msg-1776064261370-d240ln",
+    "from": "team-lead",
+    "to": "western-researcher",
+    "type": "message",
+    "content": "你的进展如何？请尽快完成 philosophers.json 的编写。如果你遇到了困难或者需要帮助，请告诉我。",
+    "timestamp": "2026-04-13T07:11:01.370Z",
+    "read": true
+  },
+  {
+    "id": "msg-1776064287423-iloser",
+    "from": "team-lead",
+    "to": "western-researcher",
+    "type": "message",
+    "content": "请告知你当前的详细进度。你是否已经开始搜索维基百科？是否已经开始编写 JSON？",
+    "timestamp": "2026-04-13T07:11:27.423Z",
+    "read": true
+  },
+  {
+    "id": "shutdown-1776064334908",
+    "from": "team-lead",
+    "to": "western-researcher",
+    "type": "shutdown_request",
+    "content": "{\"type\":\"shutdown_request\",\"request_id\":\"shutdown-1776064334908\",\"reason\":\"Please stop. I will handle the task directly.\",\"from\":\"team-lead\",\"timestamp\":\"2026-04-13T07:12:14.908Z\"}",
+    "timestamp": "2026-04-13T07:12:14.908Z",
+    "read": true
+  }
+]

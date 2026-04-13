@@ -8,7 +8,7 @@
         "profession": "前端开发工程师",
         "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/FrontendDeveloper/FrontendDeveloper.png",
         "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/FrontendDeveloper/FrontendDeveloper_zh.md",
-        "usedAt": 1776058103627,
+        "usedAt": 1776068917947,
         "industryId": "all"
       },
       {
@@ -17,7 +17,7 @@
         "profession": "内容创作专家",
         "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/03-Marketing/ContentCreator/ContentCreator.png",
         "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/03-Marketing/ContentCreator/ContentCreator_zh.md",
-        "usedAt": 1776057802430,
+        "usedAt": 1776063716824,
         "industryId": "all"
       },
       {
@@ -31,5 +31,5 @@
       }
     ]
   },
-  "lastUpdated": 1776063140171
+  "lastUpdated": 1776073245459
 }

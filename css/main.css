@@ -67,6 +67,9 @@
   --tag-legalism:        #ef4444;
   --tag-neo-confucianism:#f97316;
   --tag-cosmology:       #8b5cf6;
+  --tag-buddhism:        #ec4899;
+  --tag-education:       #14b8a6;
+  --tag-history:         #78716c;
 }
 
 [data-theme="light"] {
@@ -773,7 +776,7 @@ body:has(.lang-btn[data-lang="zh"].active) .title-main {
   fill: none;
   stroke-width: 1.5;
   stroke-linecap: round;
-  opacity: 0.25;
+  opacity: 0.15;
   transition: opacity 0.2s ease, stroke-width 0.2s ease;
   cursor: pointer;
   pointer-events: stroke;
@@ -975,6 +978,9 @@ body:has(.lang-btn[data-lang="zh"].active) .title-main {
 .tag-legalism        { background: rgba(239,68,68,0.15);   color: var(--tag-legalism); border-color: rgba(239,68,68,0.3); }
 .tag-neo-confucianism{ background: rgba(249,115,22,0.15);  color: var(--tag-neo-confucianism); border-color: rgba(249,115,22,0.3); }
 .tag-cosmology       { background: rgba(139,92,246,0.15);  color: var(--tag-cosmology); border-color: rgba(139,92,246,0.3); }
+.tag-buddhism        { background: rgba(236,72,153,0.15);  color: var(--tag-buddhism); border-color: rgba(236,72,153,0.3); }
+.tag-education       { background: rgba(20,184,166,0.15);  color: var(--tag-education); border-color: rgba(20,184,166,0.3); }
+.tag-history         { background: rgba(120,113,108,0.15); color: var(--tag-history); border-color: rgba(120,113,108,0.3); }
 
 /* Chinese philosophy filter dots */
 .filter-dot.confucianism     { background: var(--tag-confucianism); }
@@ -983,6 +989,9 @@ body:has(.lang-btn[data-lang="zh"].active) .title-main {
 .filter-dot.legalism         { background: var(--tag-legalism); }
 .filter-dot.neo-confucianism { background: var(--tag-neo-confucianism); }
 .filter-dot.cosmology        { background: var(--tag-cosmology); }
+.filter-dot.buddhism         { background: var(--tag-buddhism); }
+.filter-dot.education        { background: var(--tag-education); }
+.filter-dot.history          { background: var(--tag-history); }
 
 /* Chinese philosophy idea dots */
 .idea-dot.Confucianism     { background: var(--tag-confucianism); }
@@ -991,6 +1000,9 @@ body:has(.lang-btn[data-lang="zh"].active) .title-main {
 .idea-dot.Legalism         { background: var(--tag-legalism); }
 .idea-dot.Neo-Confucianism { background: var(--tag-neo-confucianism); }
 .idea-dot.Cosmology        { background: var(--tag-cosmology); }
+.idea-dot.Buddhism         { background: var(--tag-buddhism); }
+.idea-dot.Education        { background: var(--tag-education); }
+.idea-dot.History          { background: var(--tag-history); }
 
 /* Responsive: hide switcher labels on small screens */
 @media (max-width: 768px) {

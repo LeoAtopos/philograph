@@ -19,7 +19,8 @@ const ThemeController = (() => {
       'Religion': 'religion', 'Mind': 'mind', 'Language': 'language', 'Science': 'science',
       'Metaphilosophy': 'metaphilosophy',
       'Confucianism': 'confucianism', 'Taoism': 'taoism', 'Mohism': 'mohism',
-      'Legalism': 'legalism', 'Neo-Confucianism': 'neo-confucianism', 'Cosmology': 'cosmology'
+      'Legalism': 'legalism', 'Neo-Confucianism': 'neo-confucianism', 'Cosmology': 'cosmology',
+      'Buddhism': 'buddhism', 'Education': 'education', 'History': 'history'
     };
 
     for (const tag of tags) {

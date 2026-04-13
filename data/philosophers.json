@@ -1,17 +1,156 @@
 [
   {
+    "id": "heraclitus",
+    "name": "Heraclitus",
+    "born": -535,
+    "died": -475,
+    "era": "Ancient",
+    "portrait": "data/portraits/heraclitus.jpg",
+    "tags": [
+      "Metaphysics",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "hr1",
+        "text": "Everything flows (panta rhei): 'You cannot step into the same river twice' — universal flux",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hr2",
+        "text": "Fire is the primordial element and the symbol of constant transformation in nature",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hr3",
+        "text": "The Logos is the rational principle governing the cosmos, accessible to reason but ignored by most",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hr4",
+        "text": "Opposites are united: 'The path up and down is one and the same' — unity of contraries",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hr5",
+        "text": "Strife (polemos) is the father of all things — conflict drives cosmic order and change",
+        "tags": [
+          "Metaphysics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "parmenides",
+    "name": "Parmenides",
+    "born": -515,
+    "died": -450,
+    "era": "Ancient",
+    "portrait": "data/portraits/parmenides.jpg",
+    "tags": [
+      "Metaphysics",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "pm1",
+        "text": "Being is; non-being is not — genuine change and plurality are impossible illusions",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pm2",
+        "text": "What is, is eternal, ungenerated, imperishable, indivisible, and complete — one and continuous",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pm3",
+        "text": "The Way of Truth (reason) vs. the Way of Opinion (sense perception) — only reason grasps reality",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pm4",
+        "text": "Zeno's paradoxes defend Parmenides by showing that assuming plurality leads to contradictions",
+        "tags": [
+          "Logic",
+          "Metaphysics"
+        ]
+      }
+    ]
+  },
+  {
     "id": "socrates",
     "name": "Socrates",
     "born": -470,
     "died": -399,
     "era": "Ancient",
     "portrait": "data/portraits/socrates.jpg",
-    "tags": ["Ethics", "Epistemology", "Metaphilosophy"],
+    "tags": [
+      "Ethics",
+      "Epistemology",
+      "Metaphilosophy"
+    ],
     "ideas": [
-      { "id": "sc1", "text": "Knowledge is virtue; ignorance is the source of evil", "tags": ["Ethics", "Epistemology"] },
-      { "id": "sc2", "text": "The unexamined life is not worth living", "tags": ["Metaphilosophy", "Ethics"] },
-      { "id": "sc3", "text": "True knowledge comes from recognizing one's own ignorance", "tags": ["Epistemology"] },
-      { "id": "sc4", "text": "The soul is immortal and distinct from the body", "tags": ["Metaphysics"] }
+      {
+        "id": "sc1",
+        "text": "Knowledge is virtue; ignorance is the source of evil — to know the good is to do it",
+        "tags": [
+          "Ethics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "sc2",
+        "text": "The unexamined life is not worth living — philosophy as a way of life, not merely theory",
+        "tags": [
+          "Metaphilosophy",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sc3",
+        "text": "True knowledge comes from recognizing one's own ignorance — Socratic intellectual humility",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "sc4",
+        "text": "The soul is immortal and distinct from the body; care of the soul is paramount",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "sc5",
+        "text": "The elenchus (Socratic method): knowledge emerges through dialectical questioning, not dogma",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "sc6",
+        "text": "No one does evil willingly — wrongdoing stems from ignorance of what is truly good",
+        "tags": [
+          "Ethics"
+        ]
+      }
     ]
   },
   {
@@ -21,13 +160,108 @@
     "died": -348,
     "era": "Ancient",
     "portrait": "data/portraits/plato.png",
-    "tags": ["Metaphysics", "Epistemology", "Ethics", "Political"],
+    "tags": [
+      "Metaphysics",
+      "Epistemology",
+      "Ethics",
+      "Political"
+    ],
     "ideas": [
-      { "id": "pl1", "text": "The Theory of Forms: true reality consists of eternal, abstract Forms", "tags": ["Metaphysics", "Epistemology"] },
-      { "id": "pl2", "text": "Knowledge is recollection of what the soul knew before birth", "tags": ["Epistemology", "Metaphysics"] },
-      { "id": "pl3", "text": "The ideal state is ruled by philosopher-kings", "tags": ["Political"] },
-      { "id": "pl4", "text": "The soul has three parts: reason, spirit, and appetite", "tags": ["Metaphysics", "Ethics"] },
-      { "id": "pl5", "text": "Justice is harmony between the parts of the soul and state", "tags": ["Ethics", "Political"] }
+      {
+        "id": "pl1",
+        "text": "The Theory of Forms: true reality consists of eternal, abstract, perfect Forms (eidos)",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "pl2",
+        "text": "Knowledge is recollection (anamnesis) of what the soul knew before birth in the realm of Forms",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pl3",
+        "text": "The ideal state is ruled by philosopher-kings who have knowledge of the Good itself",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "pl4",
+        "text": "The soul has three parts: reason (logos), spirit (thymos), and appetite (epithymia)",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "pl5",
+        "text": "Justice is harmony between the parts of the soul and the classes of the state",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "pl6",
+        "text": "The Allegory of the Cave: most humans see only shadows; philosophy liberates us into true light",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pl7",
+        "text": "The Form of the Good illuminates all other Forms like the sun illuminates visible things",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "pl8",
+        "text": "Eros (love) is the soul's desire to ascend from beautiful bodies to Beauty itself",
+        "tags": [
+          "Ethics",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "pl9",
+        "text": "Poets and artists produce imitations of imitations — twice removed from truth",
+        "tags": [
+          "Aesthetics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "pl10",
+        "text": "The Demiurge fashioned the cosmos from pre-existing matter using the Forms as a model",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "pl11",
+        "text": "The divided line: reality has four levels — images, physical things, mathematical objects, Forms",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "pl12",
+        "text": "Laws should be based on reason and aim at the common good of the whole community",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
     ]
   },
   {
@@ -37,14 +271,111 @@
     "died": -322,
     "era": "Ancient",
     "portrait": "data/portraits/aristotle.jpg",
-    "tags": ["Metaphysics", "Logic", "Ethics", "Politics", "Science"],
+    "tags": [
+      "Metaphysics",
+      "Logic",
+      "Ethics",
+      "Politics",
+      "Science"
+    ],
     "ideas": [
-      { "id": "ar1", "text": "Form and matter are inseparable; universals exist in particular things", "tags": ["Metaphysics"] },
-      { "id": "ar2", "text": "Knowledge comes through sensory experience and induction", "tags": ["Epistemology"] },
-      { "id": "ar3", "text": "Eudaimonia (flourishing) is the highest good, achieved through virtue", "tags": ["Ethics"] },
-      { "id": "ar4", "text": "Virtue is a mean between excess and deficiency", "tags": ["Ethics"] },
-      { "id": "ar5", "text": "Man is by nature a political animal", "tags": ["Political"] },
-      { "id": "ar6", "text": "Logic is the tool of all sciences; syllogistic reasoning", "tags": ["Logic"] }
+      {
+        "id": "ar1",
+        "text": "Form and matter (hylemorphism) are inseparable; universals exist only in particular things",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "ar2",
+        "text": "Knowledge begins with sensory experience; abstraction yields universal principles through induction",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ar3",
+        "text": "Eudaimonia (flourishing) is the highest human good, achieved through virtuous activity",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ar4",
+        "text": "Virtue (arete) is a mean between excess and deficiency — discovered by practical wisdom (phronesis)",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ar5",
+        "text": "Man is by nature a political animal (zoon politikon) — the polis exists by nature",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "ar6",
+        "text": "Logic is the instrument (organon) of all sciences; syllogistic reasoning is the foundation of valid inference",
+        "tags": [
+          "Logic"
+        ]
+      },
+      {
+        "id": "ar7",
+        "text": "Four causes explain change: material, formal, efficient, and final (teleological)",
+        "tags": [
+          "Metaphysics",
+          "Science"
+        ]
+      },
+      {
+        "id": "ar8",
+        "text": "The unmoved mover (God) is pure actuality — the final cause that moves all things without being moved",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "ar9",
+        "text": "Potentiality and actuality underlie all change and motion in nature",
+        "tags": [
+          "Metaphysics",
+          "Science"
+        ]
+      },
+      {
+        "id": "ar10",
+        "text": "The best constitution mixes elements of monarchy, aristocracy, and democracy — polity",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "ar11",
+        "text": "Tragedy achieves catharsis (purification) through pity and fear — art's ethical function",
+        "tags": [
+          "Aesthetics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ar12",
+        "text": "Friendship (philia) is essential to happiness and the binding force of communities",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "ar13",
+        "text": "Natural slavery argument: some are by nature rulers, others by nature ruled (controversial)",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
     ]
   },
   {
@@ -54,12 +385,40 @@
     "died": -270,
     "era": "Ancient",
     "portrait": "data/portraits/epicurus.jpg",
-    "tags": ["Ethics", "Metaphysics"],
+    "tags": [
+      "Ethics",
+      "Metaphysics"
+    ],
     "ideas": [
-      { "id": "ep1", "text": "Pleasure (ataraxia) is the highest good and goal of life", "tags": ["Ethics"] },
-      { "id": "ep2", "text": "The gods do not intervene in human affairs", "tags": ["Religion"] },
-      { "id": "ep3", "text": "Death is nothing to us; when we exist, death is absent", "tags": ["Ethics", "Metaphysics"] },
-      { "id": "ep4", "text": "Reality consists of atoms and void", "tags": ["Metaphysics"] }
+      {
+        "id": "ep1",
+        "text": "Pleasure (ataraxia, freedom from disturbance) is the highest good and natural goal of life",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ep2",
+        "text": "The gods exist in perfect bliss but do not intervene in human affairs or cause events",
+        "tags": [
+          "Religion"
+        ]
+      },
+      {
+        "id": "ep3",
+        "text": "Death is nothing to us: when we exist, death is absent; when death exists, we do not",
+        "tags": [
+          "Ethics",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "ep4",
+        "text": "Reality consists of atoms and void swerving unpredictably (clinamen) — basis of free will",
+        "tags": [
+          "Metaphysics"
+        ]
+      }
     ]
   },
   {
@@ -69,11 +428,78 @@
     "died": 180,
     "era": "Ancient",
     "portrait": "data/portraits/aurelius.jpg",
-    "tags": ["Ethics", "Metaphysics"],
+    "tags": [
+      "Ethics",
+      "Metaphysics"
+    ],
     "ideas": [
-      { "id": "au1", "text": "Live according to nature and reason; virtue is the only good", "tags": ["Ethics"] },
-      { "id": "au2", "text": "We are all citizens of a universal community bound by reason", "tags": ["Political", "Ethics"] },
-      { "id": "au3", "text": "External things cannot harm the inner self; only our judgments do", "tags": ["Ethics"] }
+      {
+        "id": "au1",
+        "text": "Live according to nature and reason (logos); virtue is the only genuine good",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "au2",
+        "text": "We are all citizens of a cosmopolis — a universal community bound by shared reason",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "au3",
+        "text": "External things cannot harm the inner self; only our judgments about them can disturb us",
+        "tags": [
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "plotinus",
+    "name": "Plotinus",
+    "born": 204,
+    "died": 270,
+    "era": "Ancient",
+    "portrait": "data/portraits/plotinus.jpg",
+    "tags": [
+      "Metaphysics",
+      "Religion"
+    ],
+    "ideas": [
+      {
+        "id": "pt1",
+        "text": "The One (the Good) is the first principle beyond being, thought, and intelligibility — utterly simple",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "pt2",
+        "text": "Emanation: from the One proceeds Intellect (Nous), then Soul, then the material world",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "pt3",
+        "text": "The soul's return: through contemplative ascent, we can reunite with the One in mystical ecstasy",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "pt4",
+        "text": "Matter is the lowest degree of reality — the principle of privation and darkness",
+        "tags": [
+          "Metaphysics"
+        ]
+      }
     ]
   },
   {
@@ -83,12 +509,59 @@
     "died": 430,
     "era": "Medieval",
     "portrait": "data/portraits/augustine.jpg",
-    "tags": ["Religion", "Metaphysics", "Ethics"],
+    "tags": [
+      "Religion",
+      "Metaphysics",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "ag1", "text": "God is the source of all truth; illumination of the mind by God", "tags": ["Religion", "Epistemology"] },
-      { "id": "ag2", "text": "Evil is the privation of good, not a substance in itself", "tags": ["Ethics", "Religion"] },
-      { "id": "ag3", "text": "Free will exists but is corrupted by original sin", "tags": ["Ethics", "Religion"] },
-      { "id": "ag4", "text": "Time exists only in the mind, not objectively", "tags": ["Metaphysics"] }
+      {
+        "id": "ag1",
+        "text": "God is the source of all truth; divine illumination makes knowledge possible for the mind",
+        "tags": [
+          "Religion",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ag2",
+        "text": "Evil is the privation (absence) of good, not a substance or independent force",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "ag3",
+        "text": "Free will exists and is necessary for moral responsibility, though corrupted by original sin",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "ag4",
+        "text": "Time exists only in the mind as distension (distentio); God exists outside time in eternal present",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "ag5",
+        "text": "The heart is restless until it rests in God — human fulfillment lies only in divine love",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "ag6",
+        "text": "Just war criteria: war must have just cause, legitimate authority, and right intention",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
     ]
   },
   {
@@ -98,12 +571,152 @@
     "died": 1274,
     "era": "Medieval",
     "portrait": "data/portraits/aquinas.jpg",
-    "tags": ["Religion", "Metaphysics", "Ethics"],
+    "tags": [
+      "Religion",
+      "Metaphysics",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "aq1", "text": "Faith and reason are complementary paths to truth", "tags": ["Religion", "Epistemology"] },
-      { "id": "aq2", "text": "Five Ways: cosmological arguments for God's existence", "tags": ["Religion", "Metaphysics"] },
-      { "id": "aq3", "text": "Natural law is grounded in divine reason and accessible to all", "tags": ["Ethics", "Political"] },
-      { "id": "aq4", "text": "Being is the fundamental concept; essence and existence are distinct", "tags": ["Metaphysics"] }
+      {
+        "id": "aq1",
+        "text": "Faith and reason are complementary paths to truth — grace does not destroy nature but perfects it",
+        "tags": [
+          "Religion",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "aq2",
+        "text": "Five Ways (Quinque Viae): cosmological arguments demonstrating God's existence from motion, causation, contingency, gradation, and design",
+        "tags": [
+          "Religion",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "aq3",
+        "text": "Natural law is grounded in divine reason and accessible to all through rational reflection",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "aq4",
+        "text": "Essence and existence are really distinct in creatures — God alone is ipsum esse subsistens",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "aq5",
+        "text": "Analogy of being: predicates applied to God and creatures are neither univocal nor equivocal but analogical",
+        "tags": [
+          "Metaphysics",
+          "Language"
+        ]
+      },
+      {
+        "id": "aq6",
+        "text": "The cardinal virtues (prudence, justice, fortitude, temperance) are perfected by theological virtues (faith, hope, charity)",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ockham",
+    "name": "William of Ockham",
+    "born": 1285,
+    "died": 1349,
+    "era": "Medieval",
+    "portrait": "data/portraits/ockham.png",
+    "tags": [
+      "Logic",
+      "Epistemology",
+      "Metaphysics"
+    ],
+    "ideas": [
+      {
+        "id": "ok1",
+        "text": "Ockham's Razor: do not multiply entities beyond necessity — simpler explanations are preferred",
+        "tags": [
+          "Logic",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ok2",
+        "text": "Nominalism: universals are names (flatus vocis), not real entities existing independently",
+        "tags": [
+          "Metaphysics",
+          "Language"
+        ]
+      },
+      {
+        "id": "ok3",
+        "text": "Only individuals exist; all categories are mental constructs for organizing experience",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ok4",
+        "text": "Faith and reason are separate domains — theological truths cannot be proven by reason alone",
+        "tags": [
+          "Religion",
+          "Epistemology"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "hobbes",
+    "name": "Thomas Hobbes",
+    "born": 1588,
+    "died": 1679,
+    "era": "Early Modern",
+    "portrait": "data/portraits/hobbes.jpg",
+    "tags": [
+      "Political",
+      "Metaphysics",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "hb1",
+        "text": "The state of nature is a war of all against all — life is 'solitary, poor, nasty, brutish, and short'",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "hb2",
+        "text": "Social contract: individuals surrender rights to a sovereign (Leviathan) in exchange for security",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "hb3",
+        "text": "Materialism: everything that exists is body in motion; mind is nothing but brain processes",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "hb4",
+        "text": "Psychological egoism: all human actions are ultimately motivated by self-interest and fear of death",
+        "tags": [
+          "Ethics",
+          "Mind"
+        ]
+      }
     ]
   },
   {
@@ -113,12 +726,122 @@
     "died": 1650,
     "era": "Early Modern",
     "portrait": "data/portraits/descartes.jpg",
-    "tags": ["Epistemology", "Metaphysics"],
+    "tags": [
+      "Epistemology",
+      "Metaphysics"
+    ],
     "ideas": [
-      { "id": "dc1", "text": "Cogito ergo sum: 'I think, therefore I am' — the foundation of certainty", "tags": ["Epistemology", "Metaphysics"] },
-      { "id": "dc2", "text": "Mind-body dualism: mind and body are distinct substances", "tags": ["Metaphysics", "Mind"] },
-      { "id": "dc3", "text": "Clear and distinct ideas perceived by reason are true", "tags": ["Epistemology"] },
-      { "id": "dc4", "text": "The ontological argument: God's essence entails existence", "tags": ["Religion", "Metaphysics"] }
+      {
+        "id": "dc1",
+        "text": "Cogito ergo sum: 'I think, therefore I am' — the indubitable foundation of all knowledge",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "dc2",
+        "text": "Mind-body dualism: mind (res cogitans) and body (res extensa) are two distinct substances",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "dc3",
+        "text": "Clear and distinct ideas perceived by natural light of reason are guaranteed true by a non-deceiving God",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "dc4",
+        "text": "Ontological argument: God's essence necessarily entails existence — the supremely perfect being must exist",
+        "tags": [
+          "Religion",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "dc5",
+        "text": "Methodic doubt: doubt everything possible to find what cannot be doubted — foundationalism",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "dc6",
+        "text": "Animals are automata — they lack rational souls and thus consciousness",
+        "tags": [
+          "Mind",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "dc7",
+        "text": "The pineal gland is the point of interaction between immaterial mind and material body",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "dc8",
+        "text": "Primary qualities (extension, shape, motion) are objective; secondary qualities (color, taste) depend on perceivers",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 8 ideas"
+  },
+  {
+    "id": "pascal",
+    "name": "Blaise Pascal",
+    "born": 1623,
+    "died": 1662,
+    "era": "Early Modern",
+    "portrait": "data/portraits/pascal.jpg",
+    "tags": [
+      "Religion",
+      "Ethics",
+      "Philosophy of Science"
+    ],
+    "ideas": [
+      {
+        "id": "ps1",
+        "text": "Pascal's Wager: believing in God is pragmatically rational since infinite gain outweighs finite loss",
+        "tags": [
+          "Religion",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ps2",
+        "text": "The heart has its reasons which reason knows not — intuitive understanding exceeds logic",
+        "tags": [
+          "Epistemology",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ps3",
+        "text": "Human condition: we are between the infinitely large and small — wretched yet capable of greatness",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ps4",
+        "text": "The order of heart vs. the order of reason: different domains require different methods",
+        "tags": [
+          "Metaphilosophy",
+          "Epistemology"
+        ]
+      }
     ]
   },
   {
@@ -128,13 +851,69 @@
     "died": 1677,
     "era": "Early Modern",
     "portrait": "data/portraits/spinoza.jpg",
-    "tags": ["Metaphysics", "Ethics", "Political"],
+    "tags": [
+      "Metaphysics",
+      "Ethics",
+      "Political"
+    ],
     "ideas": [
-      { "id": "sp1", "text": "God and Nature are identical; there is only one substance (pantheism)", "tags": ["Metaphysics", "Religion"] },
-      { "id": "sp2", "text": "Mind and body are two aspects of the same substance", "tags": ["Metaphysics", "Mind"] },
-      { "id": "sp3", "text": "Freedom is acting in accordance with one's own nature and reason", "tags": ["Ethics", "Political"] },
-      { "id": "sp4", "text": "Adequate ideas (rational knowledge) lead to freedom and blessedness", "tags": ["Epistemology", "Ethics"] }
-    ]
+      {
+        "id": "sp1",
+        "text": "God or Nature (Deus sive Natura) — only one substance exists; pantheistic monism",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "sp2",
+        "text": "Mind and body are two attributes of the same substance — parallelism without causal interaction",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "sp3",
+        "text": "Freedom is acting in accordance with one's own nature and necessity — understanding leads to blessedness",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sp4",
+        "text": "Adequate ideas (rational understanding) free us from passive emotions and external determination",
+        "tags": [
+          "Epistemology",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sp5",
+        "text": "Intellectual love of God (amor Dei intellectualis) — the highest human happiness through intuitive knowledge",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "sp6",
+        "text": "Emotions arise from inadequate ideas; understanding their causes allows mastery over them",
+        "tags": [
+          "Ethics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "sp7",
+        "text": "Democracy is the most natural form of government — it expresses individual freedom within collective reason",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 7 ideas"
   },
   {
     "id": "locke",
@@ -143,13 +922,59 @@
     "died": 1704,
     "era": "Early Modern",
     "portrait": "data/portraits/locke.jpg",
-    "tags": ["Epistemology", "Political"],
+    "tags": [
+      "Epistemology",
+      "Political"
+    ],
     "ideas": [
-      { "id": "lk1", "text": "The mind is a tabula rasa; all knowledge comes from experience", "tags": ["Epistemology"] },
-      { "id": "lk2", "text": "People have natural rights: life, liberty, and property", "tags": ["Political", "Ethics"] },
-      { "id": "lk3", "text": "Government authority is derived from the consent of the governed", "tags": ["Political"] },
-      { "id": "lk4", "text": "Primary qualities (shape, motion) are in objects; secondary qualities (color, taste) are in perceivers", "tags": ["Epistemology", "Metaphysics"] }
-    ]
+      {
+        "id": "lk1",
+        "text": "The mind is a tabula rasa (blank slate) at birth — all knowledge originates in experience",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "lk2",
+        "text": "Natural rights: every person has inherent rights to life, liberty, and property",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "lk3",
+        "text": "Government legitimacy rests on the consent of the governed — right of revolution against tyranny",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "lk4",
+        "text": "Primary qualities (shape, solidity, motion) inhere in objects; secondary qualities (color, taste) depend on perception",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "lk5",
+        "text": "Personal identity consists in psychological continuity of consciousness over time",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "lk6",
+        "text": "Toleration: the state has no authority over the inner religious beliefs of its citizens",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 6 ideas"
   },
   {
     "id": "leibniz",
@@ -158,12 +983,148 @@
     "died": 1716,
     "era": "Early Modern",
     "portrait": "data/portraits/leibniz.jpg",
-    "tags": ["Metaphysics", "Logic", "Epistemology"],
+    "tags": [
+      "Metaphysics",
+      "Logic",
+      "Epistemology"
+    ],
     "ideas": [
-      { "id": "lb1", "text": "Reality consists of monads: simple, indivisible, spiritual substances", "tags": ["Metaphysics"] },
-      { "id": "lb2", "text": "This is the best of all possible worlds; God chose the world with maximum perfection", "tags": ["Metaphysics", "Religion"] },
-      { "id": "lb3", "text": "Pre-established harmony: mind and body do not interact but are synchronized by God", "tags": ["Metaphysics", "Mind"] },
-      { "id": "lb4", "text": "Innate ideas: the mind is not blank but contains truths from reason", "tags": ["Epistemology"] }
+      {
+        "id": "lb1",
+        "text": "Monads: reality consists of infinitely many simple, indivisible, windowless spiritual substances",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "lb2",
+        "text": "This is the best of all possible worlds — God chose it among infinities for maximum variety and harmony",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "lb3",
+        "text": "Pre-established harmony: monads do not causally interact but are synchronized by God at creation",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "lb4",
+        "text": "Innate ideas: the mind contains truths and tendencies from reason, not blank like a tablet",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "lb5",
+        "text": "Identity of indiscernibles: no two things can share exactly the same properties",
+        "tags": [
+          "Metaphysics",
+          "Logic"
+        ]
+      },
+      {
+        "id": "lb6",
+        "text": "Sufficient reason: nothing happens without a reason why it should be so rather than otherwise",
+        "tags": [
+          "Metaphysics",
+          "Logic"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 6 ideas"
+  },
+  {
+    "id": "berkeley",
+    "name": "George Berkeley",
+    "born": 1685,
+    "died": 1753,
+    "era": "Early Modern",
+    "portrait": "data/portraits/berkeley.jpg",
+    "tags": [
+      "Metaphysics",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "bk1",
+        "text": "'Esse est percipi': to be is to be perceived — objects consist entirely of perceptions",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "bk2",
+        "text": "Matter does not exist independently — only minds and their ideas (immaterialism/subjective idealism)",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "bk3",
+        "text": "God perceives all things continuously — this guarantees objective existence when no finite mind observes",
+        "tags": [
+          "Metaphysics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "bk4",
+        "text": "Abstract general ideas are impossible — we only ever perceive particular, concrete instances",
+        "tags": [
+          "Epistemology",
+          "Language"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "montesquieu",
+    "name": "Montesquieu",
+    "born": 1689,
+    "died": 1755,
+    "era": "Enlightenment",
+    "portrait": "data/portraits/montesquieu.jpg",
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "mq1",
+        "text": "Separation of powers (executive, legislative, judicial) is essential to prevent tyranny",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "mq2",
+        "text": "Laws must be adapted to the people, climate, and customs of each nation — legal relativism",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "mq3",
+        "text": "Despotism is ruled by fear; monarchy by honor; republic by virtue",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "mq4",
+        "text": "Commerce promotes peace and tolerance between nations",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
     ]
   },
   {
@@ -173,14 +1134,76 @@
     "died": 1776,
     "era": "Enlightenment",
     "portrait": "data/portraits/hume.jpg",
-    "tags": ["Epistemology", "Ethics", "Metaphysics"],
+    "tags": [
+      "Epistemology",
+      "Ethics",
+      "Metaphysics"
+    ],
     "ideas": [
-      { "id": "hm1", "text": "All knowledge derives from impressions and ideas; nothing comes from pure reason", "tags": ["Epistemology"] },
-      { "id": "hm2", "text": "Causation is a habit of the mind, not a necessary connection in nature", "tags": ["Epistemology", "Metaphysics"] },
-      { "id": "hm3", "text": "The self is a bundle of perceptions, not a unified substance", "tags": ["Metaphysics", "Mind"] },
-      { "id": "hm4", "text": "Moral judgments are based on sentiment, not reason", "tags": ["Ethics"] },
-      { "id": "hm5", "text": "Induction cannot be rationally justified (the problem of induction)", "tags": ["Epistemology", "Science"] }
-    ]
+      {
+        "id": "hm1",
+        "text": "All knowledge derives from impressions (vivid sensations) and ideas (faint copies) — radical empiricism",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hm2",
+        "text": "Causation is a habit of the mind formed by constant conjunction, not necessary connection in nature",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hm3",
+        "text": "The self is a bundle of perceptions — there is no underlying substantial self behind experience",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "hm4",
+        "text": "Moral judgments express sentiment (passions), not reason — reason is the slave of the passions",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "hm5",
+        "text": "The problem of induction: no rational justification exists for inferring the future from the past",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "hm6",
+        "text": "Miracles are inherently improbable — testimony cannot overcome the weight of uniform experience",
+        "tags": [
+          "Religion",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hm7",
+        "text": "Is-ought gap: one cannot derive normative ('ought') statements purely from descriptive ('is') statements",
+        "tags": [
+          "Ethics",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "hm8",
+        "text": "Free will and determinism are compatible (compatibilism) — liberty is acting according to one's desires",
+        "tags": [
+          "Ethics",
+          "Mind"
+        ]
+      }
+    ],
+    "notes": "Expanded from 5 to 8 ideas"
   },
   {
     "id": "rousseau",
@@ -189,12 +1212,59 @@
     "died": 1778,
     "era": "Enlightenment",
     "portrait": "data/portraits/rousseau.jpg",
-    "tags": ["Political", "Ethics"],
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "ro1", "text": "Man is naturally good; society and civilization corrupt him", "tags": ["Ethics", "Political"] },
-      { "id": "ro2", "text": "The Social Contract: legitimate authority requires the general will", "tags": ["Political"] },
-      { "id": "ro3", "text": "Natural inequality is acceptable; social inequality of power is not", "tags": ["Political", "Ethics"] }
-    ]
+      {
+        "id": "ro1",
+        "text": "Man is naturally good (bon sauvage); society, private property, and civilization corrupt him",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "ro2",
+        "text": "The Social Contract: legitimate political authority arises from the general will (volonté générale) of the people",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "ro3",
+        "text": "Natural inequality is acceptable; social inequality of power and wealth is artificial and unjust",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ro4",
+        "text": "Private property is the origin of civil society and also of inequality and conflict",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ro5",
+        "text": "General will aims at the common good; it differs from the will of all (sum of private interests)",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "ro6",
+        "text": "Education should follow nature's pace — nurture innate goodness rather than impose conformity",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      }
+    ],
+    "notes": "Expanded from 3 to 6 ideas"
   },
   {
     "id": "kant",
@@ -203,14 +1273,112 @@
     "died": 1804,
     "era": "Enlightenment",
     "portrait": "data/portraits/kant.jpg",
-    "tags": ["Epistemology", "Ethics", "Metaphysics"],
+    "tags": [
+      "Epistemology",
+      "Ethics",
+      "Metaphysics"
+    ],
     "ideas": [
-      { "id": "kt1", "text": "The mind actively structures experience; space, time, and categories are a priori", "tags": ["Epistemology", "Metaphysics"] },
-      { "id": "kt2", "text": "Things-in-themselves (noumena) are unknowable; we only know phenomena", "tags": ["Epistemology", "Metaphysics"] },
-      { "id": "kt3", "text": "The Categorical Imperative: act only according to maxims you could will to be universal laws", "tags": ["Ethics"] },
-      { "id": "kt4", "text": "Moral worth comes from acting from duty, not inclination or consequences", "tags": ["Ethics"] },
-      { "id": "kt5", "text": "Humans are ends in themselves, never merely means", "tags": ["Ethics"] }
-    ]
+      {
+        "id": "kt1",
+        "text": "Copernican revolution: the mind actively structures experience — space, time, and categories are a priori forms",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "kt2",
+        "text": "Phenomena (things as they appear) vs. noumena (things-in-themselves) — we know only appearances",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "kt3",
+        "text": "Categorical Imperative: act only according to maxims you could will as universal laws",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kt4",
+        "text": "Moral worth depends solely on acting from duty (good will), never on inclination or consequences",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kt5",
+        "text": "Humanity formula: treat humanity (yourself and others) always as an end, never merely as means",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kt6",
+        "text": "Autonomy of the will: moral law is self-legislation by rational beings — true freedom is obedience to reason",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kt7",
+        "text": "Kingdom of ends: a systematic union of rational beings through common moral laws",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "kt8",
+        "text": "The sublime: aesthetic experience of overwhelming magnitude (mathematical) or power (dynamic) that exceeds comprehension",
+        "tags": [
+          "Aesthetics"
+        ]
+      },
+      {
+        "id": "kt9",
+        "text": "Perpetual peace: republics with democratic constitutions tend toward peace — foundations of liberal internationalism",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "kt10",
+        "text": "Antinomies of pure reason: reason inevitably produces contradictory conclusions about the cosmos, freedom, and God",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "kt11",
+        "text": "Enlightenment motto: 'Sapere aude!' — dare to think for yourself, emerge from self-imposed immaturity",
+        "tags": [
+          "Metaphilosophy",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kt12",
+        "text": "Teleological judgment: we must regard organisms as if designed by purpose, though this remains regulative not constitutive",
+        "tags": [
+          "Science",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "kt13",
+        "text": "Postulates of practical practical reason: God, freedom, and immortality are necessary presuppositions of morality",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      }
+    ],
+    "notes": "Expanded from 5 to 13 ideas"
   },
   {
     "id": "hegel",
@@ -219,27 +1387,138 @@
     "died": 1831,
     "era": "German Idealism",
     "portrait": "data/portraits/hegel.jpg",
-    "tags": ["Metaphysics", "Political", "Epistemology"],
+    "tags": [
+      "Metaphysics",
+      "Political",
+      "Epistemology"
+    ],
     "ideas": [
-      { "id": "hg1", "text": "Reality is the unfolding of Absolute Spirit (Geist) through dialectical process", "tags": ["Metaphysics"] },
-      { "id": "hg2", "text": "Dialectic: thesis → antithesis → synthesis is the logic of reality and history", "tags": ["Metaphysics", "Epistemology"] },
-      { "id": "hg3", "text": "Freedom is realized through ethical life (family, civil society, state)", "tags": ["Political", "Ethics"] },
-      { "id": "hg4", "text": "Self-consciousness requires recognition by another consciousness", "tags": ["Mind", "Metaphysics"] }
-    ]
+      {
+        "id": "hg1",
+        "text": "Absolute Spirit (Geist) unfolds itself through history — reality is dynamic, rational process",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hg2",
+        "text": "Dialectic: every concept contains its own negation; thesis-antithesis-synthesis drives all development",
+        "tags": [
+          "Metaphysics",
+          "Logic"
+        ]
+      },
+      {
+        "id": "hg3",
+        "text": "Freedom is realized through ethical life (Sittlichkeit): family, civil society, and constitutional state",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "hg4",
+        "text": "Master-slave dialectic: self-consciousness requires recognition by another — struggle for recognition shapes history",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hg5",
+        "text": "'What is rational is actual, and what is actual is rational' — philosophy understands what already is",
+        "tags": [
+          "Metaphysics",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "hg6",
+        "text": "World-historical individuals (Napoleon etc.) advance Spirit's development through their unconscious passions",
+        "tags": [
+          "Political",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hg7",
+        "text": "Art, religion, and philosophy are three modes of Absolute Spirit's self-understanding — philosophy is highest",
+        "tags": [
+          "Aesthetics",
+          "Religion",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "hg8",
+        "text": "The cunning of reason: individuals pursue private ends but unintentionally realize reason's larger plan",
+        "tags": [
+          "Metaphysics",
+          "Political"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 8 ideas"
   },
   {
-    "id": "marx",
-    "name": "Karl Marx",
-    "born": 1818,
-    "died": 1883,
+    "id": "schopenhauer",
+    "name": "Arthur Schopenhauer",
+    "born": 1788,
+    "died": 1860,
     "era": "19th Century",
-    "portrait": "data/portraits/marx.png",
-    "tags": ["Political", "Ethics"],
+    "portrait": "data/portraits/schopenhauer.jpg",
+    "tags": [
+      "Metaphysics",
+      "Ethics",
+      "Aesthetics"
+    ],
     "ideas": [
-      { "id": "mx1", "text": "History is driven by class struggle and material (economic) forces", "tags": ["Political"] },
-      { "id": "mx2", "text": "Capitalism alienates workers from their labor and their humanity", "tags": ["Political", "Ethics"] },
-      { "id": "mx3", "text": "Ideology is the superstructure that legitimizes the economic base", "tags": ["Political"] },
-      { "id": "mx4", "text": "The goal is a classless communist society where each contributes and receives freely", "tags": ["Political", "Ethics"] }
+      {
+        "id": "sh1",
+        "text": "The World as Will and Representation: the noumenal reality is blind, striving Will; phenomenal reality is Representation",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "sh2",
+        "text": "Will-to-live is the fundamental drive behind all existence — the source of endless suffering",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sh3",
+        "text": "Aesthetic contemplation (especially music) offers temporary escape from the tyranny of the Will",
+        "tags": [
+          "Aesthetics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sh4",
+        "text": "Compassion (Mitleid) is the basis of ethics — recognizing the same suffering Will in others",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sh5",
+        "text": "Denial of the Will through asceticism is the path to liberation and peace (Nirvana-like)",
+        "tags": [
+          "Ethics",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "sh6",
+        "text": "Pessimism: life is more suffering than pleasure; non-existence would be preferable",
+        "tags": [
+          "Ethics",
+          "Metaphilosophy"
+        ]
+      }
     ]
   },
   {
@@ -249,12 +1528,289 @@
     "died": 1873,
     "era": "19th Century",
     "portrait": "data/portraits/mill.jpg",
-    "tags": ["Ethics", "Political", "Epistemology"],
+    "tags": [
+      "Ethics",
+      "Political",
+      "Epistemology"
+    ],
     "ideas": [
-      { "id": "ml1", "text": "Utilitarianism: the right act maximizes overall happiness (utility)", "tags": ["Ethics"] },
-      { "id": "ml2", "text": "Higher pleasures (intellectual) are qualitatively superior to lower pleasures", "tags": ["Ethics"] },
-      { "id": "ml3", "text": "The Harm Principle: liberty should only be restricted to prevent harm to others", "tags": ["Political", "Ethics"] },
-      { "id": "ml4", "text": "Inductive reasoning is the basis of scientific knowledge", "tags": ["Epistemology", "Science"] }
+      {
+        "id": "ml1",
+        "text": "Utilitarianism refined: maximize happiness (quality matters, not just quantity) for all affected sentient beings",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ml2",
+        "text": "Higher pleasures (intellectual, moral, aesthetic) are qualitatively superior to lower (bodily) pleasures",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ml3",
+        "text": "Harm Principle: individual liberty may only be restricted to prevent harm to others — foundation of classical liberalism",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ml4",
+        "text": "Freedom of thought and expression: even false opinions must be protected — truth emerges from open contest",
+        "tags": [
+          "Political",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ml5",
+        "text": "Induction by enumeration: enumerative induction grounded in uniformity of nature (vs. Whewell's hypothetico-deductive)",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 5 ideas"
+  },
+  {
+    "id": "kierkegaard",
+    "name": "Søren Kierkegaard",
+    "born": 1813,
+    "died": 1855,
+    "era": "19th Century",
+    "portrait": "data/portraits/kierkegaard.jpg",
+    "tags": [
+      "Ethics",
+      "Religion",
+      "Existentialism"
+    ],
+    "ideas": [
+      {
+        "id": "kk1",
+        "text": "Three stages of existence: aesthetic (pleasure), ethical (duty), and religious (faith) — qualitative leaps between them",
+        "tags": [
+          "Ethics",
+          "Religion"
+        ]
+      },
+      {
+        "id": "kk2",
+        "text": "Subjectivity is truth: truth is not objective but involves passionate inward commitment of the individual",
+        "tags": [
+          "Epistemology",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kk3",
+        "text": "Leap of faith: belief in the absurd (like Abraham's sacrifice) transcends rational justification",
+        "tags": [
+          "Religion",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "kk4",
+        "text": "Either/Or: life demands decisive choice — refusing to choose is itself a despairing choice",
+        "tags": [
+          "Ethics",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "kk5",
+        "text": "Despair (sygdom til døden) is the sickness unto death: not willing to be oneself",
+        "tags": [
+          "Ethics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "kk6",
+        "text": "Irony (after Socrates) exposes contradictions in systems and clears ground for authentic existence",
+        "tags": [
+          "Metaphilosophy",
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "marx",
+    "name": "Karl Marx",
+    "born": 1818,
+    "died": 1883,
+    "era": "19th Century",
+    "portrait": "data/portraits/marx.png",
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "mx1",
+        "text": "Historical materialism: history is driven by class struggle rooted in material/economic conditions of production",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "mx2",
+        "text": "Alienation: capitalism separates workers from their labor, products, species-being, and other humans",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "mx3",
+        "text": "Base and superstructure: economic relations shape ideology, law, culture, and religion",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "mx4",
+        "text": "Communism: goal of a classless society where each contributes according to ability, receives according to need",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "mx5",
+        "text": "Labor theory of value: the value of commodities is determined by socially necessary labor time",
+        "tags": [
+          "Political",
+          "Science"
+        ]
+      },
+      {
+        "id": "mx6",
+        "text": "Dictatorship of the proletariat: transitional state where workers seize and hold power before classlessness",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "mx7",
+        "text": "Religion is the opium of the people — it masks real exploitation and promises illusory consolation",
+        "tags": [
+          "Religion",
+          "Political"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 7 ideas"
+  },
+  {
+    "id": "peirce",
+    "name": "Charles Sanders Peirce",
+    "born": 1839,
+    "died": 1914,
+    "era": "Analytic Origins",
+    "portrait": "data/portraits/peirce.png",
+    "tags": [
+      "Logic",
+      "Epistemology",
+      "Language"
+    ],
+    "ideas": [
+      {
+        "id": "pc1",
+        "text": "Pragmatic Maxim: the meaning of a conception lies in its conceivable practical effects",
+        "tags": [
+          "Epistemology",
+          "Language"
+        ]
+      },
+      {
+        "id": "pc2",
+        "text": "Semiotics: signs consist of object, representamen, and interpretant — triadic relation underlies all meaning",
+        "tags": [
+          "Language",
+          "Logic"
+        ]
+      },
+      {
+        "id": "pc3",
+        "text": "Abduction (retroduction): inference to the best explanation — the logical form of hypothesis generation",
+        "tags": [
+          "Logic",
+          "Science"
+        ]
+      },
+      {
+        "id": "pc4",
+        "text": "Fallibilism: no belief is absolutely certain — inquiry is an endless community process of correction",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "pc5",
+        "text": "Three categories of being: Firstness (quality), Secondness (reaction), Thirdness (representation/mediation)",
+        "tags": [
+          "Metaphysics",
+          "Logic"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "james",
+    "name": "William James",
+    "born": 1842,
+    "died": 1910,
+    "era": "Pragmatism",
+    "portrait": "data/portraits/james.jpg",
+    "tags": [
+      "Ethics",
+      "Epistemology",
+      "Mind"
+    ],
+    "ideas": [
+      {
+        "id": "jm1",
+        "text": "Pragmatic theory of truth: truth is what works in practice — ideas are verified by their experiential consequences",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "jm2",
+        "text": "Radical empiricism: both relations and terms are directly experienced — neutral monism of pure experience",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "jm3",
+        "text": "Stream of consciousness: thought is continuous, flowing, and personal — never discrete fragments",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "jm4",
+        "text": "The will to believe: in genuinely live, forced, momentous options, faith-based choice is permissible",
+        "tags": [
+          "Ethics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "jm5",
+        "text": "Pluralistic universe: reality is unfinished, containing genuine novelty and multiple independent realities",
+        "tags": [
+          "Metaphysics"
+        ]
+      }
     ]
   },
   {
@@ -264,14 +1820,91 @@
     "died": 1900,
     "era": "19th Century",
     "portrait": "data/portraits/nietzsche.jpg",
-    "tags": ["Ethics", "Metaphysics", "Metaphilosophy"],
+    "tags": [
+      "Ethics",
+      "Metaphysics",
+      "Metaphilosophy"
+    ],
     "ideas": [
-      { "id": "ni1", "text": "'God is dead': the collapse of absolute moral values in modernity", "tags": ["Religion", "Ethics"] },
-      { "id": "ni2", "text": "Will to Power: the fundamental drive of all living beings", "tags": ["Metaphysics", "Ethics"] },
-      { "id": "ni3", "text": "Eternal Recurrence: the supreme test — would you will to live this life again?", "tags": ["Ethics", "Metaphysics"] },
-      { "id": "ni4", "text": "The Übermensch creates new values beyond slave morality", "tags": ["Ethics"] },
-      { "id": "ni5", "text": "Slave morality (good/evil) arose from resentment against the noble morality", "tags": ["Ethics"] }
-    ]
+      {
+        "id": "ni1",
+        "text": "'God is dead': traditional absolute values collapse — we face nihilism in modernity",
+        "tags": [
+          "Religion",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ni2",
+        "text": "Will to Power (Wille zur Macht): the fundamental drive underlying all life and becoming",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ni3",
+        "text": "Eternal Recurrence: the ultimate affirmation test — would you will to live this identical life infinitely?",
+        "tags": [
+          "Ethics",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "ni4",
+        "text": "Übermensch (Overman): create new values beyond slave/master morality — self-overcoming",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ni5",
+        "text": "Master morality (good/bad: noble/powerful) vs. slave morality (good/evil: weak/resentful)",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ni6",
+        "text": "Amor fati: love your fate — affirm all of life, including suffering and pain, unconditionally",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "ni7",
+        "text": "Perspectivism: there are no facts, only interpretations — all knowledge is from particular standpoints",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "ni8",
+        "text": "Critique of truth: truth is a mobile army of metaphors — useful fictions become solidified as 'truth'",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "ni9",
+        "text": "Revaluation of all values: transvalue decadent values (pity, equality) into life-affirming ones",
+        "tags": [
+          "Ethics",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "ni10",
+        "text": "Apollo vs. Dionysus: Greek tragedy combines Apollonian form/order with Dionysian chaos/ecstasy",
+        "tags": [
+          "Aesthetics",
+          "Metaphysics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 5 to 10 ideas"
   },
   {
     "id": "frege",
@@ -280,11 +1913,158 @@
     "died": 1925,
     "era": "Analytic Origins",
     "portrait": "data/portraits/frege.jpg",
-    "tags": ["Logic", "Language", "Epistemology"],
+    "tags": [
+      "Logic",
+      "Language",
+      "Epistemology"
+    ],
     "ideas": [
-      { "id": "fr1", "text": "Logic is the foundation of mathematics; arithmetic is reducible to logic (logicism)", "tags": ["Logic"] },
-      { "id": "fr2", "text": "Sense and reference: two words can have the same referent but different senses", "tags": ["Language"] },
-      { "id": "fr3", "text": "Thoughts (propositions) are objective, abstract entities, not mental states", "tags": ["Logic", "Mind"] }
+      {
+        "id": "fr1",
+        "text": "Logicism: arithmetic (and mathematics) is reducible to logic — numbers are logical objects",
+        "tags": [
+          "Logic"
+        ]
+      },
+      {
+        "id": "fr2",
+        "text": "Sense (Sinn) and reference (Bedeutung): expressions have both meaning (mode of presentation) and referent",
+        "tags": [
+          "Language"
+        ]
+      },
+      {
+        "id": "fr3",
+        "text": "Thoughts (propositions/Gedanken) are objective, timeless, abstract entities — not mental states",
+        "tags": [
+          "Logic",
+          "Mind"
+        ]
+      },
+      {
+        "id": "fr4",
+        "text": "Modern predicate calculus: invented quantifiers (∀, ∃) and formalized logical notation",
+        "tags": [
+          "Logic",
+          "Language"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "dewey",
+    "name": "John Dewey",
+    "born": 1859,
+    "died": 1952,
+    "era": "Pragmatism",
+    "portrait": "data/portraits/dewey.jpg",
+    "tags": [
+      "Ethics",
+      "Political",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "dw1",
+        "text": "Instrumentalism: thinking is an instrument for solving problems arising from organism-environment interaction",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "dw2",
+        "text": "Learning by doing: education is growth through experience — not preparation for future life but life itself",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "dw3",
+        "text": "Democracy as a way of life: participatory community where individuals freely develop through cooperative association",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "dw4",
+        "text": "Inquiry begins with a felt difficulty and ends with resolved situation — the pattern of reflective thought",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "dw5",
+        "text": "The public and its problems: democracy must adapt to technological society through expanded communication",
+        "tags": [
+          "Political"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "husserl",
+    "name": "Edmund Husserl",
+    "born": 1859,
+    "died": 1938,
+    "era": "Continental",
+    "portrait": "data/portraits/husserl.jpg",
+    "tags": [
+      "Metaphysics",
+      "Mind",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "hs1",
+        "text": "Intentionality: all consciousness is consciousness OF something — the defining feature of mental states",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hs2",
+        "text": "Epoché (phenomenological reduction): bracket the natural attitude to examine pure phenomena as given",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "hs3",
+        "text": "Go back to the things themselves: describe experience exactly as it appears, prior to theories and explanations",
+        "tags": [
+          "Metaphilosophy",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hs4",
+        "text": "Lifeworld (Lebenswelt): the pre-theoretical world of everyday experience that science presupposes but cannot replace",
+        "tags": [
+          "Metaphysics",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hs5",
+        "text": "Transcendental phenomenology: investigate the conditions of possibility of experience itself",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "hs6",
+        "text": "Intersubjectivity: the Other is constituted in experience — solipsism is overcome through empathetic apprehension",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      }
     ]
   },
   {
@@ -294,13 +2074,52 @@
     "died": 1970,
     "era": "Analytic",
     "portrait": "data/portraits/russell.jpg",
-    "tags": ["Logic", "Epistemology", "Language"],
+    "tags": [
+      "Logic",
+      "Epistemology",
+      "Language"
+    ],
     "ideas": [
-      { "id": "ru1", "text": "Logical atomism: the world consists of atomic facts mirrored by propositions", "tags": ["Metaphysics", "Language"] },
-      { "id": "ru2", "text": "Knowledge by acquaintance vs. knowledge by description", "tags": ["Epistemology"] },
-      { "id": "ru3", "text": "The theory of definite descriptions: 'The F is G' analyzed as a quantified formula", "tags": ["Language", "Logic"] },
-      { "id": "ru4", "text": "Mathematics is reducible to logic (logicism)", "tags": ["Logic"] }
-    ]
+      {
+        "id": "ru1",
+        "text": "Logical atomism: the world consists of atomic facts mirrored by elementary propositions in language",
+        "tags": [
+          "Metaphysics",
+          "Language"
+        ]
+      },
+      {
+        "id": "ru2",
+        "text": "Knowledge by acquaintance (direct awareness) vs. knowledge by description (definite descriptions)",
+        "tags": [
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "ru3",
+        "text": "Theory of definite descriptions: analyze 'The F is G' using quantifiers and predication — eliminate denoting phrases",
+        "tags": [
+          "Language",
+          "Logic"
+        ]
+      },
+      {
+        "id": "ru4",
+        "text": "Logicism (with Whitehead in Principia Mathematica): reduce mathematics to pure logic",
+        "tags": [
+          "Logic"
+        ]
+      },
+      {
+        "id": "ru5",
+        "text": "Inference of other minds: analogy from observed behavior to inferred mental states (argument from analogy)",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 5 ideas"
   },
   {
     "id": "wittgenstein",
@@ -309,14 +2128,91 @@
     "died": 1951,
     "era": "Analytic",
     "portrait": "data/portraits/wittgenstein.jpg",
-    "tags": ["Language", "Metaphilosophy", "Logic"],
+    "tags": [
+      "Language",
+      "Metaphilosophy",
+      "Logic"
+    ],
     "ideas": [
-      { "id": "wt1", "text": "Early: The world is the totality of facts; language pictures the world", "tags": ["Language", "Metaphysics"] },
-      { "id": "wt2", "text": "Early: Whereof one cannot speak, thereof one must be silent", "tags": ["Language", "Metaphilosophy"] },
-      { "id": "wt3", "text": "Later: Meaning is use in a language-game embedded in a form of life", "tags": ["Language"] },
-      { "id": "wt4", "text": "Later: Philosophy therapy — dissolve rather than solve philosophical problems", "tags": ["Metaphilosophy"] },
-      { "id": "wt5", "text": "Private language is impossible; language requires public criteria", "tags": ["Language", "Mind"] }
-    ]
+      {
+        "id": "wt1",
+        "text": "Early: The world is the totality of facts, not things — language pictures atomic facts (picture theory)",
+        "tags": [
+          "Language",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "wt2",
+        "text": "Early: Whereof one cannot speak, thereof one must be silent — limits of language = limits of thought",
+        "tags": [
+          "Language",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "wt3",
+        "text": "Later: Meaning is use — words mean nothing outside their role in language-games embedded in forms of life",
+        "tags": [
+          "Language"
+        ]
+      },
+      {
+        "id": "wt4",
+        "text": "Later: Philosophy as therapy — dissolve pseudo-problems caused by bewitchment of intelligence by language",
+        "tags": [
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "wt5",
+        "text": "Later: Private language is impossible — rule-following requires publicly checkable criteria",
+        "tags": [
+          "Language",
+          "Mind"
+        ]
+      },
+      {
+        "id": "wt6",
+        "text": "Family resemblance: concepts need no single essence; members overlap like family faces",
+        "tags": [
+          "Language",
+          "Logic"
+        ]
+      },
+      {
+        "id": "wt7",
+        "text": "Language-games: countless distinct activities governed by rules — no underlying essence to 'language'",
+        "tags": [
+          "Language",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "wt8",
+        "text": "Form of life: meaning is grounded in shared practices, customs, and forms of activity",
+        "tags": [
+          "Language",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "wt9",
+        "text": "Rule-following paradox: no course of action can be determined by a rule alone — interpretation always underdetermined",
+        "tags": [
+          "Language",
+          "Logic"
+        ]
+      },
+      {
+        "id": "wt10",
+        "text": "Certainty: some propositions (like 'Here is a hand') are hinges on which all doubt and inquiry turn",
+        "tags": [
+          "Epistemology"
+        ]
+      }
+    ],
+    "notes": "Expanded from 5 to 10 ideas"
   },
   {
     "id": "heidegger",
@@ -325,12 +2221,120 @@
     "died": 1976,
     "era": "Continental",
     "portrait": "data/portraits/heidegger.jpeg",
-    "tags": ["Metaphysics", "Metaphilosophy"],
+    "tags": [
+      "Metaphysics",
+      "Metaphilosophy"
+    ],
     "ideas": [
-      { "id": "he1", "text": "Being-in-the-world: Dasein is always already embedded in a world of meaning", "tags": ["Metaphysics"] },
-      { "id": "he2", "text": "Being-toward-death: authentic existence requires confronting one's mortality", "tags": ["Metaphysics", "Ethics"] },
-      { "id": "he3", "text": "The question of Being has been forgotten by Western metaphysics", "tags": ["Metaphilosophy", "Metaphysics"] },
-      { "id": "he4", "text": "Technology discloses the world as a resource to be ordered and stored", "tags": ["Metaphysics"] }
+      {
+        "id": "he1",
+        "text": "Dasein (being-there): human existence is always already being-in-the-world — not a subject observing an object",
+        "tags": [
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "he2",
+        "text": "Being-toward-death (Sein zum Tod): authentic existence requires owning one's finitude and individual mortality",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "he3",
+        "text": "The question of Being (Seinsfrage): Western metaphysics has forgotten the difference between beings and Being itself",
+        "tags": [
+          "Metaphilosophy",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "he4",
+        "text": "Technology (Gestell): modern enframing reveals the world as standing-reserve — danger to authentic dwelling",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "he5",
+        "text": "Authenticity (Eigentlichkeit): owning one's thrownness, choosing oneself amid fallenness into das Man (the They)",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "he6",
+        "text": "Care (Sorge): Dasein's fundamental structure — ahead-of-itself, already-being-in, alongside entities",
+        "tags": [
+          "Metaphysics",
+          "Mind"
+        ]
+      },
+      {
+        "id": "he7",
+        "text": "Hermeneutic phenomenology: interpret (not just describe) Dasein's being because Dasein is self-interpreting",
+        "tags": [
+          "Metaphilosophy",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "he8",
+        "text": "Poetry as privileged site of unconcealedness (Aletheia): art reveals what technology conceals",
+        "tags": [
+          "Aesthetics",
+          "Metaphysics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 8 ideas"
+  },
+  {
+    "id": "popper",
+    "name": "Karl Popper",
+    "born": 1902,
+    "died": 1994,
+    "era": "Analytic",
+    "portrait": "data/portraits/popper.jpg",
+    "tags": [
+      "Epistemology",
+      "Science",
+      "Political"
+    ],
+    "ideas": [
+      {
+        "id": "pp1",
+        "text": "Falsifiability: demarcation criterion — scientific theories must be potentially falsifiable by observation",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "pp2",
+        "text": "Conjectures and refutations: science progresses by bold conjectures followed by rigorous attempts to falsify",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "pp3",
+        "text": "Open Society: oppose totalitarianism and historicist grand narratives that claim inevitable progress",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "pp4",
+        "text": "Critical rationalism: hold all beliefs provisionally — remain perpetually open to revision and criticism",
+        "tags": [
+          "Epistemology"
+        ]
+      }
     ]
   },
   {
@@ -340,41 +2344,251 @@
     "died": 1980,
     "era": "Continental",
     "portrait": "data/portraits/sartre.jpg",
-    "tags": ["Metaphysics", "Ethics"],
+    "tags": [
+      "Metaphysics",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "sa1", "text": "Existence precedes essence: we have no predetermined nature or purpose", "tags": ["Metaphysics", "Ethics"] },
-      { "id": "sa2", "text": "Radical freedom: we are 'condemned to be free'; our choices define us", "tags": ["Ethics", "Metaphysics"] },
-      { "id": "sa3", "text": "Bad faith: self-deception about one's freedom and responsibility", "tags": ["Ethics"] },
-      { "id": "sa4", "text": "Hell is other people: conflict is constitutive of human relations", "tags": ["Ethics"] }
-    ]
+      {
+        "id": "sa1",
+        "text": "Existence precedes essence: humans first exist, then define themselves through choices — no fixed nature",
+        "tags": [
+          "Metaphysics",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sa2",
+        "text": "Radical freedom: we are 'condemned to be free' — absolutely responsible for all we choose and refuse",
+        "tags": [
+          "Ethics",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "sa3",
+        "text": "Bad faith (mauvaise foi): self-deception that denies our freedom and responsibility",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sa4",
+        "text": "Look (regard): encountering another's gaze objectifies me — others threaten my freedom",
+        "tags": [
+          "Mind",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sa5",
+        "text": "Being-for-itself vs. being-in-itself: consciousness is pure negation and lack; things are full positivity",
+        "tags": [
+          "Metaphysics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 4 to 5 ideas"
   },
   {
-    "id": "popper",
-    "name": "Karl Popper",
-    "born": 1902,
-    "died": 1994,
-    "era": "Analytic",
-    "portrait": "data/portraits/popper.jpg",
-    "tags": ["Epistemology", "Science", "Political"],
-    "ideas": [
-      { "id": "pp1", "text": "Falsifiability is the criterion of scientific theories; science progresses through conjectures and refutations", "tags": ["Epistemology", "Science"] },
-      { "id": "pp2", "text": "Induction is invalid; we cannot verify scientific laws, only falsify them", "tags": ["Epistemology", "Science"] },
-      { "id": "pp3", "text": "The Open Society opposes totalitarianism and historicist grand theories", "tags": ["Political"] },
-      { "id": "pp4", "text": "Critical rationalism: hold beliefs provisionally and remain open to revision", "tags": ["Epistemology"] }
-    ]
-  },
-  {
-    "id": "kuhn",
-    "name": "Thomas Kuhn",
-    "born": 1922,
-    "died": 1996,
+    "id": "arendt",
+    "name": "Hannah Arendt",
+    "born": 1906,
+    "died": 1975,
     "era": "20th Century",
-    "portrait": "https://placehold.co/60x60/0a1a2a/E0E0E0?text=TK",
-    "tags": ["Epistemology", "Science"],
+    "portrait": "data/portraits/arendt.jpg",
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "ku1", "text": "Science progresses through paradigm shifts, not continuous accumulation", "tags": ["Epistemology", "Science"] },
-      { "id": "ku2", "text": "Normal science works within a paradigm; crises lead to scientific revolutions", "tags": ["Science"] },
-      { "id": "ku3", "text": "Paradigms are incommensurable: scientists in different paradigms inhabit different worlds", "tags": ["Epistemology", "Science"] }
+      {
+        "id": "an1",
+        "text": "Banality of evil: great evil can be committed by ordinary people through thoughtless obedience, not monstrous malice",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "an2",
+        "text": "Vita activa: three modes of human activity — labor (biological), work (fabrication), action (political/speech)",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "an3",
+        "text": "Natality: each human birth represents new beginning and capacity to initiate the unprecedented",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "an4",
+        "text": "Totalitarianism: uses terror and ideology to create atomized masses — fundamentally different from tyranny",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "an5",
+        "text": "The right to have rights: belonging to a political community is prerequisite for having any rights at all",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "merleau-ponty",
+    "name": "Maurice Merleau-Ponty",
+    "born": 1908,
+    "died": 1961,
+    "era": "Continental",
+    "portrait": "data/portraits/merleau-ponty.jpg",
+    "tags": [
+      "Mind",
+      "Metaphysics",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "mp1",
+        "text": "Body-subject (corps propre): the body is not an object but our primary way of being in the world",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "mp2",
+        "text": "Perception is embodied: we perceive through our bodily engagement, not detached observation",
+        "tags": [
+          "Epistemology",
+          "Mind"
+        ]
+      },
+      {
+        "id": "mp3",
+        "text": "Ambiguity of perception: meaning is always incomplete, situated, and open-ended — against Cartesian clarity",
+        "tags": [
+          "Epistemology",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "mp4",
+        "text": "Chiasm: reversibility of touching/being touched — subject and object intertwine in bodily experience",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "quine",
+    "name": "W.V.O. Quine",
+    "born": 1908,
+    "died": 2000,
+    "era": "Analytic",
+    "portrait": "https://placehold.co/60x60/1a1a2a/80A0C0?text=WQ",
+    "tags": [
+      "Epistemology",
+      "Language",
+      "Logic"
+    ],
+    "ideas": [
+      {
+        "id": "qn1",
+        "text": "Two Dogmas of Empiricism: reject analytic/synthetic distinction and reductionism — holistic web of belief",
+        "tags": [
+          "Epistemology",
+          "Language"
+        ]
+      },
+      {
+        "id": "qn2",
+        "text": "Holism (confirmation holism): statements face the tribunal of experience as a body, not individually",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "qn3",
+        "text": "Naturalized epistemology: epistemology is a chapter of psychology — study how humans actually form beliefs",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "qn4",
+        "text": "Indeterminacy of translation: multiple incompatible translation manuals between languages are equally empirically adequate",
+        "tags": [
+          "Language",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "qn5",
+        "text": "Ontological relativity: there is no privileged reference frame — ontology relative to background language",
+        "tags": [
+          "Metaphysics",
+          "Language"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "davidson",
+    "name": "Donald Davidson",
+    "born": 1917,
+    "died": 2003,
+    "era": "Analytic",
+    "portrait": "https://placehold.co/60x60/1a2020/B0A080?text=DD",
+    "tags": [
+      "Mind",
+      "Language",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "dv1",
+        "text": "Anomalous monism: mental events are identical with physical events but have no strict psychophysical laws",
+        "tags": [
+          "Mind",
+          "Metaphysics"
+        ]
+      },
+      {
+        "id": "dv2",
+        "text": "Principle of charity: we must assume most of a speaker's beliefs are true to interpret them at all",
+        "tags": [
+          "Language",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "dv3",
+        "text": "Triangulation: thought, language, and knowledge require interaction between two creatures and a shared world",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "dv4",
+        "text": "Radical interpretation: understanding a language requires simultaneously interpreting beliefs and meanings",
+        "tags": [
+          "Language",
+          "Epistemology"
+        ]
+      }
     ]
   },
   {
@@ -384,11 +2598,378 @@
     "died": 2002,
     "era": "20th Century",
     "portrait": "data/portraits/rawls.jpg",
-    "tags": ["Political", "Ethics"],
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
     "ideas": [
-      { "id": "rw1", "text": "Justice as fairness: principles of justice chosen from behind a veil of ignorance", "tags": ["Political", "Ethics"] },
-      { "id": "rw2", "text": "The Difference Principle: inequalities are just only if they benefit the least advantaged", "tags": ["Political", "Ethics"] },
-      { "id": "rw3", "text": "Reflective equilibrium: balance moral intuitions with theoretical principles", "tags": ["Ethics", "Metaphilosophy"] }
+      {
+        "id": "rw1",
+        "text": "Justice as fairness: principles of justice chosen from behind a veil of ignorance (original position)",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "rw2",
+        "text": "Difference Principle: social and economic inequalities are just only if they benefit the least advantaged",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "rw3",
+        "text": "Reflective equilibrium: balance considered moral intuitions with principled moral theory",
+        "tags": [
+          "Ethics",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "rw4",
+        "text": "Two principles: (1) equal basic liberties for all, (2) fair equality of opportunity + difference principle",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "rw5",
+        "text": "Overlapping consensus: pluralistic societies can agree on political principles despite differing comprehensive doctrines",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      }
+    ],
+    "notes": "Expanded from 3 to 5 ideas"
+  },
+  {
+    "id": "kuhn",
+    "name": "Thomas Kuhn",
+    "born": 1922,
+    "died": 1996,
+    "era": "20th Century",
+    "portrait": "https://placehold.co/60x60/0a1a2a/E0E0E0?text=TK",
+    "tags": [
+      "Epistemology",
+      "Science"
+    ],
+    "ideas": [
+      {
+        "id": "ku1",
+        "text": "Paradigm shifts: science progresses through revolutionary breaks, not smooth cumulative accumulation",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      },
+      {
+        "id": "ku2",
+        "text": "Normal science: puzzle-solving within accepted paradigm until anomalies accumulate and trigger crisis",
+        "tags": [
+          "Science"
+        ]
+      },
+      {
+        "id": "ku3",
+        "text": "Incommensurability: paradigms cannot be fully translated into each other — scientists inhabit different worlds",
+        "tags": [
+          "Epistemology",
+          "Science"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "foucault",
+    "name": "Michel Foucault",
+    "born": 1926,
+    "died": 1984,
+    "era": "Post-Structuralism",
+    "portrait": "data/portraits/foucault.jpg",
+    "tags": [
+      "Political",
+      "Epistemology",
+      "Metaphilosophy"
+    ],
+    "ideas": [
+      {
+        "id": "fc1",
+        "text": "Power/knowledge: power and knowledge are inseparable — each regime of truth enables and hides forms of power",
+        "tags": [
+          "Political",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "fc2",
+        "text": "Discourse constructs its objects — what counts as madness, sexuality, or illness varies historically",
+        "tags": [
+          "Epistemology",
+          "Political"
+        ]
+      },
+      {
+        "id": "fc3",
+        "text": "Disciplinary power: modern institutions (prisons, schools, hospitals) produce docile bodies through surveillance",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "fc4",
+        "text": "Biopower: modern states govern populations through regulation of life processes (birth, health, mortality)",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "fc5",
+        "text": "Archaeology of knowledge: analyze historical conditions that make certain statements possible/thinkable",
+        "tags": [
+          "Epistemology",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "fc6",
+        "text": "The author is a function: texts produce authors, not vice versa — decenter the creative subject",
+        "tags": [
+          "Metaphilosophy",
+          "Language"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "habermas",
+    "name": "Jürgen Habermas",
+    "born": 1929,
+    "era": "Contemporary",
+    "portrait": "data/portraits/habermas.jpg",
+    "tags": [
+      "Political",
+      "Epistemology",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "hb1",
+        "text": "Communicative action: rationality resides in reaching understanding through undistorted speech, not instrumental success",
+        "tags": [
+          "Political",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "hb2",
+        "text": "Ideal speech situation: discourse free from coercion where the better argument alone prevails",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "hb3",
+        "text": "Public sphere: space of rational-critical debate between state and civil society — endangered by media and capital",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "hb4",
+        "text": "Discourse ethics: moral norms are valid only if all affected could consent as participants in practical discourse",
+        "tags": [
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "derrida",
+    "name": "Jacques Derrida",
+    "born": 1930,
+    "died": 2004,
+    "era": "Post-Structuralism",
+    "portrait": "data/portraits/derrida.jpg",
+    "tags": [
+      "Language",
+      "Metaphilosophy",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "dr1",
+        "text": "Deconstruction: expose how texts undermine their own claimed meanings through internal contradictions",
+        "tags": [
+          "Language",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "dr2",
+        "text": "Différance: meaning is endlessly deferred through chains of signifiers — never fully present",
+        "tags": [
+          "Language"
+        ]
+      },
+      {
+        "id": "dr3",
+        "text": "Logocentrism critique: Western thought privileges speech over writing and presence over absence",
+        "tags": [
+          "Metaphilosophy",
+          "Language"
+        ]
+      },
+      {
+        "id": "dr4",
+        "text": "There is nothing outside the text (il n'y a pas de hors-texte): all interpretation is textual",
+        "tags": [
+          "Language",
+          "Metaphilosophy"
+        ]
+      },
+      {
+        "id": "dr5",
+        "text": "Ethics of hospitality: unconditional welcome of the Other — justice is always to-come, never achieved",
+        "tags": [
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "searle",
+    "name": "John Searle",
+    "born": 1932,
+    "died": 2024,
+    "era": "Analytic",
+    "portrait": "data/portraits/searle.jpg",
+    "tags": [
+      "Mind",
+      "Language",
+      "Epistemology"
+    ],
+    "ideas": [
+      {
+        "id": "sr1",
+        "text": "The Chinese Room: syntax manipulation is not sufficient for semantics — computation is not understanding",
+        "tags": [
+          "Mind",
+          "Epistemology"
+        ]
+      },
+      {
+        "id": "sr2",
+        "text": "Speech acts: language is not just describing reality but performing actions (asserting, promising, commanding)",
+        "tags": [
+          "Language"
+        ]
+      },
+      {
+        "id": "sr3",
+        "text": "Biological naturalism: consciousness is a biological phenomenon caused by brain processes",
+        "tags": [
+          "Mind"
+        ]
+      },
+      {
+        "id": "sr4",
+        "text": "Social reality: institutional facts (money, marriage, property) depend on collective intentionality",
+        "tags": [
+          "Mind",
+          "Political"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "nozick",
+    "name": "Robert Nozick",
+    "born": 1938,
+    "died": 2002,
+    "era": "Analytic",
+    "portrait": "data/portraits/nozick.jpg",
+    "tags": [
+      "Political",
+      "Ethics"
+    ],
+    "ideas": [
+      {
+        "id": "nz1",
+        "text": "The minimal state: only functions needed to protect against force, theft, fraud, and enforce contracts",
+        "tags": [
+          "Political"
+        ]
+      },
+      {
+        "id": "nz2",
+        "text": "Entitlement theory: justice in holdings depends on just acquisition and voluntary transfer",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "nz3",
+        "text": "Taxation of earnings from labor is on a par with forced labor",
+        "tags": [
+          "Political",
+          "Ethics"
+        ]
+      },
+      {
+        "id": "nz4",
+        "text": "The Utility Monster: if a being gets enormously more utility from resources, utilitarianism would sacrifice everyone else",
+        "tags": [
+          "Ethics"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "singer",
+    "name": "Peter Singer",
+    "born": 1946,
+    "era": "Contemporary",
+    "portrait": "data/portraits/singer.jpg",
+    "tags": [
+      "Ethics",
+      "Political"
+    ],
+    "ideas": [
+      {
+        "id": "sg1",
+        "text": "All sentient beings deserve equal consideration of interests — speciesism is morally wrong",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sg2",
+        "text": "Preference utilitarianism: maximize the satisfaction of preferences of all affected beings",
+        "tags": [
+          "Ethics"
+        ]
+      },
+      {
+        "id": "sg3",
+        "text": "Effective altruism: we should donate to causes that do the most good per dollar spent",
+        "tags": [
+          "Ethics",
+          "Political"
+        ]
+      },
+      {
+        "id": "sg4",
+        "text": "Famine, Affluence, and Morality: if we can prevent suffering without sacrificing anything comparable, we must",
+        "tags": [
+          "Ethics"
+        ]
+      }
     ]
   }
 ]

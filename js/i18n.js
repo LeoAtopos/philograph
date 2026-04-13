@@ -67,6 +67,7 @@ const I18n = (() => {
    * 1. Update HTML elements with [data-i18n] attributes
    * 2. Update [data-i18n-html] attributes (innerHTML)
    * 3. Re-render dynamic content (cards, connections, filter panel, index)
+   * 4. Sync language button state
    */
   function apply() {
     // 1. Static text nodes
@@ -102,6 +103,11 @@ const I18n = (() => {
 
     // Update lang attribute on <html>
     document.documentElement.lang = _lang === 'zh' ? 'zh-CN' : 'en';
+
+    // 5. Sync language button active state (last, to ensure correct after all re-renders)
+    document.querySelectorAll('.lang-btn').forEach(btn => {
+      btn.classList.toggle('active', btn.dataset.lang === _lang);
+    });
   }
 
   /**

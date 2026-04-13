@@ -49,13 +49,13 @@ const State = (() => {
   // Filter tags per tradition
   const FILTER_TAGS = {
     western: ['Basics','Metaphysics','Epistemology','Logic','Ethics','Political','Aesthetics','Religion','Mind','Language','Science','Metaphilosophy'],
-    chinese: ['Confucianism','Taoism','Mohism','Legalism','Neo-Confucianism','Ethics','Political','Metaphysics','Epistemology']
+    chinese: ['Confucianism','Taoism','Mohism','Legalism','Neo-Confucianism','Buddhism','Ethics','Political','Metaphysics','Epistemology','Aesthetics','Mind','Language','Education','History']
   };
 
   // Era order per tradition
   const ERA_ORDER = {
     western: ['Ancient', 'Medieval', 'Early Modern', 'Enlightenment', 'German Idealism', '19th Century', 'Analytic Origins', 'Analytic', 'Continental', '20th Century'],
-    chinese: ['Pre-Qin', 'Han', 'Tang-Song', 'Ming-Qing', 'Modern']
+    chinese: ['Pre-Qin', 'Han', 'Wei-Jin', 'Sui-Tang', 'Tang-Song', 'Ming-Qing', 'Modern']
   };
 
   // --- Private helper: rebuild derived maps from current philosophers/connections ---

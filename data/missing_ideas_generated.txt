@@ -1,0 +1,413 @@
+    // === Augustine ===
+    'ag5': { en: 'The heart is restless until it rests in God — human fulfillment lies only in divine love', zh: '心如不安，直到安息于上帝——人的完满唯在神圣之爱中' },
+    'ag6': { en: 'Just war criteria: war must have just cause, legitimate authority, and right intention', zh: '正义战争三原则：须有正义理由、合法权威、正当意图' },
+    // === Hannah Arendt ===
+    'an1': { en: 'Banality of evil: great evil can be committed by ordinary people through thoughtless obedience, not monstrous malice', zh: '平庸之恶：普通人可通过无思的服从犯下滔天大罪，而非出于恶意' },
+    'an2': { en: 'Vita activa: three modes of human activity — labor (biological), work (fabrication), action (political/speech)', zh: '积极生活：人类活动的三种模式——劳动（生物性）、工作（制造）、行动（政治/言说）' },
+    'an3': { en: 'Natality: each human birth represents new beginning and capacity to initiate the unprecedented', zh: '出生性：每一次人的诞生都代表新的开端和发起前所未有的行动的能力' },
+    'an4': { en: 'Totalitarianism: uses terror and ideology to create atomized masses — fundamentally different from tyranny', zh: '极权主义：利用恐怖和意识形态制造原子化的大众——与暴政有本质不同' },
+    'an5': { en: 'The right to have rights: belonging to a political community is prerequisite for having any rights at all', zh: '拥有权利的权利：属于政治共同体是拥有任何权利的前提' },
+    // === Thomas Aquinas ===
+    'aq5': { en: 'Analogy of being: predicates applied to God and creatures are neither univocal nor equivocal but analogical', zh: '存在类比：应用于上帝和受造物的谓词既非同一的也非歧义的，而是类比的' },
+    'aq6': { en: 'The cardinal virtues (prudence, justice, fortitude, temperance) are perfected by theological virtues (faith, hope, charity)', zh: '枢德（智、义、勇、节）由神学德性（信、望、爱）所成全' },
+    // === Aristotle ===
+    'ar10': { en: 'The best constitution mixes elements of monarchy, aristocracy, and democracy — polity', zh: '最佳政体混合君主制、贵族制和民主制要素——立宪政体' },
+    'ar11': { en: 'Tragedy achieves catharsis (purification) through pity and fear — art\'s ethical function', zh: '悲剧通过怜悯和恐惧实现净化——艺术的伦理功能' },
+    'ar12': { en: 'Friendship (philia) is essential to happiness and the binding force of communities', zh: '友谊（友爱）是幸福所必需的，也是共同体的凝聚力' },
+    'ar13': { en: 'Natural slavery argument: some are by nature rulers, others by nature ruled (controversial)', zh: '自然奴隶论：有人天性为统治者，有人天性为被统治者（有争议）' },
+    'ar7': { en: 'Four causes explain change: material, formal, efficient, and final (teleological)', zh: '四因说解释变化：质料因、形式因、动力因和目的因（目的论）' },
+    'ar8': { en: 'The unmoved mover (God) is pure actuality — the final cause that moves all things without being moved', zh: '不动的推动者（上帝）是纯粹现实性——推动万物而不被推动的终极因' },
+    'ar9': { en: 'Potentiality and actuality underlie all change and motion in nature', zh: '潜能与现实贯穿自然界一切变化和运动' },
+    // === George Berkeley ===
+    'bk1': { en: '\'Esse est percipi\': to be is to be perceived — objects consist entirely of perceptions', zh: '"存在即被感知"：对象完全由感知构成' },
+    'bk2': { en: 'Matter does not exist independently — only minds and their ideas (immaterialism/subjective idealism)', zh: '物质不独立存在——只有心灵及其观念（非物质主义/主观唯心主义）' },
+    'bk3': { en: 'God perceives all things continuously — this guarantees objective existence when no finite mind observes', zh: '上帝持续感知万物——这保证了无人观察时事物的客观存在' },
+    'bk4': { en: 'Abstract general ideas are impossible — we only ever perceive particular, concrete instances', zh: '抽象的一般观念不可能——我们只能感知具体的、个别的实例' },
+    // === Cheng Hao ===
+    'ch1': { en: 'Ren (benevolence) forms one body with all things', zh: '仁者以天地万物为一体' },
+    'ch2': { en: 'The unity of Heaven and humanity (天人合一)', zh: '天人合一' },
+    'ch3': { en: 'Inner experience (体仁) is the path to understanding principle', zh: '体仁是理解天理的途径' },
+    // === Cheng Yi ===
+    'cy4': { en: 'Preserve heavenly principle, eliminate human desire', zh: '存天理，灭人欲' },
+    // === René Descartes ===
+    'dc5': { en: 'Methodic doubt: doubt everything possible to find what cannot be doubted — foundationalism', zh: '方法论怀疑：怀疑一切可能之物以找到不可怀疑之物——基础主义' },
+    'dc6': { en: 'Animals are automata — they lack rational souls and thus consciousness', zh: '动物是自动机——缺乏理性灵魂，因而没有意识' },
+    'dc7': { en: 'The pineal gland is the point of interaction between immaterial mind and material body', zh: '松果体是不灭心灵与物质身体交互作用的地点' },
+    'dc8': { en: 'Primary qualities (extension, shape, motion) are objective; secondary qualities (color, taste) depend on perceivers', zh: '第一性质（广延、形状、运动）是客观的；第二性质（颜色、味道）依赖感知者' },
+    // === Jacques Derrida ===
+    'dr1': { en: 'Deconstruction: expose how texts undermine their own claimed meanings through internal contradictions', zh: '解构：揭示文本如何通过内在矛盾暗中瓦解自身宣称的意义' },
+    'dr2': { en: 'Différance: meaning is endlessly deferred through chains of signifiers — never fully present', zh: '延异：意义通过能指链无限推迟——永远无法完全在场' },
+    'dr3': { en: 'Logocentrism critique: Western thought privileges speech over writing and presence over absence', zh: '逻各斯中心主义批判：西方思想 privileging 言说优于书写、在场优于缺席' },
+    'dr4': { en: 'There is nothing outside the text (il n\'y a pas de hors-texte): all interpretation is textual', zh: '文本之外别无他物：一切诠释都是文本性的' },
+    'dr5': { en: 'Ethics of hospitality: unconditional welcome of the Other — justice is always to-come, never achieved', zh: '好客伦理：对他者的无条件欢迎——正义永远是尚未到来的' },
+    // === Dong Zhongshu ===
+    'ds4': { en: 'Confucianism as state orthodoxy — exclusivity of the Five Classics', zh: '儒学作为国家正统——五经的排他性' },
+    'ds5': { en: 'Human nature has the potential for good but needs education to actualize it', zh: '人性有向善之质但需教化方能实现' },
+    // === Donald Davidson ===
+    'dv1': { en: 'Anomalous monism: mental events are identical with physical events but have no strict psychophysical laws', zh: '异常一元论：心理事件同一于物理事件但无严格的心理-物理定律' },
+    'dv2': { en: 'Principle of charity: we must assume most of a speaker\'s beliefs are true to interpret them at all', zh: '善意原则：必须假定说话者的大部分信念为真才能进行诠释' },
+    'dv3': { en: 'Triangulation: thought, language, and knowledge require interaction between two creatures and a shared world', zh: '三角测量：思想、语言和知识需要两个生物与一个共享世界的交互' },
+    'dv4': { en: 'Radical interpretation: understanding a language requires simultaneously interpreting beliefs and meanings', zh: '彻底诠释：理解一种语言需要同时诠释信念和意义' },
+    // === John Dewey ===
+    'dw1': { en: 'Instrumentalism: thinking is an instrument for solving problems arising from organism-environment interaction', zh: '工具主义：思维是解决有机体与环境互动所产生的问题的工具' },
+    'dw2': { en: 'Learning by doing: education is growth through experience — not preparation for future life but life itself', zh: '从做中学：教育是通过经验的成长——不是为未来生活做准备，而是生活本身' },
+    'dw3': { en: 'Democracy as a way of life: participatory community where individuals freely develop through cooperative association', zh: '民主作为一种生活方式：个人通过合作联合自由发展的参与式共同体' },
+    'dw4': { en: 'Inquiry begins with a felt difficulty and ends with resolved situation — the pattern of reflective thought', zh: '探究始于感受到困难，终于情境得到解决——反思性思维的模式' },
+    'dw5': { en: 'The public and its problems: democracy must adapt to technological society through expanded communication', zh: '公众及其问题：民主必须通过扩展传播来适应技术社会' },
+    // === Dai Zhen ===
+    'dz1': { en: 'Desire is natural; suppressing it is oppressive \'principle\' (以理杀人)', zh: '欲是自然的；压抑它是暴虐的"以理杀人"' },
+    'dz2': { en: 'Principle (li) emerges from desire (yu), not opposed to it', zh: '理出于欲，而非与欲对立' },
+    'dz3': { en: 'Precise philology and textual evidence are essential for understanding classics', zh: '精确的文字学和文本证据是理解经典的必要条件' },
+    // === Michel Foucault ===
+    'fc1': { en: 'Power/knowledge: power and knowledge are inseparable — each regime of truth enables and hides forms of power', zh: '权力/知识：权力与知识不可分离——每种真理体制都使某种权力形式得以运作' },
+    'fc2': { en: 'Discourse constructs its objects — what counts as madness, sexuality, or illness varies historically', zh: '话语建构其对象——什么算作疯狂、性或疾病因历史而异' },
+    'fc3': { en: 'Disciplinary power: modern institutions (prisons, schools, hospitals) produce docile bodies through surveillance', zh: '规训权力：现代机构（监狱、学校、医院）通过监视制造驯服的身体' },
+    'fc4': { en: 'Biopower: modern states govern populations through regulation of life processes (birth, health, mortality)', zh: '生命权力：现代国家通过对生命过程（出生、健康、死亡）的调控来治理人口' },
+    'fc5': { en: 'Archaeology of knowledge: analyze historical conditions that make certain statements possible/thinkable', zh: '知识考古学：分析使某些陈述成为可能/可思想的历史条件' },
+    'fc6': { en: 'The author is a function: texts produce authors, not vice versa — decenter the creative subject', zh: '作者是一种功能：文本产生作者，而非反之——去中心化创造主体' },
+    // === Gottlob Frege ===
+    'fr4': { en: 'Modern predicate calculus: invented quantifiers (∀, ∃) and formalized logical notation', zh: '现代谓词演算：发明量词（∀, ∃）并形式化了逻辑记法' },
+    // === Feng Youlan ===
+    'fyl4': { en: 'The history of Chinese philosophy as a continuous rational development', zh: '中国哲学史作为持续的理性发展过程' },
+    // === Fazang ===
+    'fz1': { en: 'The Huayan (Flower Garland) metaphysics: all things interpenetrate', zh: '华严形而上学：一切事物互融互摄' },
+    'fz2': { en: 'Li (principle) and Shi (phenomena) are mutually identical', zh: '理与事互即互入' },
+    'fz3': { en: 'The Jewel Net of Indra: each thing reflects all others', zh: '因陀罗网：每一事物映照一切其他事物' },
+    // === Gongsun Long ===
+    'gl1': { en: 'A white horse is not a horse (白马非马) — names and universals are distinct', zh: '白马非马——名与共相是不同的' },
+    'gl2': { en: 'Pointing at things (指物) — the finger (concept) is not the thing itself', zh: '指物论——指（概念）不是事物本身' },
+    'gl3': { en: 'Universals can exist independently of particular things', zh: '共相可独立于个别事物而存在' },
+    // === Guo Xiang ===
+    'gx1': { en: 'Self-transformation (独化) — each thing changes by itself, no Creator', zh: '独化——万物自化，无造物主' },
+    'gx2': { en: 'Being is sufficient in itself; non-being cannot produce being', zh: '存在自足；无为不能生有' },
+    'gx3': { en: 'Everything is naturally what it is; no thing needs another to exist', zh: '万物自然如此；无一物需要他物才能存在' },
+    // === Gong Zizhen ===
+    'gzz1': { en: 'The self-transformation of the Way requires institutional reform', zh: '道的自我变革要求制度革新' },
+    'gzz2': { en: 'All things are in flux; the state must adapt to changing times', zh: '万物皆变；国家必须与时俱进' },
+    'gzz3': { en: 'Decentralization of power to capable officials at all levels', zh: '权力下放给各级有能官员' },
+    // === Jürgen Habermas ===
+    'hb1': { en: 'Communicative action: rationality resides in reaching understanding through undistorted speech, not instrumental success', zh: '交往行动：理性在于通过无扭曲的言说达成理解，而非工具性成功' },
+    'hb2': { en: 'Ideal speech situation: discourse free from coercion where the better argument alone prevails', zh: '理想言谈情境：免于强制的话语空间，唯有更好的论证获胜' },
+    'hb3': { en: 'Public sphere: space of rational-critical debate between state and civil society — endangered by media and capital', zh: '公共领域：国家与市民社会之间的理性-批判性辩论空间——受到媒体和资本的威胁' },
+    'hb4': { en: 'Discourse ethics: moral norms are valid only if all affected could consent as participants in practical discourse', zh: '话语伦理：道德规范只有当所有受影响者作为实践话语参与者能同意时才有效' },
+    // === Martin Heidegger ===
+    'he5': { en: 'Authenticity (Eigentlichkeit): owning one\'s thrownness, choosing oneself amid fallenness into das Man (the They)', zh: '本真性（Eigentlichkeit）：承当被抛性，在沉沦于常人中选择自身' },
+    'he6': { en: 'Care (Sorge): Dasein\'s fundamental structure — ahead-of-itself, already-being-in, alongside entities', zh: '烦（Sorge）：此在的根本结构——先行于自身、已经在世、伴随世内存在者' },
+    'he7': { en: 'Hermeneutic phenomenology: interpret (not just describe) Dasein\'s being because Dasein is self-interpreting', zh: '诠释学现象学：诠释（而非仅描述）此在的存在，因为此在是自我诠释的' },
+    'he8': { en: 'Poetry as privileged site of unconcealedness (Aletheia): art reveals what technology conceals', zh: '诗作为无蔽（Aletheia）的特权场所：艺术揭示技术所遮蔽者' },
+    // === Han Fei ===
+    'hf5': { en: 'Rewards and punishments must be clear, certain, and impartial', zh: '赏罚必须明确、确定、公正' },
+    // === G.W.F. Hegel ===
+    'hg5': { en: '\'What is rational is actual, and what is actual is rational\' — philosophy understands what already is', zh: '"凡是合理的就是现实的，凡是现实的就是合理的"——哲学理解已经存在之物' },
+    'hg6': { en: 'World-historical individuals (Napoleon etc.) advance Spirit\'s development through their unconscious passions', zh: '世界历史个人（拿破仑等）通过无意识的激情推动精神的发展' },
+    'hg7': { en: 'Art, religion, and philosophy are three modes of Absolute Spirit\'s self-understanding — philosophy is highest', zh: '艺术、宗教和哲学是绝对精神自我理解的三种方式——哲学是最高形式' },
+    'hg8': { en: 'The cunning of reason: individuals pursue private ends but unintentionally realize reason\'s larger plan', zh: '理性的狡计：个人追求私人目的，却在无意中实现理性的更大计划' },
+    // === David Hume ===
+    'hm6': { en: 'Miracles are inherently improbable — testimony cannot overcome the weight of uniform experience', zh: '奇迹本质上是不可能的——证词无法克服一致经验的权重' },
+    'hm7': { en: 'Is-ought gap: one cannot derive normative (\'ought\') statements purely from descriptive (\'is\') statements', zh: '是与应当的鸿沟：不能仅从描述性陈述推导出规范性陈述' },
+    'hm8': { en: 'Free will and determinism are compatible (compatibilism) — liberty is acting according to one\'s desires', zh: '自由意志与决定论相容（相容论）——自由就是按照自己的欲望行动' },
+    // === Huineng ===
+    'hn1': { en: 'Sudden enlightenment (顿悟): awakening is instantaneous, not gradual', zh: '顿悟：觉悟是瞬间的，非渐进的' },
+    'hn2': { en: 'No-thought (无念): the mind is pure when free from attachment', zh: '无念：心在无执著时是清净的' },
+    'hn3': { en: 'Bodhi is originally present in every person; no need to seek outside', zh: '菩提本自具足；不假外求' },
+    'hn4': { en: 'Formless meditation (无相): sitting without fixation on anything', zh: '无相坐禅：坐而不执着于任何事物' },
+    'hn5': { en: 'Direct pointing to the mind; no reliance on scriptures', zh: '直指人心；不立文字' },
+    // === Heraclitus ===
+    'hr1': { en: 'Everything flows (panta rhei): \'You cannot step into the same river twice\' — universal flux', zh: '万物皆流（panta rhei）："人不能两次踏入同一条河流"——普遍流变' },
+    'hr2': { en: 'Fire is the primordial element and the symbol of constant transformation in nature', zh: '火是原始元素和自然界恒常变化的象征' },
+    'hr3': { en: 'The Logos is the rational principle governing the cosmos, accessible to reason but ignored by most', zh: '逻各斯是支配宇宙的理性原则，可通过理性认识却被大多数人忽视' },
+    'hr4': { en: 'Opposites are united: \'The path up and down is one and the same\' — unity of contraries', zh: '对立面是统一的："上坡路与下坡路是同一条路"——对立的统一' },
+    'hr5': { en: 'Strife (polemos) is the father of all things — conflict drives cosmic order and change', zh: '斗争（polemos）是万物之父——冲突驱动宇宙秩序和变化' },
+    // === Edmund Husserl ===
+    'hs1': { en: 'Intentionality: all consciousness is consciousness OF something — the defining feature of mental states', zh: '意向性：一切意识都是关于某物的意识——心理状态的决定性特征' },
+    'hs2': { en: 'Epoché (phenomenological reduction): bracket the natural attitude to examine pure phenomena as given', zh: '悬搁（现象学还原）：搁置自然态度以考察纯粹现象' },
+    'hs3': { en: 'Go back to the things themselves: describe experience exactly as it appears, prior to theories and explanations', zh: '回到事物本身：如实描述经验呈现，先于一切理论和解释' },
+    'hs4': { en: 'Lifeworld (Lebenswelt): the pre-theoretical world of everyday experience that science presupposes but cannot replace', zh: '生活世界：科学预设但无法取代的前理论日常生活世界' },
+    'hs5': { en: 'Transcendental phenomenology: investigate the conditions of possibility of experience itself', zh: '先验现象学：探究经验本身的可能条件' },
+    'hs6': { en: 'Intersubjectivity: the Other is constituted in experience — solipsism is overcome through empathetic apprehension', zh: '主体间性：他者在经验中被构成——通过共情式的把握克服唯我论' },
+    // === Huang Zongxi ===
+    'hzz4': { en: 'Ministers are co-governors with the ruler, not mere servants', zh: '大臣是与君主共治者，非单纯的仆人' },
+    // === Ji Kang ===
+    'jk1': { en: 'Reject artificial social norms; return to natural simplicity', zh: '拒斥人为的社会规范；回归自然朴素' },
+    'jk2': { en: 'Music expresses the harmony of nature, not human emotion', zh: '音乐表达自然的和谐，而非人的情感' },
+    'jk3': { en: 'The sage transcends sorrow and joy through detachment', zh: '圣人通过超脱超越忧乐' },
+    // === William James ===
+    'jm1': { en: 'Pragmatic theory of truth: truth is what works in practice — ideas are verified by their experiential consequences', zh: '实用主义真理观：真理即在实践中有效——观念由其经验后果来验证' },
+    'jm2': { en: 'Radical empiricism: both relations and terms are directly experienced — neutral monism of pure experience', zh: '彻底经验主义：关系和项都是直接被经验的——纯粹经验的 neutral monism' },
+    'jm3': { en: 'Stream of consciousness: thought is continuous, flowing, and personal — never discrete fragments', zh: '意识流：思维是连续的、流动的、个人的——绝非离散的碎片' },
+    'jm4': { en: 'The will to believe: in genuinely live, forced, momentous options, faith-based choice is permissible', zh: '信仰意志：在真正活的、强迫的、重大的选项中，基于信仰的选择是可容许的' },
+    'jm5': { en: 'Pluralistic universe: reality is unfinished, containing genuine novelty and multiple independent realities', zh: '多元宇宙：实在是不完整的，包含真正的新颖性和多个独立实在' },
+    // === Søren Kierkegaard ===
+    'kk1': { en: 'Three stages of existence: aesthetic (pleasure), ethical (duty), and religious (faith) — qualitative leaps between them', zh: '存在的三阶段：审美（享乐）、伦理（义务）、宗教（信仰）——阶段间为质的跳跃' },
+    'kk2': { en: 'Subjectivity is truth: truth is not objective but involves passionate inward commitment of the individual', zh: '主体性即真理：真理不是客观的，而是个体充满激情的内心投入' },
+    'kk3': { en: 'Leap of faith: belief in the absurd (like Abraham\'s sacrifice) transcends rational justification', zh: '信仰的飞跃：相信荒谬（如亚伯拉罕的献祭）超越理性论证' },
+    'kk4': { en: 'Either/Or: life demands decisive choice — refusing to choose is itself a despairing choice', zh: '非此即彼：生活要求决断性选择——拒绝选择本身就是一种绝望的选择' },
+    'kk5': { en: 'Despair (sygdom til døden) is the sickness unto death: not willing to be oneself', zh: '绝望是致死的疾病：不愿意成为自己' },
+    'kk6': { en: 'Irony (after Socrates) exposes contradictions in systems and clears ground for authentic existence', zh: '苏格拉底式的讽刺暴露体系中的矛盾，为本真存在开辟空间' },
+    // === Immanuel Kant ===
+    'kt10': { en: 'Antinomies of pure reason: reason inevitably produces contradictory conclusions about the cosmos, freedom, and God', zh: '纯粹理性的二律背反：理性不可避免地产生关于宇宙、自由和上帝的矛盾结论' },
+    'kt11': { en: 'Enlightenment motto: \'Sapere aude!\' — dare to think for yourself, emerge from self-imposed immaturity', zh: '启蒙座右铭："Sapere aude!"——敢于独立思考，从自我施加的不成熟中走出' },
+    'kt12': { en: 'Teleological judgment: we must regard organisms as if designed by purpose, though this remains regulative not constitutive', zh: '目的论判断：必须将有机体视为仿佛有目的设计的，但这只是调节性的而非构成性的' },
+    'kt13': { en: 'Postulates of practical practical reason: God, freedom, and immortality are necessary presuppositions of morality', zh: '实践理性的公设：上帝、自由和不朽是道德的必要预设' },
+    'kt6': { en: 'Autonomy of the will: moral law is self-legislation by rational beings — true freedom is obedience to reason', zh: '意志自律：道德法则是理性存在者的自我立法——真正的自由是对理性的服从' },
+    'kt7': { en: 'Kingdom of ends: a systematic union of rational beings through common moral laws', zh: '目的王国：理性存在者通过共同道德法则结成的系统联合' },
+    'kt8': { en: 'The sublime: aesthetic experience of overwhelming magnitude (mathematical) or power (dynamic) that exceeds comprehension', zh: '崇高感：面对压倒性的巨大（数学的）或力量（力学的）时超越理解的审美体验' },
+    'kt9': { en: 'Perpetual peace: republics with democratic constitutions tend toward peace — foundations of liberal internationalism', zh: '永久和平：拥有民主宪政的共和制倾向于和平——自由国际主义的基础' },
+    // === Kang Youwei ===
+    'kyw1': { en: 'The Datong (大同) — A utopian world of universal harmony', zh: '大同——一个普遍和谐的理想世界' },
+    'kyw2': { en: 'Confucius as a reformer who intended to create modern institutions', zh: '孔子是意图创造现代制度的改革者' },
+    'kyw3': { en: 'Abolish boundaries of state, class, race, and gender', zh: '废除国家、阶级、种族和性别的界限' },
+    'kyw4': { en: 'Constitutional monarchy as the path to modernization', zh: '君主立宪作为现代化的路径' },
+    // === Confucius ===
+    'kz10': { en: 'De (德) — Virtuous character attracts others without force', zh: '德——有德之性自然吸引他人' },
+    'kz11': { en: 'The gentleman seeks harmony, not uniformity', zh: '君子和而不同' },
+    'kz12': { en: 'Do not do to others what you would not want done to yourself', zh: '己所不欲，勿施于人' },
+    'kz13': { en: 'At fifteen I set my heart on learning; at thirty I stood firm', zh: '吾十有五而志于学，三十而立' },
+    'kz5': { en: 'Xiao (孝) — Filial piety is the root of all virtues', zh: '孝——孝道是一切美德之根本' },
+    'kz6': { en: 'Zhongyong (中庸) — The Doctrine of the Mean: avoid extremes', zh: '中庸——避免极端' },
+    'kz7': { en: 'Yi (义) — Righteousness: doing what is appropriate in each situation', zh: '义——做每个情境中适当之事' },
+    'kz8': { en: 'Tian (天) — Heaven as the source of moral order', zh: '天——天是道德秩序的根源' },
+    'kz9': { en: 'Education for all regardless of social status', zh: '有教无类' },
+    // === G.W. Leibniz ===
+    'lb5': { en: 'Identity of indiscernibles: no two things can share exactly the same properties', zh: '不可分辨者的同一性：没有两个事物能具有完全相同的属性' },
+    'lb6': { en: 'Sufficient reason: nothing happens without a reason why it should be so rather than otherwise', zh: '充足理由律：没有事物是没有理由就这样而非那样发生的' },
+    // === Lu Jiuyuan ===
+    'ljy1': { en: 'The mind IS principle (心即理); there is no separation', zh: '心即理；没有分离' },
+    'ljy2': { en: 'The mind of the sage and the mind of the ordinary person are the same', zh: '圣人之心与常人之心相同' },
+    'ljy3': { en: 'First establish the great root (本心); details follow naturally', zh: '先立乎其大者；其余自然随之' },
+    // === John Locke ===
+    'lk5': { en: 'Personal identity consists in psychological continuity of consciousness over time', zh: '个人同一性在于意识在时间中的心理连续性' },
+    'lk6': { en: 'Toleration: the state has no authority over the inner religious beliefs of its citizens', zh: '宽容论：国家对公民的内在宗教信仰无管辖权' },
+    // === Luo Qinshun ===
+    'lq3': { en: 'Human nature is neither purely good nor evil; it follows the natural flow of qi', zh: '人性非纯善也非纯恶；顺应气的自然流转' },
+    // === Liang Qichao ===
+    'lqc1': { en: 'New Citizen (新民): China needs a new national character', zh: '新民：中国需要新的国民性格' },
+    'lqc2': { en: 'Borrow Western political ideas while preserving Chinese moral core', zh: '借用西方政治思想，同时保留中国的道德核心' },
+    'lqc3': { en: 'Intellectual responsibility for national renewal through journalism', zh: '通过新闻事业承担民族复兴的知识责任' },
+    'lqc4': { en: 'Freedom as social responsibility, not individual license', zh: '自由作为社会责任，而非个人放纵' },
+    // === Lao Siguang ===
+    'lsg1': { en: 'History of Chinese Philosophy as a critical reconstruction of philosophical problems', zh: '中国哲学史作为哲学问题的批判性重构' },
+    'lsg2': { en: 'Confucian moral philosophy centered on the concept of \'heart-mind\' (心)', zh: '以"心"为核心的儒家道德哲学' },
+    'lsg3': { en: 'Chinese philosophy must address modernity through critical self-reflection', zh: '中国哲学须通过批判性自我反思回应现代性' },
+    'lsg4': { en: 'Neo-Confucianism\'s theory of mind unifies metaphysics, ethics, and epistemology', zh: '理学的心论统一形而上学、伦理学和认识论' },
+    // === Liang Shuming ===
+    'lsm1': { en: 'Western, Chinese, and Indian civilizations represent three directions of human culture', zh: '西方、中国和印度文明代表人类文化的三个方向' },
+    'lsm2': { en: 'Chinese culture is oriented toward harmony and intuition, not conquest', zh: '中国文化以和谐与直觉为导向，而非征服' },
+    'lsm3': { en: 'Rural reconstruction as the path to China\'s modernization', zh: '乡村建设作为中国现代化的路径' },
+    'lsm4': { en: 'Intuition (直觉) over intellect as the path to truth', zh: '直觉高于理智作为通向真理的途径' },
+    // === Laozi ===
+    'lz5': { en: 'The named Dao is not the eternal Dao; language cannot capture ultimate reality', zh: '道可道，非常道；语言无法捕捉终极实在' },
+    'lz6': { en: 'Weakness overcomes strength; softness overcomes hardness', zh: '柔弱胜刚强' },
+    'lz7': { en: 'The sage leads by emptiness and non-contention', zh: '圣人以虚静无为而治' },
+    'lz8': { en: 'The ten thousand things arise from Being; Being arises from Non-Being', zh: '万物生于有，有生于无' },
+    // === Liezi ===
+    'lzr1': { en: 'The Dao is spontaneous; fate and fortune are beyond human control', zh: '道法自然；命运和机遇非人力所能控' },
+    'lzr2': { en: 'Self-cultivation leads to freedom from worldly attachments', zh: '修身导致超脱世俗的执著' },
+    'lzr3': { en: 'Relativity of perspective: truth depends on the standpoint', zh: '视角的相对性：真理取决于立场' },
+    // === Liu Zongyuan ===
+    'lzy1': { en: 'Heaven has no will; nature operates by its own laws', zh: '天无意志；自然按自身规律运行' },
+    'lzy2': { en: 'Social progress comes from institutional reform, not moral regeneration alone', zh: '社会进步来自制度改革，而非仅靠道德复兴' },
+    'lzy3': { en: 'Gu wen (ancient prose) movement: clear, direct writing for truth', zh: '古文运动：为真理而写清晰直接的文章' },
+    // === Li Zhi ===
+    'lzz1': { en: 'The Child-like Mind (童心说): genuine feeling over Confucian orthodoxy', zh: '童心说：真情实感受胜于儒家正统' },
+    'lzz2': { en: 'Self-interest and desire are natural and should not be suppressed', zh: '自利和欲望是自然的，不应被压抑' },
+    'lzz3': { en: 'Critique of hypocrisy in Confucian moral discourse', zh: '批判儒家道德话语中的虚伪' },
+    // === John Stuart Mill ===
+    'ml5': { en: 'Induction by enumeration: enumerative induction grounded in uniformity of nature (vs. Whewell\'s hypothetico-deductive)', zh: '枚举归纳法：以自然齐一性为根基的枚举归纳' },
+    // === Mozi ===
+    'mo5': { en: 'Fei yue (非乐) — Against extravagant music and ritual', zh: '非乐——反对奢靡的音乐和礼制' },
+    'mo6': { en: 'Jie yong (节用) — Frugality as a moral and political principle', zh: '节用——节俭作为道德和政治原则' },
+    // === Maurice Merleau-Ponty ===
+    'mp1': { en: 'Body-subject (corps propre): the body is not an object but our primary way of being in the world', zh: '身体-主体：身体不是对象而是我们在世存在的首要方式' },
+    'mp2': { en: 'Perception is embodied: we perceive through our bodily engagement, not detached observation', zh: '知觉是具身的：通过身体参与来感知，而非超然的观察' },
+    'mp3': { en: 'Ambiguity of perception: meaning is always incomplete, situated, and open-ended — against Cartesian clarity', zh: '知觉的暧昧性：意义总是不完整的、处境化的和开放式的——反对笛卡尔式的清晰' },
+    'mp4': { en: 'Chiasm: reversibility of touching/being touched — subject and object intertwine in bodily experience', zh: '交织：触/被触的可逆性——主体和客体在身体经验中交织' },
+    // === Montesquieu ===
+    'mq1': { en: 'Separation of powers (executive, legislative, judicial) is essential to prevent tyranny', zh: '三权分立（行政、立法、司法）是防止暴政所必需的' },
+    'mq2': { en: 'Laws must be adapted to the people, climate, and customs of each nation — legal relativism', zh: '法律必须适应各国人民、气候和风俗——法律相对主义' },
+    'mq3': { en: 'Despotism is ruled by fear; monarchy by honor; republic by virtue', zh: '专制以恐惧统治；君主制以荣誉；共和国以美德' },
+    'mq4': { en: 'Commerce promotes peace and tolerance between nations', zh: '商业促进国家间的和平与宽容' },
+    // === Karl Marx ===
+    'mx5': { en: 'Labor theory of value: the value of commodities is determined by socially necessary labor time', zh: '劳动价值论：商品的价值由社会必要劳动时间决定' },
+    'mx6': { en: 'Dictatorship of the proletariat: transitional state where workers seize and hold power before classlessness', zh: '无产阶级专政：工人夺取并掌握政权到阶级消灭之前的过渡国家' },
+    'mx7': { en: 'Religion is the opium of the people — it masks real exploitation and promises illusory consolation', zh: '宗教是人民的鸦片——它掩盖真实的剥削并许诺虚幻的安慰' },
+    // === Mencius ===
+    'mz5': { en: 'Cultivate the vast, flowing qi (浩然之气) through righteousness', zh: '养浩然之气——以义养气' },
+    'mz6': { en: 'Human nature is like a field; cultivation determines the harvest', zh: '人性如田地；耕作决定收获' },
+    'mz7': { en: 'The heart-mind (心) has the capacity for moral discernment', zh: '心有道德辨别的能力' },
+    // === Mou Zongsan ===
+    'mzs4': { en: 'Self-negation of the moral mind to open cognitive intellect (良知坎陷)', zh: '良知的自我坎陷以开出知性' },
+    // === Friedrich Nietzsche ===
+    'ni10': { en: 'Apollo vs. Dionysus: Greek tragedy combines Apollonian form/order with Dionysian chaos/ecstasy', zh: '阿波罗与狄奥尼索斯：希腊悲剧融合了阿波罗式的形式/秩序与狄奥尼索斯式的混沌/狂喜' },
+    'ni6': { en: 'Amor fati: love your fate — affirm all of life, including suffering and pain, unconditionally', zh: '命运之爱：爱你的命运——无条件地肯定生命，包括痛苦' },
+    'ni7': { en: 'Perspectivism: there are no facts, only interpretations — all knowledge is from particular standpoints', zh: '视角主义：没有事实，只有诠释——一切知识都来自特定立场' },
+    'ni8': { en: 'Critique of truth: truth is a mobile army of metaphors — useful fictions become solidified as \'truth\'', zh: '对真理的批判：真理是一支隐喻的流动大军——有用的虚构固化成了"真理"' },
+    'ni9': { en: 'Revaluation of all values: transvalue decadent values (pity, equality) into life-affirming ones', zh: '一切价值的重估：将颓废的价值（同情、平等）转变为肯定生命的价值' },
+    // === Robert Nozick ===
+    'nz1': { en: 'The minimal state: only functions needed to protect against force, theft, fraud, and enforce contracts', zh: '最小国家：仅具有保护免受暴力、盗窃、欺诈和执行合同所需的职能' },
+    'nz2': { en: 'Entitlement theory: justice in holdings depends on just acquisition and voluntary transfer', zh: '持有正义论：财产持有的正义取决于正当获取和自愿转让' },
+    'nz3': { en: 'Taxation of earnings from labor is on a par with forced labor', zh: '对劳动所得征税等同于强制劳动' },
+    'nz4': { en: 'The Utility Monster: if a being gets enormously more utility from resources, utilitarianism would sacrifice everyone else', zh: '效用怪兽：如果一个存在从资源中获得巨大效用，功利主义将牺牲其他所有人' },
+    // === William of Ockham ===
+    'ok1': { en: 'Ockham\'s Razor: do not multiply entities beyond necessity — simpler explanations are preferred', zh: '奥卡姆剃刀：如无必要，勿增实体——更简单的解释优先' },
+    'ok2': { en: 'Nominalism: universals are names (flatus vocis), not real entities existing independently', zh: '唯名论：共相是名称（声音的气息），非独立存在的实在' },
+    'ok3': { en: 'Only individuals exist; all categories are mental constructs for organizing experience', zh: '只有个体存在；一切范畴都是组织经验的心理构造' },
+    'ok4': { en: 'Faith and reason are separate domains — theological truths cannot be proven by reason alone', zh: '信仰与理性是分离的领域——神学真理不能仅靠理性证明' },
+    // === Charles Sanders Peirce ===
+    'pc1': { en: 'Pragmatic Maxim: the meaning of a conception lies in its conceivable practical effects', zh: '实用主义准则：一个概念的意义在于其可设想的实际效果' },
+    'pc2': { en: 'Semiotics: signs consist of object, representamen, and interpretant — triadic relation underlies all meaning', zh: '符号学：符号由对象、再现体和解释项组成——三元关系是一切意义的基础' },
+    'pc3': { en: 'Abduction (retroduction): inference to the best explanation — the logical form of hypothesis generation', zh: '溯因推理：对最佳解释的推理——假说生成的逻辑形式' },
+    'pc4': { en: 'Fallibilism: no belief is absolutely certain — inquiry is an endless community process of correction', zh: '可错论：没有任何信念是绝对确定的——探究是永无止境的共同体修正过程' },
+    'pc5': { en: 'Three categories of being: Firstness (quality), Secondness (reaction), Thirdness (representation/mediation)', zh: '存在的三个范畴：第一性（质）、第二性（反应）、第三性（表征/中介）' },
+    // === Plato ===
+    'pl10': { en: 'The Demiurge fashioned the cosmos from pre-existing matter using the Forms as a model', zh: '造物主以理念为模型从预存的质料中塑造宇宙' },
+    'pl11': { en: 'The divided line: reality has four levels — images, physical things, mathematical objects, Forms', zh: '线段喻：实在有四个层次——影像、物理事物、数学对象、理念' },
+    'pl12': { en: 'Laws should be based on reason and aim at the common good of the whole community', zh: '法律应基于理性并旨在整个共同体的公共利益' },
+    'pl6': { en: 'The Allegory of the Cave: most humans see only shadows; philosophy liberates us into true light', zh: '洞穴寓言：大多数人只看到影子；哲学把我们解放到真正的光明中' },
+    'pl7': { en: 'The Form of the Good illuminates all other Forms like the sun illuminates visible things', zh: '善的理念如太阳照亮可见事物般照亮一切其他理念' },
+    'pl8': { en: 'Eros (love) is the soul\'s desire to ascend from beautiful bodies to Beauty itself', zh: '爱欲（eros）是灵魂从美的肉体上升到美本身的渴望' },
+    'pl9': { en: 'Poets and artists produce imitations of imitations — twice removed from truth', zh: '诗人和艺术家制造模仿的模仿——距真理隔了两层' },
+    // === Parmenides ===
+    'pm1': { en: 'Being is; non-being is not — genuine change and plurality are impossible illusions', zh: '存在者存在；不存在者不存在——真正的变化和多数是不可能的幻觉' },
+    'pm2': { en: 'What is, is eternal, ungenerated, imperishable, indivisible, and complete — one and continuous', zh: '存在者是永恒的、不生不灭的、不可分的、完整的——统一而连续' },
+    'pm3': { en: 'The Way of Truth (reason) vs. the Way of Opinion (sense perception) — only reason grasps reality', zh: '真理之路（理性）与意见之路（感官知觉）——唯有理性把握实在' },
+    'pm4': { en: 'Zeno\'s paradoxes defend Parmenides by showing that assuming plurality leads to contradictions', zh: '芝诺悖论通过证明假设多数性导致矛盾来为巴门尼德辩护' },
+    // === Blaise Pascal ===
+    'ps1': { en: 'Pascal\'s Wager: believing in God is pragmatically rational since infinite gain outweighs finite loss', zh: '帕斯卡赌注：信仰上帝在实用上是理性的，因为无限收益超过有限损失' },
+    'ps2': { en: 'The heart has its reasons which reason knows not — intuitive understanding exceeds logic', zh: '心有其理，而理性不知——直觉理解超越逻辑' },
+    'ps3': { en: 'Human condition: we are between the infinitely large and small — wretched yet capable of greatness', zh: '人的处境：我们处于无限大与无限小之间——可悲却能伟大' },
+    'ps4': { en: 'The order of heart vs. the order of reason: different domains require different methods', zh: '心的秩序与理性的秩序：不同领域需要不同方法' },
+    // === Plotinus ===
+    'pt1': { en: 'The One (the Good) is the first principle beyond being, thought, and intelligibility — utterly simple', zh: '太一（善）是超越存在、思想和可理解性的第一原理——绝对单纯' },
+    'pt2': { en: 'Emanation: from the One proceeds Intellect (Nous), then Soul, then the material world', zh: '流溢：从太一流出理智（奴斯），再流出灵魂，最后是物质世界' },
+    'pt3': { en: 'The soul\'s return: through contemplative ascent, we can reunite with the One in mystical ecstasy', zh: '灵魂的回归：通过沉思上升，我们可以在神秘出神中与太一重新合一' },
+    'pt4': { en: 'Matter is the lowest degree of reality — the principle of privation and darkness', zh: '物质是实在的最低程度——匮乏和黑暗的原则' },
+    // === Qian Mu ===
+    'qm1': { en: 'Chinese cultural tradition has its own coherent spiritual system', zh: '中国文化传统有其自身融贯的精神体系' },
+    'qm2': { en: 'History of Chinese political institutions reveals continuity and adaptation', zh: '中国政治制度史揭示了连续性和适应性' },
+    'qm3': { en: 'The unity of knowledge and action is China\'s unique contribution', zh: '知行合一是中国的独特贡献' },
+    'qm4': { en: 'Traditional Chinese culture can address modern global challenges', zh: '中国传统文化能够应对现代全球挑战' },
+    // === W.V.O. Quine ===
+    'qn1': { en: 'Two Dogmas of Empiricism: reject analytic/synthetic distinction and reductionism — holistic web of belief', zh: '经验主义的两个教条：拒斥分析/综合之分和还原论——信念的整体网络' },
+    'qn2': { en: 'Holism (confirmation holism): statements face the tribunal of experience as a body, not individually', zh: '整体论（证实整体论）：陈述作为整体面对经验的法庭，而非个别面对' },
+    'qn3': { en: 'Naturalized epistemology: epistemology is a chapter of psychology — study how humans actually form beliefs', zh: '自然化认识论：认识论是心理学的一个章节——研究人类实际如何形成信念' },
+    'qn4': { en: 'Indeterminacy of translation: multiple incompatible translation manuals between languages are equally empirically adequate', zh: '翻译的不确定性：语言间多种不相容的翻译手册同样经验上充分' },
+    'qn5': { en: 'Ontological relativity: there is no privileged reference frame — ontology relative to background language', zh: '本体论相对性：没有特权的参照框架——本体论相对于背景语言' },
+    // === Jean-Jacques Rousseau ===
+    'ro4': { en: 'Private property is the origin of civil society and also of inequality and conflict', zh: '私有财产是市民社会的起源，也是不平等和冲突的起源' },
+    'ro5': { en: 'General will aims at the common good; it differs from the will of all (sum of private interests)', zh: '公意旨在公共利益；它不同于众意（私人利益之和）' },
+    'ro6': { en: 'Education should follow nature\'s pace — nurture innate goodness rather than impose conformity', zh: '教育应顺应自然的节奏——养育天赋善性而非强加顺从' },
+    // === Bertrand Russell ===
+    'ru5': { en: 'Inference of other minds: analogy from observed behavior to inferred mental states (argument from analogy)', zh: '他心推理：从观察到的行为类比推断心理状态' },
+    // === John Rawls ===
+    'rw4': { en: 'Two principles: (1) equal basic liberties for all, (2) fair equality of opportunity + difference principle', zh: '两个原则：（1）所有人享有平等的基本自由，（2）公平的机会平等+差异原则' },
+    'rw5': { en: 'Overlapping consensus: pluralistic societies can agree on political principles despite differing comprehensive doctrines', zh: '重叠共识：多元社会能就政治原则达成一致，尽管有各自不同的完备学说' },
+    // === Jean-Paul Sartre ===
+    'sa5': { en: 'Being-for-itself vs. being-in-itself: consciousness is pure negation and lack; things are full positivity', zh: '自为存在与自在存在：意识是纯粹的否定和匮乏；事物是充实的一定' },
+    // === Shen Buhai ===
+    'sbh1': { en: 'Shu (术) — Administrative method is the core of governance', zh: '术——行政方法是治国的核心' },
+    'sbh2': { en: 'Xing ming (形名) — Match titles to actual performance', zh: '形名——使名位与实际表现相称' },
+    'sbh3': { en: 'Ruler must remain hidden and inscrutable to prevent manipulation', zh: '君主必须保持隐秘不可测以防止被操纵' },
+    // === Socrates ===
+    'sc5': { en: 'The elenchus (Socratic method): knowledge emerges through dialectical questioning, not dogma', zh: '苏格拉底方法（诘问法）：知识通过辩证式提问产生，而非教条' },
+    'sc6': { en: 'No one does evil willingly — wrongdoing stems from ignorance of what is truly good', zh: '无人自愿作恶——错误行为源于对真正善的无知' },
+    // === Peter Singer ===
+    'sg1': { en: 'All sentient beings deserve equal consideration of interests — speciesism is morally wrong', zh: '一切有感知能力的存在者应得到平等的利益考量——物种歧视在道德上是错误的' },
+    'sg2': { en: 'Preference utilitarianism: maximize the satisfaction of preferences of all affected beings', zh: '偏好功利主义：最大化所有受影响存在者的偏好满足' },
+    'sg3': { en: 'Effective altruism: we should donate to causes that do the most good per dollar spent', zh: '有效利他主义：应将捐款用于每元能产生最大善果的事业' },
+    'sg4': { en: 'Famine, Affluence, and Morality: if we can prevent suffering without sacrificing anything comparable, we must', zh: '饥荒、富裕与道德：如果我们能在不牺牲可比代价的情况下防止苦难，我们就必须这样做' },
+    // === Arthur Schopenhauer ===
+    'sh1': { en: 'The World as Will and Representation: the noumenal reality is blind, striving Will; phenomenal reality is Representation', zh: '作为意志和表象的世界：本体的实在是盲目的、奋斗着的意志；现象的实在是表象' },
+    'sh2': { en: 'Will-to-live is the fundamental drive behind all existence — the source of endless suffering', zh: '求生意志是一切存在的根本驱动力——无尽痛苦的根源' },
+    'sh3': { en: 'Aesthetic contemplation (especially music) offers temporary escape from the tyranny of the Will', zh: '审美沉思（尤其是音乐）提供暂时逃离意志专制的途径' },
+    'sh4': { en: 'Compassion (Mitleid) is the basis of ethics — recognizing the same suffering Will in others', zh: '同情（Mitleid）是伦理学的基础——在他者中认出同样的受苦意志' },
+    'sh5': { en: 'Denial of the Will through asceticism is the path to liberation and peace (Nirvana-like)', zh: '通过禁欲否定意志是通往解脱和平安之路（类似涅槃）' },
+    'sh6': { en: 'Pessimism: life is more suffering than pleasure; non-existence would be preferable', zh: '悲观主义：生活中痛苦多于快乐；不存在会更好' },
+    // === Baruch Spinoza ===
+    'sp5': { en: 'Intellectual love of God (amor Dei intellectualis) — the highest human happiness through intuitive knowledge', zh: '对上帝的理智之爱（amor Dei intellectualis）——通过直觉知识获得的最高人类幸福' },
+    'sp6': { en: 'Emotions arise from inadequate ideas; understanding their causes allows mastery over them', zh: '情感源于不充分的观念；理解其原因使人能掌控它们' },
+    'sp7': { en: 'Democracy is the most natural form of government — it expresses individual freedom within collective reason', zh: '民主是最自然的政体形式——它表达了个人自由在集体理性中的实现' },
+    // === John Searle ===
+    'sr1': { en: 'The Chinese Room: syntax manipulation is not sufficient for semantics — computation is not understanding', zh: '中文房间：句法操纵不足以产生语义——计算不等于理解' },
+    'sr2': { en: 'Speech acts: language is not just describing reality but performing actions (asserting, promising, commanding)', zh: '言语行为：语言不只是描述现实，而是在执行行动（断言、承诺、命令）' },
+    'sr3': { en: 'Biological naturalism: consciousness is a biological phenomenon caused by brain processes', zh: '生物自然主义：意识是由大脑过程引起的生物现象' },
+    'sr4': { en: 'Social reality: institutional facts (money, marriage, property) depend on collective intentionality', zh: '社会实在：制度性事实（货币、婚姻、财产）依赖集体意向性' },
+    // === Sun Tzu ===
+    'sz1': { en: 'The supreme art of war is to subdue the enemy without fighting', zh: '不战而屈人之兵，善之善者也' },
+    'sz2': { en: 'Know yourself and know the enemy; you need not fear the result', zh: '知己知彼，百战不殆' },
+    'sz3': { en: 'All warfare is based on deception', zh: '兵者，诡道也' },
+    'sz4': { en: 'Win without fighting through strategy and positioning', zh: '以战略和定位不战而胜' },
+    // === Tang Junyi ===
+    'tjy1': { en: 'The moral ideal as the center of Chinese philosophy', zh: '道德理想是中国哲学的中心' },
+    'tjy2': { en: 'The nine horizons of the human mind', zh: '人心九境' },
+    'tjy3': { en: 'Human existence as the meeting point of heaven and earth', zh: '人的存在是天地的交汇点' },
+    'tjy4': { en: 'Empathy and moral feeling as the foundation of all knowledge', zh: '同理心和道德感是一切知识的基础' },
+    // === Wang Bi ===
+    'wb1': { en: 'You (being) comes from Wu (non-being); non-being is fundamental', zh: '有生于无；无为根本' },
+    'wb2': { en: 'Commentary on the Yijing: meaning (意) transcends words and images', zh: '《易经》注：意（意义）超越言和象' },
+    'wb3': { en: 'The sage has emotions but is not ensnared by them', zh: '圣人有情而不累' },
+    // === Wang Chong ===
+    'wc4': { en: 'Skeptical of ghost stories, divination, and supernatural claims', zh: '对鬼神故事、占卜和超自然主张的怀疑' },
+    // === Wang Fuzhi ===
+    'wfz4': { en: 'The Way is in concrete affairs, not in empty abstraction', zh: '道在具体事务中，不在空疏的抽象中' },
+    // === Ludwig Wittgenstein ===
+    'wt10': { en: 'Certainty: some propositions (like \'Here is a hand\') are hinges on which all doubt and inquiry turn', zh: '确定性：有些命题（如"这里是一只手"）是一切怀疑和探究所依凭的铰链' },
+    'wt6': { en: 'Family resemblance: concepts need no single essence; members overlap like family faces', zh: '家族相似性：概念无需单一本质；成员如家族面容般交叉重叠' },
+    'wt7': { en: 'Language-games: countless distinct activities governed by rules — no underlying essence to \'language\'', zh: '语言游戏：无数受规则支配的不同活动——"语言"没有潜在本质' },
+    'wt8': { en: 'Form of life: meaning is grounded in shared practices, customs, and forms of activity', zh: '生活形式：意义植根于共享的实践、习俗和活动形式' },
+    'wt9': { en: 'Rule-following paradox: no course of action can be determined by a rule alone — interpretation always underdetermined', zh: '规则遵循悖论：没有任何行动过程能仅由规则决定——诠释总是不足够的' },
+    // === Wang Yangming ===
+    'wy5': { en: 'Mind and principle are one; there is no principle outside the mind', zh: '心与理为一；心外无理' },
+    'wy6': { en: 'The unity of knowledge and action: knowing without acting is not true knowing', zh: '知行合一：知而不行非真知' },
+    'wy7': { en: 'All people have the capacity for sagehood; the difference is in cultivation', zh: '人人皆可为圣人；差别在于修养' },
+    // === Wei Yuan ===
+    'wyu1': { en: 'Learn from the barbarians to defeat them (师夷长技以制夷)', zh: '师夷长技以制夷' },
+    'wyu2': { en: 'Practical geography and world knowledge for statecraft', zh: '实用地理与世界知识服务于治国' },
+    'wyu3': { en: 'Reform through knowledge of the actual world', zh: '通过认识实际世界来推动改革' },
+    // === Xiong Shili ===
+    'xsl1': { en: 'The mind-body (心体) is identical with substance; reality is mental-spiritual', zh: '心体与本体同一；实在是精神性的' },
+    'xsl2': { en: 'Transformation of substance into function (体用不二)', zh: '体用不二' },
+    'xsl3': { en: 'Original Confucianism is metaphysical, not merely ethical', zh: '原始儒学是形而上学的，不仅仅是伦理学的' },
+    // === Xunzi ===
+    'xz5': { en: 'Ritual (Li) and law (Fa) should work together for social order', zh: '礼与法应共同维护社会秩序' },
+    'xz6': { en: 'Music harmonizes the emotions and strengthens social bonds', zh: '音乐调和情感、增强社会纽带' },
+    // === Xuanzang ===
+    'xzng1': { en: 'Consciousness-only (唯识): all phenomena are projections of mind', zh: '唯识：一切现象都是心灵的投射' },
+    'xzng2': { en: 'The eight consciousnesses: the storehouse consciousness is the root', zh: '八识：阿赖耶识是根本' },
+    'xzng3': { en: 'Five levels of consciousness analysis resolve the illusion of self', zh: '五重唯识观破除自我的幻象' },
+    'xzng4': { en: 'Translation of Indian Buddhist texts into Chinese with precision', zh: '将印度佛经精准翻译为中文' },
+    // === Yang Xiong ===
+    'yx1': { en: 'The Fayan (Model Sayings): Confucian wisdom in aphoristic form', zh: '《法言》：格言式的儒家智慧' },
+    'yx2': { en: 'The Taixuan (Great Mystery): a neo-Daoist cosmological system', zh: '《太玄》：新道家的宇宙论体系' },
+    'yx3': { en: 'Human nature is a mixture of good and evil; cultivation is essential', zh: '人性善恶混；修养是必需的' },
+    // === Zhou Dunyi ===
+    'zdy1': { en: 'Taiji (Supreme Ultimate) generates yin, yang, and the five elements', zh: '太极生阴阳五行' },
+    'zdy2': { en: 'The human sage perfectly embodies the Supreme Ultimate', zh: '圣人完美体现太极' },
+    'zdy3': { en: 'Cheng (sincerity) is the root of the sage\'s virtue', zh: '诚是圣人之德的根本' },
+    // === Zhang Zai ===
+    'zhang1': { en: 'Qi (material force) condenses and disperses; nothing is truly created or destroyed', zh: '气聚则生，散则死；万物未曾真正生灭' },
+    'zhang2': { en: 'The Western Inscription: all people are my brothers and sisters', zh: '西铭：民吾同胞，物吾与也' },
+    'zhang3': { en: 'Heaven is my father, Earth is my mother; all people are my kin', zh: '乾称父，坤称母；民吾同胞' },
+    'zhang4': { en: 'Nature and destiny are one; extend your nature to realize the Way', zh: '性与命合一；扩充本性以实现道' },
+    // === Zhang Taiyan ===
+    'zty1': { en: 'National essence (国粹): Chinese cultural identity as revolutionary force', zh: '国粹：中国文化认同作为革命力量' },
+    'zty2': { en: 'Philological study of classical Chinese as philosophical method', zh: '以古典汉语的文字学研究作为哲学方法' },
+    'zty3': { en: 'Buddhist logic (Yogacara) combined with Confucian self-cultivation', zh: '佛教逻辑（唯识学）与儒家修身相结合' },
+    // === Zhu Xi ===
+    'zx5': { en: 'Mind commands body and nature; nature is the principle of the mind', zh: '心统性情；性是心之理' },
+    'zx6': { en: 'Reverence (敬) is the method of preserving the mind', zh: '敬是存心之法' },
+    'zx7': { en: 'The root is in the mind; the branches are in the investigation of things', zh: '本在心，末在格物' },
+    // === Zhiyi ===
+    'zy1': { en: 'The Threefold Truth: emptiness, provisionality, the middle', zh: '三谛：空、假、中' },
+    'zy2': { en: 'One mind contains three thousand realms (一念三千)', zh: '一念三千' },
+    'zy3': { en: 'Sudden enlightenment followed by gradual practice', zh: '顿悟渐修' },
+    // === Zou Yan ===
+    'zyan1': { en: 'Yin-Yang and Five Elements as the fundamental structure of the cosmos', zh: '阴阳五行是宇宙的基本结构' },
+    'zyan2': { en: 'The Five Virtues cycle determines dynastic rise and fall', zh: '五德终始决定朝代更替' },
+    'zyan3': { en: 'The Nine Continents cosmology: China is one of many lands in a vast world', zh: '大九州说：中国是广大世界中众多土地之一' },
+    'zyan4': { en: 'Cosmic resonance between human affairs and natural patterns', zh: '天人感应：人事与自然模式的共振' },
+    // === Zhuangzi ===
+    'zz5': { en: 'The usefulness of the useless: what society discards preserves life', zh: '无用之用，方为大用' },
+    'zz6': { en: 'Language cannot fully capture the Dao; words are like fish traps', zh: '言不尽意；得鱼忘筌' },
+    'zz7': { en: 'Skill mastery: the butcher Ding cuts through joints without touching bone', zh: '庖丁解牛：技进乎道' },
+    'zz8': { en: 'Heaven and earth were born at the same time I was; all things are one with me', zh: '天地与我并生，而万物与我为一' },
