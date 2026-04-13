@@ -1,0 +1,12 @@
+# WorkBuddy workspace
+.workbuddy/
+
+# Python scripts (utility, not part of the project)
+data/*.py
+
+# Generated text reports
+data/*.txt
+
+# OS files
+Thumbs.db
+.DS_Store
