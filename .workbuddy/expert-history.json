@@ -3,6 +3,15 @@
   "sessions": {
     "66462a2cf60947c6a8737087eac2d3e7": [
       {
+        "expertId": "FrontendDeveloper",
+        "name": "Paul",
+        "profession": "前端开发工程师",
+        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/FrontendDeveloper/FrontendDeveloper.png",
+        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/FrontendDeveloper/FrontendDeveloper_zh.md",
+        "usedAt": 1776145642626,
+        "industryId": "all"
+      },
+      {
         "expertId": "WeChatMiniProgramDeveloper",
         "name": "Cody",
         "profession": "微信小程序开发者",
@@ -19,17 +28,8 @@
         "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/12-GameDevelopment/GameDesigner/GameDesigner_zh.md",
         "usedAt": 1776075431326,
         "industryId": "12-GameDevelopment"
-      },
-      {
-        "expertId": "FrontendDeveloper",
-        "name": "Paul",
-        "profession": "前端开发工程师",
-        "avatarUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/avatars/02-Engineering/FrontendDeveloper/FrontendDeveloper.png",
-        "promptUrl": "https://acc-1258344699.cos.accelerate.myqcloud.com/workbuddy/experts/experts/02-Engineering/FrontendDeveloper/FrontendDeveloper_zh.md",
-        "usedAt": 1776068917947,
-        "industryId": "all"
       }
     ]
   },
-  "lastUpdated": 1776137235282
+  "lastUpdated": 1776145709044
 }
