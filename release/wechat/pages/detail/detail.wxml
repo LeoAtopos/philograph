@@ -1,0 +1,160 @@
+<!-- pages/detail/detail.wxml -->
+<view class="container">
+
+  <!-- 自定义导航栏 -->
+  <view class="nav-bar">
+    <view class="nav-back" bindtap="goBack">
+      <text class="nav-back-icon">‹</text>
+    </view>
+    <view class="nav-title-wrap">
+      <text class="nav-name">{{phil.displayName}}</text>
+      <text class="nav-years">{{phil.years}}</text>
+    </view>
+    <view class="nav-placeholder"></view>
+  </view>
+
+  <scroll-view class="scroll-body" scroll-y show-scrollbar="{{false}}" scroll-into-view="{{scrollTargetIdea}}">
+
+    <!-- 哲学家头部信息 -->
+    <view class="phil-header">
+      <view class="portrait-wrap">
+        <image
+          wx:if="{{phil.portrait}}"
+          class="portrait"
+          src="{{phil.portrait}}"
+          mode="aspectFill"
+        />
+        <view wx:else class="portrait portrait-placeholder">
+          <text>{{phil.initials}}</text>
+        </view>
+      </view>
+      <view class="phil-info">
+        <text class="phil-name">{{phil.displayName}}</text>
+        <text class="phil-years">{{phil.years}}</text>
+        <text class="phil-era">{{phil.eraLabel}}</text>
+        <view class="phil-tags">
+          <text
+            wx:for="{{phil.tagBadges}}"
+            wx:for-item="badge"
+            wx:key="label"
+            class="tag-badge tag-{{badge.cls}}"
+          >{{badge.label}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 连线统计 -->
+    <view class="conn-stats">
+      <view class="conn-stat">
+        <text class="conn-stat-num agree">{{phil.agreeCount}}</text>
+        <text class="conn-stat-label">{{i18n.legendAgree}}</text>
+      </view>
+      <view class="conn-stat-divider"></view>
+      <view class="conn-stat">
+        <text class="conn-stat-num disagree">{{phil.disagreeCount}}</text>
+        <text class="conn-stat-label">{{i18n.legendDisagree}}</text>
+      </view>
+      <view class="conn-stat-divider"></view>
+      <view class="conn-stat">
+        <text class="conn-stat-num gold">{{phil.ideaCount}}</text>
+        <text class="conn-stat-label">{{i18n.ideasLabel}}</text>
+      </view>
+    </view>
+
+    <!-- 思想列表 -->
+    <view class="section">
+      <view class="section-header">
+        <text class="section-title">{{i18n.ideasSection}}</text>
+      </view>
+
+      <view
+        wx:for="{{ideas}}"
+        wx:key="id"
+        id="idea-{{item.id}}"
+        class="idea-row {{item.selected ? 'selected' : ''}}"
+        bindtap="selectIdea"
+        data-id="{{item.id}}"
+      >
+        <view class="idea-left">
+          <view class="idea-dot {{item.dotCls}}"></view>
+          <view class="idea-body">
+            <text class="idea-text">{{item.text}}</text>
+            <view class="idea-tags">
+              <text
+                wx:for="{{item.tagBadges}}"
+                wx:for-item="badge"
+                wx:key="label"
+                class="tag-badge tag-{{badge.cls}} small"
+              >{{badge.label}}</text>
+            </view>
+          </view>
+        </view>
+        <view class="idea-right">
+          <text wx:if="{{item.agreeCount}}" class="conn-badge agree">+{{item.agreeCount}}</text>
+          <text wx:if="{{item.disagreeCount}}" class="conn-badge disagree">-{{item.disagreeCount}}</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- 选中思想的连线展开区 -->
+    <view class="connections-panel {{selectedIdeaId ? 'open' : ''}}">
+      <view class="section-header">
+        <text class="section-title">{{i18n.connections}}</text>
+        <text class="conn-idea-label">"{{selectedIdeaText}}"</text>
+      </view>
+
+      <view wx:if="{{connectedItems.length === 0}}" class="conn-empty">
+        <text>{{i18n.noConnections}}</text>
+      </view>
+
+      <view
+        wx:for="{{connectedItems}}"
+        wx:key="id"
+        class="conn-item"
+        bindtap="jumpToPhil"
+        data-id="{{item.philId}}"
+        data-target-idea-id="{{item.ideaId}}"
+      >
+        <view class="conn-type {{item.type === 'P' ? 'agree' : 'disagree'}}">
+          <text>{{item.type === 'P' ? '✓' : '✗'}}</text>
+        </view>
+        <view class="conn-content">
+          <text class="conn-phil-name">{{item.philName}}</text>
+          <text class="conn-idea-text">{{item.ideaText}}</text>
+          <text wx:if="{{item.label}}" class="conn-label">{{item.label}}</text>
+        </view>
+        <view class="conn-arrow">›</view>
+      </view>
+    </view>
+
+    <!-- 所有连线概览 -->
+    <view class="section" wx:if="{{allConnections.length > 0}}">
+      <view class="section-header">
+        <text class="section-title">{{i18n.allConnections}}</text>
+        <text class="section-sub">{{allConnections.length}} {{i18n.total}}</text>
+      </view>
+
+      <view
+        wx:for="{{allConnections}}"
+        wx:key="id"
+        class="conn-item"
+        bindtap="jumpToPhil"
+        data-id="{{item.targetPhilId}}"
+        data-target-idea-id="{{item.targetIdeaId}}"
+      >
+        <view class="conn-type {{item.type === 'P' ? 'agree' : 'disagree'}}">
+          <text>{{item.type === 'P' ? '✓' : '✗'}}</text>
+        </view>
+        <view class="conn-content">
+          <text class="conn-direction">{{item.direction}}</text>
+          <text class="conn-phil-name">{{item.philName}}</text>
+          <text class="conn-idea-pair">{{item.myIdeaText}} → {{item.theirIdeaText}}</text>
+        </view>
+        <view class="conn-arrow">›</view>
+      </view>
+    </view>
+
+    <view style="height: 80rpx;"></view>
+  </scroll-view>
+
+</view>

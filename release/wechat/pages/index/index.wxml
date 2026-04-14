@@ -1,0 +1,193 @@
+<!-- pages/index/index.wxml -->
+<view class="container">
+
+  <!-- ===== 顶部工具栏 ===== -->
+  <view class="topbar">
+    <view class="topbar-left">
+      <text class="logo">φ</text>
+      <view class="title-group">
+        <text class="title-main">{{i18n.siteTitleMain}}</text>
+        <text class="title-sub">{{i18n.siteTitleSub}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- ===== 传统切换 + 语言切换 ===== -->
+  <view class="tradition-switcher">
+    <view class="switcher-btn {{tradition === 'western' ? 'active' : ''}}" bindtap="switchTradition" data-tradition="western">{{i18n.western}}</view>
+    <view class="switcher-btn {{tradition === 'chinese' ? 'active' : ''}}" bindtap="switchTradition" data-tradition="chinese">{{i18n.eastern}}</view>
+    <view class="switcher-sep"></view>
+    <view class="lang-btn {{lang === 'zh' ? 'active' : ''}}" bindtap="setLang" data-lang="zh">中文</view>
+    <view class="lang-btn {{lang === 'en' ? 'active' : ''}}" bindtap="setLang" data-lang="en">EN</view>
+  </view>
+
+  <!-- ===== 搜索+筛选按钮 ===== -->
+  <view class="search-row">
+    <view class="search-box">
+      <text class="search-icon">⌕</text>
+      <input
+        class="search-input"
+        placeholder="{{i18n.search}}"
+        placeholder-class="search-placeholder"
+        value="{{searchText}}"
+        bindinput="onSearch"
+        bindconfirm="onSearchConfirm"
+      />
+      <text wx:if="{{searchText}}" class="search-clear" bindtap="clearSearch">×</text>
+    </view>
+    <view class="filter-btn {{showFilter ? 'active' : ''}}" bindtap="toggleFilter">
+      <text>☰</text>
+      <view wx:if="{{activeFilterCount < totalFilterCount}}" class="filter-count">{{totalFilterCount - activeFilterCount}}</view>
+    </view>
+    <view class="index-btn" bindtap="toggleIndex">
+      <text>A-Z</text>
+    </view>
+  </view>
+
+  <!-- ===== 筛选面板 ===== -->
+  <view class="filter-panel {{showFilter ? 'open' : ''}}">
+    <view class="filter-header">
+      <text class="filter-title">{{i18n.filters}}</text>
+      <view class="filter-actions">
+        <text class="btn-small" bindtap="selectAllFilters">{{i18n.selectAll}}</text>
+        <text class="btn-small" bindtap="clearAllFilters">{{i18n.clearAll}}</text>
+      </view>
+    </view>
+    <view class="filter-tags">
+      <text
+        wx:for="{{filterTags}}"
+        wx:key="value"
+        class="filter-tag {{item.active ? 'active' : ''}}"
+        style="color: {{item.cls}};"
+        bindtap="toggleFilterTag"
+        data-tag="{{item.value}}"
+      >{{item.label}}</text>
+    </view>
+  </view>
+
+  <!-- ===== 哲学家卡片列表 ===== -->
+  <scroll-view
+    class="card-list"
+    scroll-y
+    scroll-into-view="{{scrollToId}}"
+    scroll-with-animation
+    enhanced
+    show-scrollbar="{{false}}"
+  >
+    <view class="list-content">
+
+      <view wx:for="{{eras}}" wx:key="id" class="era-section" id="{{item.id}}">
+        <!-- 时代标题 -->
+        <view class="era-header">
+          <view class="era-line"></view>
+          <text class="era-label">{{item.label}}</text>
+        </view>
+
+        <!-- 卡片列表 -->
+        <view wx:for="{{item.cards}}" wx:for-item="card" wx:key="id" class="card-wrapper">
+          <view
+            wx:if="{{!card.filtered}}"
+            class="phil-card"
+            id="card-{{card.id}}"
+            bindtap="onCardTap"
+            data-id="{{card.id}}"
+            hover-class="card-hover"
+          >
+            <!-- 头部：头像 + 名字 -->
+            <view class="card-header">
+              <view class="portrait-wrap">
+                <image
+                  wx:if="{{card.portrait}}"
+                  class="portrait-img"
+                  src="{{card.portrait}}"
+                  mode="aspectFill"
+                />
+                <view wx:else class="portrait-placeholder">
+                  <text class="portrait-initials">{{card.initials}}</text>
+                </view>
+              </view>
+              <view class="card-info">
+                <text class="card-name">{{card.displayName}}</text>
+                <text class="card-years">{{card.years}}</text>
+                <view class="card-tags">
+                  <text
+                    wx:for="{{card.tagBadges}}"
+                    wx:for-item="badge"
+                    wx:key="label"
+                    class="tag-badge"
+                    style="color: {{badge.color}}; background: {{badge.color}}22;"
+                  >{{badge.label}}</text>
+                </view>
+              </view>
+            </view>
+
+            <!-- 分隔线 -->
+            <view class="card-divider"></view>
+
+            <!-- 思想列表 -->
+            <view class="idea-list">
+              <view
+                wx:for="{{card.ideaList}}"
+                wx:for-item="idea"
+                wx:key="id"
+                class="idea-row"
+                bindtap="onIdeaTap"
+                data-philid="{{card.id}}"
+                data-ideaid="{{idea.id}}"
+                hover-class="idea-hover"
+              >
+                <view class="idea-dot" style="background: {{idea.dotColor}};"></view>
+                <text class="idea-text">{{idea.text}}</text>
+                <view class="idea-badges">
+                  <text wx:if="{{idea.agreeCount > 0}}" class="badge agree">+{{idea.agreeCount}}</text>
+                  <text wx:if="{{idea.disagreeCount > 0}}" class="badge disagree">-{{idea.disagreeCount}}</text>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <!-- 底部留白 -->
+      <view style="height: 200rpx;"></view>
+    </view>
+  </scroll-view>
+
+  <!-- ===== 索引抽屉 ===== -->
+  <view class="index-overlay {{showIndex ? 'visible' : ''}}" bindtap="closeIndex"></view>
+  <view class="index-panel {{showIndex ? 'open' : ''}}">
+    <view class="index-header">
+      <text class="index-title">{{i18n.index}}</text>
+      <text class="index-close" bindtap="closeIndex">×</text>
+    </view>
+    <scroll-view class="index-list" scroll-y>
+      <view
+        wx:for="{{indexList}}"
+        wx:key="id"
+        class="index-item"
+        bindtap="jumpToPhil"
+        data-id="{{item.id}}"
+        hover-class="index-hover"
+      >
+        <text class="index-name">{{item.name}}</text>
+        <text class="index-year">{{item.year}}</text>
+      </view>
+    </scroll-view>
+  </view>
+
+  <!-- ===== 底部浮动信息栏 ===== -->
+  <view class="bottom-bar">
+    <text class="stats-text">{{visibleCount}} / {{totalCount}} {{i18n.philosophers}}</text>
+    <view class="legend">
+      <view class="legend-item">
+        <view class="legend-dot agree"></view>
+        <text>{{i18n.legendAgree}}</text>
+      </view>
+      <view class="legend-item">
+        <view class="legend-dot disagree"></view>
+        <text>{{i18n.legendDisagree}}</text>
+      </view>
+    </view>
+  </view>
+
+</view>

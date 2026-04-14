@@ -1,0 +1,333 @@
+/* pages/detail/detail.wxss */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: #0f1117;
+  overflow: hidden;
+}
+
+/* ===== 导航栏 ===== */
+.nav-bar {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 24rpx;
+  padding-top: calc(16rpx + env(safe-area-inset-top));
+  background: #0f1117;
+  border-bottom: 1rpx solid #1e2130;
+  flex-shrink: 0;
+}
+
+.nav-back {
+  width: 72rpx;
+  height: 72rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #1a1d2e;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.nav-back-icon {
+  font-size: 48rpx;
+  color: #9ca3b8;
+  line-height: 1;
+}
+
+.nav-title-wrap {
+  flex: 1;
+  text-align: center;
+}
+
+.nav-name {
+  display: block;
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #e8eaf0;
+}
+
+.nav-years {
+  display: block;
+  font-size: 22rpx;
+  color: #5a6282;
+}
+
+.nav-placeholder { width: 72rpx; }
+
+/* ===== 滚动主体 ===== */
+.scroll-body {
+  flex: 1;
+  overflow: hidden;
+}
+
+/* ===== 哲学家头部 ===== */
+.phil-header {
+  display: flex;
+  gap: 28rpx;
+  padding: 40rpx 32rpx 32rpx;
+  background: linear-gradient(180deg, #1a1d2e 0%, #0f1117 100%);
+}
+
+.portrait-wrap {
+  flex-shrink: 0;
+}
+
+.portrait {
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 3rpx solid #2a2d3e;
+  object-fit: cover;
+}
+
+.portrait-placeholder {
+  background: #2a2d3e;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 44rpx;
+  color: #9ca3b8;
+}
+
+.phil-info { flex: 1; min-width: 0; }
+
+.phil-name {
+  display: block;
+  font-size: 36rpx;
+  font-weight: 700;
+  color: #e8eaf0;
+  margin-bottom: 6rpx;
+}
+
+.phil-years {
+  display: block;
+  font-size: 24rpx;
+  color: #5a6282;
+  margin-bottom: 6rpx;
+}
+
+.phil-era {
+  display: inline-block;
+  font-size: 22rpx;
+  color: #7c8cff;
+  background: rgba(124,140,255,0.1);
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+  margin-bottom: 12rpx;
+}
+
+.phil-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8rpx;
+}
+
+.tag-badge {
+  font-size: 20rpx;
+  padding: 4rpx 16rpx;
+  border-radius: 20rpx;
+}
+
+.tag-badge.small { font-size: 18rpx; padding: 2rpx 12rpx; }
+
+/* ===== 连线统计 ===== */
+.conn-stats {
+  display: flex;
+  align-items: center;
+  margin: 0 32rpx 32rpx;
+  background: #1a1d2e;
+  border-radius: 16rpx;
+  padding: 24rpx 0;
+  border: 1rpx solid #2a2d3e;
+}
+
+.conn-stat {
+  flex: 1;
+  text-align: center;
+}
+
+.conn-stat-num {
+  display: block;
+  font-size: 48rpx;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 8rpx;
+}
+
+.conn-stat-num.agree    { color: #4ade80; }
+.conn-stat-num.disagree { color: #f87171; }
+.conn-stat-num.gold     { color: #c8a96e; }
+
+.conn-stat-label { font-size: 20rpx; color: #5a6282; }
+
+.conn-stat-divider {
+  width: 1rpx;
+  height: 48rpx;
+  background: #2a2d3e;
+}
+
+/* ===== Section ===== */
+.section {
+  padding: 0 32rpx 24rpx;
+}
+
+.section-header {
+  display: flex;
+  align-items: baseline;
+  gap: 16rpx;
+  margin-bottom: 20rpx;
+  padding-bottom: 12rpx;
+  border-bottom: 1rpx solid #2a2d3e;
+}
+
+.section-title {
+  font-size: 24rpx;
+  font-weight: 700;
+  color: #9ca3b8;
+  letter-spacing: 2rpx;
+  text-transform: uppercase;
+}
+
+.section-sub { font-size: 22rpx; color: #5a6282; }
+
+/* ===== 思想列表 ===== */
+.idea-row {
+  display: flex;
+  align-items: center;
+  padding: 16rpx 20rpx;
+  border-radius: 12rpx;
+  margin-bottom: 8rpx;
+  background: #1a1d2e;
+  border: 1rpx solid #2a2d3e;
+  transition: border-color 0.2s;
+}
+
+.idea-row.selected {
+  border-color: #c8a96e;
+  background: #1f2235;
+}
+
+.idea-left {
+  display: flex;
+  align-items: flex-start;
+  gap: 16rpx;
+  flex: 1;
+  min-width: 0;
+}
+
+.idea-dot {
+  width: 16rpx;
+  height: 16rpx;
+  border-radius: 50%;
+  background: #5a6282;
+  flex-shrink: 0;
+  margin-top: 8rpx;
+}
+
+.idea-dot.Metaphysics    { background: #7c8cff; }
+.idea-dot.Epistemology   { background: #60a5fa; }
+.idea-dot.Ethics         { background: #4ade80; }
+.idea-dot.Logic          { background: #fbbf24; }
+.idea-dot.Political      { background: #f87171; }
+.idea-dot.Aesthetics     { background: #c4b5fd; }
+.idea-dot.Religion       { background: #fb923c; }
+.idea-dot.Mind           { background: #e879f9; }
+.idea-dot.Language       { background: #2dd4bf; }
+.idea-dot.Science        { background: #f8c864; }
+.idea-dot.Confucianism   { background: #c8a96e; }
+.idea-dot.Taoism         { background: #6ec8a9; }
+.idea-dot.Mohism         { background: #64b4c8; }
+.idea-dot.Legalism       { background: #c86e6e; }
+.idea-dot.Buddhism       { background: #ffc864; }
+
+.idea-body { flex: 1; min-width: 0; }
+
+.idea-text {
+  display: block;
+  font-size: 26rpx;
+  color: #e8eaf0;
+  line-height: 1.5;
+  margin-bottom: 8rpx;
+}
+
+.idea-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6rpx;
+}
+
+.idea-right {
+  display: flex;
+  gap: 8rpx;
+  flex-shrink: 0;
+  margin-left: 12rpx;
+}
+
+.conn-badge {
+  font-size: 20rpx;
+  padding: 4rpx 12rpx;
+  border-radius: 20rpx;
+}
+
+.conn-badge.agree    { background: rgba(74,222,128,0.15);  color: #4ade80; }
+.conn-badge.disagree { background: rgba(248,113,113,0.15); color: #f87171; }
+
+/* ===== 连线展开面板 ===== */
+.connections-panel {
+  display: none;
+  padding: 0 32rpx 24rpx;
+}
+
+.connections-panel.open { display: block; }
+
+.conn-idea-label {
+  font-size: 22rpx;
+  color: #c8a96e;
+  font-style: italic;
+}
+
+.conn-empty {
+  text-align: center;
+  padding: 32rpx;
+  color: #5a6282;
+  font-size: 24rpx;
+}
+
+/* ===== 连线条目 ===== */
+.conn-item {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 20rpx;
+  border-radius: 12rpx;
+  background: #1a1d2e;
+  border: 1rpx solid #2a2d3e;
+  margin-bottom: 12rpx;
+}
+
+.conn-type {
+  width: 48rpx;
+  height: 48rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24rpx;
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.conn-type.agree    { background: rgba(74,222,128,0.2);  color: #4ade80; }
+.conn-type.disagree { background: rgba(248,113,113,0.2); color: #f87171; }
+
+.conn-content { flex: 1; min-width: 0; }
+
+.conn-direction { display: block; font-size: 18rpx; color: #5a6282; margin-bottom: 4rpx; }
+.conn-phil-name { display: block; font-size: 26rpx; font-weight: 600; color: #e8eaf0; margin-bottom: 4rpx; }
+.conn-idea-text { display: block; font-size: 22rpx; color: #9ca3b8; margin-bottom: 4rpx; }
+.conn-idea-pair { display: block; font-size: 22rpx; color: #9ca3b8; margin-bottom: 4rpx; }
+.conn-label     { display: block; font-size: 20rpx; color: #5a6282; font-style: italic; }
+
+.conn-arrow { font-size: 36rpx; color: #3a3d50; flex-shrink: 0; }

@@ -1,0 +1,56 @@
+/* app.wxss — 全局样式 */
+page {
+  background-color: #0f1117;
+  color: #e8eaf0;
+  font-family: -apple-system, "PingFang SC", "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+}
+
+/* CSS Variables */
+page {
+  --bg-primary: #0f1117;
+  --bg-card: #1a1d2e;
+  --bg-panel: #131520;
+  --text-primary: #e8eaf0;
+  --text-secondary: #9ca3b8;
+  --text-muted: #5a6282;
+  --color-agree: #4ade80;
+  --color-disagree: #f87171;
+  --color-gold: #c8a96e;
+  --color-accent: #7c8cff;
+  --border-color: #2a2d3e;
+  --radius: 12rpx;
+  --radius-lg: 20rpx;
+}
+
+/* 通用工具类 */
+.hidden { display: none !important; }
+
+.text-muted { color: var(--text-muted); }
+.text-secondary { color: var(--text-secondary); }
+.text-gold { color: var(--color-gold); }
+.text-agree { color: var(--color-agree); }
+.text-disagree { color: var(--color-disagree); }
+
+/* 标签颜色 */
+.tag-basics        { background: rgba(156,163,184,0.15); color: #9ca3b8; }
+.tag-metaphysics   { background: rgba(124,140,255,0.15); color: #7c8cff; }
+.tag-epistemology  { background: rgba(96,165,250,0.15);  color: #60a5fa; }
+.tag-ethics        { background: rgba(74,222,128,0.15);  color: #4ade80; }
+.tag-logic         { background: rgba(251,191,36,0.15);  color: #fbbf24; }
+.tag-political     { background: rgba(248,113,113,0.15); color: #f87171; }
+.tag-aesthetics    { background: rgba(196,181,253,0.15); color: #c4b5fd; }
+.tag-religion      { background: rgba(251,146,60,0.15);  color: #fb923c; }
+.tag-mind          { background: rgba(232,121,249,0.15); color: #e879f9; }
+.tag-language      { background: rgba(45,212,191,0.15);  color: #2dd4bf; }
+.tag-science       { background: rgba(248,200,100,0.15); color: #f8c864; }
+.tag-metaphilosophy { background: rgba(167,139,250,0.15); color: #a78bfa; }
+.tag-confucianism  { background: rgba(200,169,110,0.15); color: #c8a96e; }
+.tag-taoism        { background: rgba(110,200,169,0.15); color: #6ec8a9; }
+.tag-mohism        { background: rgba(100,180,200,0.15); color: #64b4c8; }
+.tag-legalism      { background: rgba(200,110,110,0.15); color: #c86e6e; }
+.tag-neo-confucianism { background: rgba(180,140,200,0.15); color: #b48cc8; }
+.tag-buddhism      { background: rgba(255,200,100,0.15); color: #ffc864; }
+.tag-education     { background: rgba(100,200,150,0.15); color: #64c896; }
+.tag-history       { background: rgba(200,160,100,0.15); color: #c8a064; }
+.tag-cosmology     { background: rgba(100,150,200,0.15); color: #6496c8; }
